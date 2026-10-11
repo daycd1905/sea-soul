@@ -86,6 +86,17 @@ h3 { font-size: 15.5px; font-weight: 600; line-height: 1.35; text-wrap: balance;
 /* Header */
 .top { padding-block: 26px 18px; display: grid; gap: 16px; }
 .top-meta { color: var(--ink-3); font-size: 13.5px; margin-top: 6px; }
+.to-mobile {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; min-height: 36px; padding: 6px 14px;
+  border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font-size: 13.5px; font-weight: 600; text-decoration: none;
+}
+.to-mobile::after { content: "\2192"; color: var(--accent); }
+.to-mobile:hover { border-color: var(--accent); }
+@media (max-width: 640px) {
+  .to-mobile { background: var(--accent); border-color: transparent; color: var(--surface); }
+  .to-mobile::after { color: inherit; }
+}
 .msgs { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
 .msg { border-radius: var(--r); padding: 14px 16px; background: var(--surface); border: 1px solid var(--line); display: grid; gap: 4px; align-content: start; }
 .msg.key { background: var(--accent-soft); border-color: transparent; }
@@ -355,6 +366,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
       <p class="eyebrow">Ôn phỏng vấn · Marketing Executive</p>
       <h1>Sea Soul Hotel Nha Trang</h1>
       <p class="top-meta">Bản ôn cho Kim Huệ · cập nhật 06/10/2026 · nguồn ở tab Chuẩn bị</p>
+      <a class="to-mobile" id="to-mobile" href="mobile.html">Bản cho điện thoại</a>
     </div>
     <div class="msgs">
       <div class="msg key">
@@ -958,6 +970,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
   var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
   var panels = Array.prototype.slice.call(document.querySelectorAll('[role="tabpanel"]'));
+  var toMobile = document.getElementById('to-mobile');
 
   function show(id, focus) {
     var target = null;
@@ -972,6 +985,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
     if (focus) target.focus();
     try { target.scrollIntoView({ block: 'nearest', inline: 'nearest' }); } catch (e) {}
     save(KEY_TAB, id);
+    toMobile.href = 'mobile.html#' + id;
     try { history.replaceState(null, '', '#' + id); } catch (e) {}
     return true;
   }
@@ -1055,6 +1069,15 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
     b.addEventListener('change', function () { saved[b.id] = b.checked; save(KEY_CHECK, JSON.stringify(saved)); update(); });
   });
   update();
+
+  // mobile.html writes the same list: pick up its changes from another tab, or after the Back button restores this page.
+  function reread() {
+    try { saved = JSON.parse(load(KEY_CHECK) || '{}') || {}; } catch (e) { saved = {}; }
+    boxes.forEach(function (b) { b.checked = !!saved[b.id]; });
+    update();
+  }
+  window.addEventListener('storage', function (e) { if (e.key === KEY_CHECK) reread(); });
+  window.addEventListener('pageshow', function (e) { if (e.persisted) reread(); });
 })();
 </script>
 </body>
