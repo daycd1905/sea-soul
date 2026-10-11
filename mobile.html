@@ -83,13 +83,17 @@ a { color: var(--accent); text-underline-offset: 2px; }
 a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
   outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px;
 }
-h1, h2, h3, p, ul, ol, dl, dd, figure { margin: 0; }
+h1, h2, h3, h4, p, ul, ol, dl, dd, figure { margin: 0; }
 h1 {
   font-family: var(--font-display); font-weight: 700;
   font-size: 30px; line-height: 1.08; letter-spacing: -0.015em; text-wrap: balance;
 }
-h2 { font-family: var(--font-display); font-weight: 700; font-size: 22px; line-height: 1.2; text-wrap: balance; }
-h3 { font-size: 16.5px; font-weight: 600; line-height: 1.35; text-wrap: balance; }
+/* h2 = section name (one per section), h3 = content title, h4 = item title */
+h2 { font-family: var(--font-display); font-weight: 700; font-size: 28px; line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance; }
+h3 { font-family: var(--font-display); font-weight: 700; font-size: 19px; line-height: 1.25; text-wrap: balance; }
+h4 { font-size: 16.5px; font-weight: 600; line-height: 1.35; text-wrap: balance; }
+.sec-head { display: grid; gap: 2px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.sec-n { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; }
 .eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
 .lede { color: var(--ink-2); margin-top: 6px; }
 .muted { color: var(--ink-3); font-size: 14px; }
@@ -444,10 +448,10 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
   <main>
   <!-- TỔNG QUAN -->
   <section class="panel" id="p-tong-quan" aria-labelledby="h-tong-quan">
+    <header class="sec-head"><p class="sec-n">Mục 1/8</p><h2 id="h-tong-quan">Tổng quan</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Tổng quan</p>
-        <h2 id="h-tong-quan">Sea Soul trong 2 phút</h2>
+        <h3>Sea Soul trong 2 phút</h3>
         <p class="lede">Nhớ các con số này là trả lời được câu “Em biết gì về Sea Soul?” bằng dữ kiện cụ thể.</p>
       </div>
       <div class="stats">
@@ -462,7 +466,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
     </div>
 
     <div class="block">
-      <h3>Tòa nhà có gì</h3>
+      <h4>Tòa nhà có gì</h4>
       <div class="building" aria-label="Các tầng chức năng của khách sạn">
         <div class="floor rooms"><span class="lvl">Tầng phòng</span><span class="what"><b>198 phòng</b> · 6 hạng, view phố hoặc biển</span></div>
         <div class="floor"><span class="lvl">Tầng 4</span><span class="what"><b>Hồ bơi trong nhà view biển</b> · Pool bar · Gym · Spa · Yoga</span></div>
@@ -474,7 +478,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
     </div>
 
     <div class="block">
-      <h3>6 hạng phòng</h3>
+      <h4>6 hạng phòng</h4>
       <div class="list">
         <div class="room room-head"><span>Hạng phòng</span><span>Giá niêm yết</span><span>Diện tích · View · Số phòng</span></div>
         <div class="room"><span class="room-name">Deluxe Twin City View</span><span class="room-price">1,95 tr</span><span class="room-facts"><span>27 m²</span> · <span>Phố, núi</span> · <span>60</span> phòng</span><span class="room-when">05/2026</span></div>
@@ -550,10 +554,10 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
   <!-- LỖI WEBSITE -->
   <section class="panel" id="p-loi-web" aria-labelledby="h-loi-web" hidden>
+    <header class="sec-head"><p class="sec-n">Mục 2/8</p><h2 id="h-loi-web">Lỗi website</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Lỗi website</p>
-        <h2 id="h-loi-web">11 điểm website nên biết</h2>
+        <h3>11 điểm website nên biết</h3>
         <p class="lede">Mỗi điểm có bằng chứng và lý do quan trọng. Tự nói thử trước, rồi mới mở phần “Cách nói khi phỏng vấn”.</p>
       </div>
       <div class="tools">
@@ -567,7 +571,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
     </div>
 
     <div class="group">
-      <div class="group-head"><span class="pill crit">Doanh thu</span><h3>Ảnh hưởng trực tiếp tới đặt phòng</h3></div>
+      <div class="group-head"><span class="pill crit">Doanh thu</span><h4>Ảnh hưởng trực tiếp tới đặt phòng</h4></div>
       <div class="list">
         <details class="issue">
           <summary><span class="num crit">1</span><span class="issue-t">Không đặt phòng online được</span></summary>
@@ -603,7 +607,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
     </div>
 
     <div class="group">
-      <div class="group-head"><span class="pill warn">SEO kỹ thuật</span><h3>Làm web khó lên Google</h3></div>
+      <div class="group-head"><span class="pill warn">SEO kỹ thuật</span><h4>Làm web khó lên Google</h4></div>
       <div class="list">
         <details class="issue">
           <summary><span class="num warn">4</span><span class="issue-t">URL lỗi 404 trong sitemap</span></summary>
@@ -659,7 +663,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
     </div>
 
     <div class="group">
-      <div class="group-head"><span class="pill info">Nội dung và kênh</span><h3>Làm thương hiệu kém chỉn chu</h3></div>
+      <div class="group-head"><span class="pill info">Nội dung và kênh</span><h4>Làm thương hiệu kém chỉn chu</h4></div>
       <div class="list">
         <details class="issue">
           <summary><span class="num info">9</span><span class="issue-t">Bản tiếng Anh chưa hoàn chỉnh</span></summary>
@@ -704,10 +708,10 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
   <!-- KHỚP JD -->
   <section class="panel" id="p-jd" aria-labelledby="h-jd" hidden>
+    <header class="sec-head"><p class="sec-n">Mục 3/8</p><h2 id="h-jd">Khớp JD</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Khớp JD</p>
-        <h2 id="h-jd">Đối chiếu với tin tuyển dụng của Sea Soul</h2>
+        <h3>Đối chiếu với tin tuyển dụng của Sea Soul</h3>
         <p class="lede">Sea Soul từng đăng đúng vị trí này. Trang tuyển dụng của họ hiện ghi ngừng tuyển, nên hãy hỏi HR xem JD hiện tại có khác không.</p>
       </div>
       <div class="card jd-meta">
@@ -729,53 +733,53 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
     <div class="list">
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Chạy quảng cáo Facebook, Google, Zalo và đo hiệu quả</h3><span class="pill crit">Cần ôn</span></div>
+        <div class="req-top"><h4 class="r-name">Chạy quảng cáo Facebook, Google, Zalo và đo hiệu quả</h4><span class="pill crit">Cần ôn</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Viết bài quảng cáo; chưa thấy phần chạy ads trong portfolio</dd><dt>Chuẩn bị</dt><dd><b>Ôn Ads Manager:</b> mục tiêu, tệp khách, ngân sách, CPM, CPC, chi phí mỗi lead</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Thành thạo Facebook Ads Manager, Google Analytics</h3><span class="pill crit">Cần ôn</span></div>
+        <div class="req-top"><h4 class="r-name">Thành thạo Facebook Ads Manager, Google Analytics</h4><span class="pill crit">Cần ôn</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Chưa thể hiện trong portfolio</dd><dt>Chuẩn bị</dt><dd><b>Ôn GA4:</b> người dùng, nguồn truy cập, sự kiện chuyển đổi</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">1–2 năm marketing trong khách sạn, F&amp;B hoặc du lịch</h3><span class="pill warn">Một phần</span></div>
+        <div class="req-top"><h4 class="r-name">1–2 năm marketing trong khách sạn, F&amp;B hoặc du lịch</h4><span class="pill warn">Một phần</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Hơn 1 năm marketing; F&amp;B qua Moët Hennessy và dự án CJ Food</dd><dt>Chuẩn bị</dt><dd>Nhấn mạnh phần F&amp;B và việc đã nghiên cứu kỹ Sea Soul</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Phân tích dữ liệu thị trường, đối thủ, hành vi khách</h3><span class="pill warn">Một phần</span></div>
+        <div class="req-top"><h4 class="r-name">Phân tích dữ liệu thị trường, đối thủ, hành vi khách</h4><span class="pill warn">Một phần</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Theo dõi hiệu quả KOL/KOC</dd><dt>Chuẩn bị</dt><dd>Mang bảng so sánh đối thủ và một mẫu báo cáo tháng</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Tổ chức sự kiện, PR</h3><span class="pill warn">Một phần</span></div>
+        <div class="req-top"><h4 class="r-name">Tổ chức sự kiện, PR</h4><span class="pill warn">Một phần</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Minigame, hoạt động tại điểm bán</dd><dt>Chuẩn bị</dt><dd>Ý tưởng Noel và tiệc tất niên ở <a href="#ke-hoach" data-goto="ke-hoach">mục Kế hoạch</a></dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Lên và chạy chiến dịch online, offline theo tháng, quý, năm</h3><span class="pill good">Đã có</span></div>
+        <div class="req-top"><h4 class="r-name">Lên và chạy chiến dịch online, offline theo tháng, quý, năm</h4><span class="pill good">Đã có</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Content plan theo tháng, quý; khuyến mãi, minigame</dd><dt>Chuẩn bị</dt><dd>Mang 3 ý tưởng ở <a href="#ke-hoach" data-goto="ke-hoach">mục Kế hoạch</a></dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Quản lý Facebook, Instagram, website, TikTok</h3><span class="pill good">Đã có</span></div>
+        <div class="req-top"><h4 class="r-name">Quản lý Facebook, Instagram, website, TikTok</h4><span class="pill good">Đã có</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Đã vận hành đủ các kênh này, thêm Zalo OA</dd><dt>Chuẩn bị</dt><dd>Mang số liệu tăng trưởng thật của từng kênh</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Phối hợp designer, đơn vị sản xuất ấn phẩm</h3><span class="pill good">Đã có</span></div>
+        <div class="req-top"><h4 class="r-name">Phối hợp designer, đơn vị sản xuất ấn phẩm</h4><span class="pill good">Đã có</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Tự thiết kế và quay dựng được</dd><dt>Chuẩn bị</dt><dd>Nói được cách viết brief và dựng moodboard cho designer</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Viết content tốt, dựng moodboard</h3><span class="pill good">Đã có</span></div>
+        <div class="req-top"><h4 class="r-name">Viết content tốt, dựng moodboard</h4><span class="pill good">Đã có</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Viết đa dạng, có blog SEO</dd><dt>Chuẩn bị</dt><dd>Một moodboard mẫu cho chiến dịch của Sea Soul</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Bằng Marketing, Du lịch – Khách sạn, Truyền thông hoặc tương đương</h3><span class="pill neutral">Cần xác nhận</span></div>
+        <div class="req-top"><h4 class="r-name">Bằng Marketing, Du lịch – Khách sạn, Truyền thông hoặc tương đương</h4><span class="pill neutral">Cần xác nhận</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd>Đại học Công nghiệp TP.HCM, ngành <mark>[tên ngành]</mark></dd><dt>Chuẩn bị</dt><dd>Nếu khác ngành, nhấn mạnh kinh nghiệm thực tế và portfolio</dd></dl>
       </article>
       <article class="req">
-        <div class="req-top"><h3 class="r-name">Tiếng Anh giao tiếp, đọc tài liệu chuyên môn</h3><span class="pill neutral">Cần xác nhận</span></div>
+        <div class="req-top"><h4 class="r-name">Tiếng Anh giao tiếp, đọc tài liệu chuyên môn</h4><span class="pill neutral">Cần xác nhận</span></div>
         <dl class="r-kv"><dt>Đã có</dt><dd><mark>[tự đánh giá]</mark></dd><dt>Chuẩn bị</dt><dd>Luyện đoạn giới thiệu tiếng Anh ở <a href="#gioi-thieu" data-goto="gioi-thieu">mục Giới thiệu</a></dd></dl>
       </article>
     </div>
 
     <div class="block">
-      <h3>3 câu dễ bị hỏi vì JD nhấn mạnh</h3>
+      <h4>3 câu dễ bị hỏi vì JD nhấn mạnh</h4>
       <div class="list">
         <details class="qa"><summary><span class="tag">JD</span><span class="q">Em đã chạy quảng cáo chưa, ngân sách bao nhiêu, kết quả ra sao?</span></summary><div class="a"><ul><li>Kể một case thật, có số.</li><li>Nếu chưa chạy nhiều: nói rõ phần đã làm và phần đang học.</li></ul></div></details>
         <details class="qa"><summary><span class="tag">JD</span><span class="q">Em làm việc với designer thế nào?</span></summary><div class="a"><ul><li>Brief gồm mục tiêu, thông điệp, kích thước, hạn chót.</li><li>Kèm moodboard và ví dụ tham khảo.</li></ul></div></details>
@@ -792,10 +796,10 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
   <!-- GIỚI THIỆU -->
   <section class="panel" id="p-gioi-thieu" aria-labelledby="h-gioi-thieu" hidden>
+    <header class="sec-head"><p class="sec-n">Mục 4/8</p><h2 id="h-gioi-thieu">Giới thiệu</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Giới thiệu</p>
-        <h2 id="h-gioi-thieu">Giới thiệu bản thân trong 60 giây</h2>
+        <h3>Giới thiệu bản thân trong 60 giây</h3>
         <p class="lede">Nói theo ba bước. Thay phần tô vàng bằng thông tin thật trước khi luyện.</p>
       </div>
       <div class="steps">
@@ -818,7 +822,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
     <div class="block">
       <div>
-        <h3>Khi bị hỏi “Em chưa làm khách sạn, vậy em đóng góp được gì?”</h3>
+        <h4>Khi bị hỏi “Em chưa làm khách sạn, vậy em đóng góp được gì?”</h4>
         <p class="lede">Mỗi kinh nghiệm cũ đều có việc tương ứng ở Sea Soul.</p>
       </div>
       <div class="list">
@@ -835,10 +839,10 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
   <!-- CÂU HỎI -->
   <section class="panel" id="p-cau-hoi" aria-labelledby="h-cau-hoi" hidden>
+    <header class="sec-head"><p class="sec-n">Mục 5/8</p><h2 id="h-cau-hoi">Câu hỏi</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Câu hỏi</p>
-        <h2 id="h-cau-hoi">19 câu hay gặp</h2>
+        <h3>19 câu hay gặp</h3>
         <p class="lede">Tự trả lời thành tiếng trước, rồi bấm vào câu hỏi để xem ý chính. Ba câu bám theo JD nằm ở <a href="#jd" data-goto="jd">mục Khớp JD</a>.</p>
       </div>
       <div class="tools">
@@ -882,16 +886,16 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
   <!-- KẾ HOẠCH -->
   <section class="panel" id="p-ke-hoach" aria-labelledby="h-ke-hoach" hidden>
+    <header class="sec-head"><p class="sec-n">Mục 6/8</p><h2 id="h-ke-hoach">Kế hoạch</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Kế hoạch</p>
-        <h2 id="h-ke-hoach">3 ý tưởng mang vào phòng phỏng vấn</h2>
+        <h3>3 ý tưởng mang vào phòng phỏng vấn</h3>
         <p class="lede">Dựa trên dữ liệu công khai, nên cụ thể mà không cần số liệu nội bộ. In thành một trang A4 hoặc 3 slide; mở bằng “em quan sát thấy”, kết bằng chỉ số sẽ đo.</p>
       </div>
       <div class="stack">
         <article class="card idea">
           <p class="kicker">Ý tưởng 1</p>
-          <h3>Khoe điểm review để khách đặt trực tiếp</h3>
+          <h4>Khoe điểm review để khách đặt trực tiếp</h4>
           <dl class="kv">
             <dt>Vì sao</dt><dd>TripAdvisor 4.9, hạng 6/430, nhưng web chưa khoe.</dd>
             <dt>Làm gì</dt><dd>Huy hiệu TripAdvisor và Trip.com trên web; series video “khách nói gì” (xin phép khách); nhắc điểm review trong quảng cáo.</dd>
@@ -900,7 +904,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
         </article>
         <article class="card idea">
           <p class="kicker">Ý tưởng 2 · tháng 10–12</p>
-          <h3>Gói “trời mưa vẫn vui”</h3>
+          <h4>Gói “trời mưa vẫn vui”</h4>
           <dl class="kv">
             <dt>Vì sao</dt><dd>Mùa mưa Nha Trang, nhưng hồ bơi nằm trong nhà và vẫn nhìn ra biển.</dd>
             <dt>Làm gì</dt><dd>Gói phòng, buffet sáng, spa, đồ uống Café Lounge; video “một ngày mưa ở Sea Soul”; KOC gia đình, cặp đôi; song song gói tiệc tất niên.</dd>
@@ -909,7 +913,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
         </article>
         <article class="card idea">
           <p class="kicker">Ý tưởng 3</p>
-          <h3>Đo được thì mới tối ưu được</h3>
+          <h4>Đo được thì mới tối ưu được</h4>
           <dl class="kv">
             <dt>Vì sao</dt><dd>Web thiếu Meta Pixel, TikTok Pixel; nút đặt phòng chỉ là form.</dd>
             <dt>Làm gì</dt><dd>Gắn Pixel qua Google Tag Manager; đặt sự kiện cho form, bấm hotline, Zalo; landing page cho từng gói; dài hạn đề xuất booking engine.</dd>
@@ -922,14 +926,14 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
     <div class="block">
       <div>
-        <h2>Kế hoạch <span class="nw">30–60–90</span> ngày</h2>
+        <h3>Kế hoạch <span class="nw">30–60–90</span> ngày</h3>
         <p class="lede">Mỗi chặng khép lại bằng một kết quả báo cáo được. Nếu bắt đầu cuối tháng 10/2026, chặng 2 trùng Noel và tiệc tất niên, chặng 3 trùng chuẩn bị Tết 2027.</p>
       </div>
       <ol class="timeline">
         <li class="phase">
           <div class="phase-card">
             <span class="days">Ngày 1–30</span>
-            <h3>Hiểu và audit</h3>
+            <h4>Hiểu và audit</h4>
             <ul><li>Học phòng, nhà hàng, spa, hội nghị</li><li>Audit web, social, OTA, review, đối thủ</li><li>Xin quyền web, GA4, Ads, Search Console</li><li>Content cho 20/10, Halloween, 11.11</li></ul>
             <div class="gate"><span class="dia"></span><b>Mốc ngày 30</b><span class="g-sub">Báo cáo audit, kế hoạch quý</span></div>
           </div>
@@ -938,7 +942,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
           <div class="phase-card">
             <span class="pill info badge">Trùng Noel, tiệc tất niên</span>
             <span class="days">Ngày 31–60</span>
-            <h3>Triển khai và đo</h3>
+            <h4>Triển khai và đo</h4>
             <ul><li>Gắn Pixel, đo chuyển đổi</li><li>Landing page gói Noel, gói tiệc tất niên</li><li>KOL/KOC cho mùa Noel</li><li>3–5 video ngắn mỗi tuần</li><li>Trả lời review trong 48 giờ</li></ul>
             <div class="gate"><span class="dia"></span><b>Mốc ngày 60</b><span class="g-sub">Noel đang chạy, đo được lead</span></div>
           </div>
@@ -946,7 +950,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
         <li class="phase">
           <div class="phase-card">
             <span class="days">Ngày 61–90</span>
-            <h3>Tối ưu và đề xuất</h3>
+            <h4>Tối ưu và đề xuất</h4>
             <ul><li>Báo cáo quý theo KPI</li><li>Đề xuất booking engine, ưu đãi đặt trực tiếp</li><li>Kế hoạch Tết 2027 và hè 2027</li><li>Khách quay lại qua Zalo OA</li></ul>
             <div class="gate"><span class="dia"></span><b>Mốc ngày 90</b><span class="g-sub">Báo cáo quý và đề xuất</span></div>
           </div>
@@ -957,10 +961,10 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
   <!-- KIẾN THỨC NGÀNH -->
   <section class="panel" id="p-kien-thuc" aria-labelledby="h-kien-thuc" hidden>
+    <header class="sec-head"><p class="sec-n">Mục 7/8</p><h2 id="h-kien-thuc">Kiến thức ngành</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Kiến thức ngành</p>
-        <h2 id="h-kien-thuc">Nói được ngôn ngữ khách sạn</h2>
+        <h3>Nói được ngôn ngữ khách sạn</h3>
         <p class="lede">Ba chỉ số này bù phần lớn khoảng trống “chưa làm khách sạn”. Ví dụ là số minh họa cho một đêm với 198 phòng, không phải số của Sea Soul.</p>
       </div>
       <div class="stack">
@@ -986,20 +990,20 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
       <p class="eqn">RevPAR = ADR × OCC <span class="muted">1,8 tr × 76% ≈ 1,36 tr</span></p>
     </div>
     <div class="list">
-      <div class="fact"><h3>Trực tiếp và OTA</h3><p>OTA như Booking, Agoda, Traveloka, Trip.com thu hoa hồng, thường khoảng 15–20% mỗi booking. Kéo được về web, hotline, Zalo là giữ lại khoản đó.</p></div>
-      <div class="fact"><h3>Giữ giá ngang nhau</h3><p>Giá giữa các kênh thường giữ bằng nhau, nên ưu đãi đặt trực tiếp hay là quà, dịch vụ tặng thêm, như Sea Soul từng tặng dịch vụ spa.</p></div>
-      <div class="fact"><h3>Mùa vụ Nha Trang</h3><p>Cao điểm: hè, các dịp lễ, Tết. Thấp điểm: khoảng tháng 10–12, mùa mưa. Nên hỏi thêm tệp khách quốc tế chính của Sea Soul.</p></div>
-      <div class="fact"><h3>MICE</h3><p>Hội nghị, tiệc công ty, du lịch khen thưởng. Sea Soul có phòng hội nghị 120 khách; tiệc tất niên rơi vào tháng 12 và tháng 1.</p></div>
-      <div class="fact"><h3>Review</h3><p>Điểm review ảnh hưởng cả thứ hạng trên OTA lẫn quyết định đặt phòng, nên trả lời review là một phần việc của marketing.</p></div>
+      <div class="fact"><h4>Trực tiếp và OTA</h4><p>OTA như Booking, Agoda, Traveloka, Trip.com thu hoa hồng, thường khoảng 15–20% mỗi booking. Kéo được về web, hotline, Zalo là giữ lại khoản đó.</p></div>
+      <div class="fact"><h4>Giữ giá ngang nhau</h4><p>Giá giữa các kênh thường giữ bằng nhau, nên ưu đãi đặt trực tiếp hay là quà, dịch vụ tặng thêm, như Sea Soul từng tặng dịch vụ spa.</p></div>
+      <div class="fact"><h4>Mùa vụ Nha Trang</h4><p>Cao điểm: hè, các dịp lễ, Tết. Thấp điểm: khoảng tháng 10–12, mùa mưa. Nên hỏi thêm tệp khách quốc tế chính của Sea Soul.</p></div>
+      <div class="fact"><h4>MICE</h4><p>Hội nghị, tiệc công ty, du lịch khen thưởng. Sea Soul có phòng hội nghị 120 khách; tiệc tất niên rơi vào tháng 12 và tháng 1.</p></div>
+      <div class="fact"><h4>Review</h4><p>Điểm review ảnh hưởng cả thứ hạng trên OTA lẫn quyết định đặt phòng, nên trả lời review là một phần việc của marketing.</p></div>
     </div>
   </section>
 
   <!-- CHUẨN BỊ -->
   <section class="panel" id="p-chuan-bi" aria-labelledby="h-chuan-bi" hidden>
+    <header class="sec-head"><p class="sec-n">Mục 8/8</p><h2 id="h-chuan-bi">Chuẩn bị</h2></header>
     <div class="block">
       <div>
-        <p class="eyebrow">Chuẩn bị</p>
-        <h2 id="h-chuan-bi">Trước ngày phỏng vấn</h2>
+        <h3>Trước ngày phỏng vấn</h3>
         <p class="lede">Tick từng việc khi xong; trình duyệt này sẽ nhớ.</p>
       </div>
       <div class="progress">
@@ -1021,7 +1025,7 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
     <div class="block">
       <div>
-        <h2>Câu nên hỏi lại</h2>
+        <h3>Câu nên hỏi lại</h3>
         <p class="lede">Chọn 3–4 câu, hỏi ở cuối buổi.</p>
       </div>
       <ul class="card ask">
@@ -1037,20 +1041,20 @@ footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line);
 
     <div class="block">
       <div>
-        <h2>Nếu có bài test</h2>
+        <h3>Nếu có bài test</h3>
         <p class="lede">Tin tuyển dụng không nhắc bài test, nhưng vị trí marketing hay có. Nắm khung trước thì làm tại chỗ vẫn kịp.</p>
       </div>
       <div class="stack">
-        <div class="card test"><h3>Viết bài Facebook</h3><ol><li>Một dòng mở đầu gây tò mò</li><li>Lợi ích chính</li><li>Chi tiết gói: giá, thời gian, điều kiện</li><li>Lời kêu gọi về Zalo hoặc hotline</li></ol><p class="hint">Dùng đúng điều khách hay khen: buffet sáng, hồ bơi view biển.</p></div>
-        <div class="card test"><h3>Content plan một tháng</h3><ol><li>Bảng ngày, kênh, chủ đề, định dạng</li><li>Mục tiêu và KPI từng bài</li><li>Tỉ lệ trải nghiệm, ưu đãi, review khách, hậu trường</li></ol><p class="hint">Bám mốc 20/10, Halloween, Black Friday, Noel.</p></div>
-        <div class="card test"><h3>Dựng moodboard</h3><ol><li>6–9 ảnh tham chiếu</li><li>Bảng màu, font</li><li>Một câu thông điệp</li></ol><p class="hint">Giữ tông trắng, sang của kiến trúc tân cổ điển.</p></div>
-        <div class="card test"><h3>Poster bằng Canva</h3><ol><li>Một thông điệp chính</li><li>Ảnh thật của khách sạn</li><li>Logo, hotline hoặc mã QR Zalo</li></ol><p class="hint">Lấy ảnh thật từ thư viện ảnh trên web Sea Soul.</p></div>
-        <div class="card test"><h3>Đề xuất chiến dịch</h3><ol><li>Insight</li><li>Ý tưởng lớn</li><li>Hoạt động và kênh</li><li>Ngân sách, KPI, timeline</li></ol><p class="hint">Dùng gói “trời mưa vẫn vui” ở <a href="#ke-hoach" data-goto="ke-hoach">mục Kế hoạch</a>.</p></div>
+        <div class="card test"><h4>Viết bài Facebook</h4><ol><li>Một dòng mở đầu gây tò mò</li><li>Lợi ích chính</li><li>Chi tiết gói: giá, thời gian, điều kiện</li><li>Lời kêu gọi về Zalo hoặc hotline</li></ol><p class="hint">Dùng đúng điều khách hay khen: buffet sáng, hồ bơi view biển.</p></div>
+        <div class="card test"><h4>Content plan một tháng</h4><ol><li>Bảng ngày, kênh, chủ đề, định dạng</li><li>Mục tiêu và KPI từng bài</li><li>Tỉ lệ trải nghiệm, ưu đãi, review khách, hậu trường</li></ol><p class="hint">Bám mốc 20/10, Halloween, Black Friday, Noel.</p></div>
+        <div class="card test"><h4>Dựng moodboard</h4><ol><li>6–9 ảnh tham chiếu</li><li>Bảng màu, font</li><li>Một câu thông điệp</li></ol><p class="hint">Giữ tông trắng, sang của kiến trúc tân cổ điển.</p></div>
+        <div class="card test"><h4>Poster bằng Canva</h4><ol><li>Một thông điệp chính</li><li>Ảnh thật của khách sạn</li><li>Logo, hotline hoặc mã QR Zalo</li></ol><p class="hint">Lấy ảnh thật từ thư viện ảnh trên web Sea Soul.</p></div>
+        <div class="card test"><h4>Đề xuất chiến dịch</h4><ol><li>Insight</li><li>Ý tưởng lớn</li><li>Hoạt động và kênh</li><li>Ngân sách, KPI, timeline</li></ol><p class="hint">Dùng gói “trời mưa vẫn vui” ở <a href="#ke-hoach" data-goto="ke-hoach">mục Kế hoạch</a>.</p></div>
       </div>
     </div>
 
     <div class="block">
-      <h2>Nguồn</h2>
+      <h3>Nguồn</h3>
       <ul class="sources">
         <li>Website Sea Soul: <a href="https://seasoulhotel.vn" target="_blank" rel="noopener">trang chủ</a>, <a href="https://seasoulhotel.vn/danh-sach-phong" target="_blank" rel="noopener">danh sách phòng</a>, <a href="https://seasoulhotel.vn/sea-soul-suite" target="_blank" rel="noopener">Sea Soul Suite</a>, <a href="https://seasoulhotel.vn/booking" target="_blank" rel="noopener">form đặt phòng</a>, <a href="https://seasoulhotel.vn/chinh-sach-va-quy-dinh-chung" target="_blank" rel="noopener">chính sách và quy định chung</a></li>
         <li>Bản lưu Internet Archive: <a href="https://web.archive.org/web/20260216105925/https://seasoulhotel.vn/premier-sea-view" target="_blank" rel="noopener">Premier Sea View, 16/02/2026</a>, <a href="https://web.archive.org/web/20260516110557/https://seasoulhotel.vn/deluxe-twin-city-view" target="_blank" rel="noopener">Deluxe Twin, 16/05/2026</a>, <a href="https://web.archive.org/web/20260418110221/https://seasoulhotel.vn/spa" target="_blank" rel="noopener">Spa, 18/04/2026</a></li>
