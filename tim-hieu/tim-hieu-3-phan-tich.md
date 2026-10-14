@@ -2,7 +2,7 @@
 
 > **Dựa trên:**
 > - Web seasoulhotel.vn, cào ngày 12/10/2026: 84 bài, 6 trang phòng, các trang dịch vụ, 25 album ảnh.
-> - 2 Fanpage, quét ngày 12–13/10/2026: Sea Soul Hotel từ 10/2025 (159 bài), Sea Soul Café Lounge từ 02/2026 (82 bài). Chi tiết ở [`4-facebook.md`](4-facebook.md).
+> - 2 Fanpage, quét ngày 12–13/10/2026: Sea Soul Hotel từ 10/2025 (159 bài), Sea Soul Café Lounge từ 02/2026 (82 bài). Chi tiết ở [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md).
 > - Ghi chú review ngày 06/10/2026.
 >
 > **Không có:** số liệu TikTok, Instagram, OTA, doanh thu. Vì vậy đây là góc nhìn từ bên ngoài. Nên kiểm chứng lại trong buổi phỏng vấn hoặc khi đã vào làm.
@@ -37,7 +37,7 @@ Số bài trên web, theo nhóm sản phẩm:
 | Không rõ (chữ nằm trong ảnh) | 1 | 0 | 0 |
 | **Tổng** | 14 | 36 | 30 |
 
-Ngoài bảng còn 4 trang dịch vụ không ghi ngày: nhà hàng, Café Lounge, tầng 4, phòng hội nghị. Danh sách từng bài ở [`bai-viet.csv`](bai-viet.csv).
+Ngoài bảng còn 4 trang dịch vụ không ghi ngày: nhà hàng, Café Lounge, tầng 4, phòng hội nghị. Danh sách từng bài ở [`tim-hieu-bai-viet.csv`](tim-hieu-bai-viet.csv).
 
 **Đọc bảng:**
 - **Năm 2026, một nửa số bài (15/30) là ăn uống và nhạc sống.** Điều này hợp lý vì Café Lounge mới mở cuối 12/2025 và cần có khách.
@@ -72,7 +72,7 @@ So sánh: một bài khuyến mãi thông thường có khoảng **1.150 – 1.6
 - **Bốn trang chính sách và đặt phòng có 3.900 – 5.100 lượt mỗi trang.** Rất nhiều người đã tới bước muốn đặt phòng. Trong khi đó nút đặt phòng hiện chỉ là form để chờ nhân viên gọi lại. Đây là điểm nghẽn đáng sửa nhất.
 - **Lưu ý khi so số:** lượt xem cộng dồn theo thời gian, bài năm 2026 còn mới nên số thấp hơn.
 
-**Trên Fanpage, bài có giá và video kéo người xem.** 10 bài được thích nhiều nhất năm 2026 đều là ưu đãi có giá rõ (tiệc, buffet, gói hè, combo trưa). Video có trung vị 45 lượt thích, ảnh chỉ có 13. 3 reels buffet hải sản được 33–102 nghìn lượt xem mỗi reel. Xem mục 4 và 7 của [`4-facebook.md`](4-facebook.md).
+**Trên Fanpage, bài có giá và video kéo người xem.** 10 bài được thích nhiều nhất năm 2026 đều là ưu đãi có giá rõ (tiệc, buffet, gói hè, combo trưa). Video có trung vị 45 lượt thích, ảnh chỉ có 13. 3 reels buffet hải sản được 33–102 nghìn lượt xem mỗi reel. Xem mục 4 và 7 của [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md).
 
 ## 3. Điểm mạnh: nên khen và nên dựa vào
 
@@ -186,7 +186,7 @@ So sánh: một bài khuyến mãi thông thường có khoảng **1.150 – 1.6
   - Lịch đăng đều khoảng 3 bài mỗi tuần cho mùa cuối năm.
   - Bài nào cũng có giá rõ; mỗi sự kiện có một video.
   - Gộp hai trang, hoặc tách nội dung cho rõ.
-  - Sự kiện đăng lên Fanpage thì cùng ngày đăng lên web. Chi tiết ở mục 9 của [`4-facebook.md`](4-facebook.md).
+  - Sự kiện đăng lên Fanpage thì cùng ngày đăng lên web. Chi tiết ở mục 9 của [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md).
 
 ## 5. Họ đang nói với ai
 
@@ -219,7 +219,7 @@ Giả sử bắt đầu từ tháng 11/2026.
 ## 7. Còn chưa biết: nên hỏi hoặc kiểm tra
 
 - Những bài Fanpage trên 100 lượt thích (tiệc, buffet, gói hè) có chạy quảng cáo không, ngân sách bao nhiêu, bán được bao nhiêu? Vì sao nhịp đăng giảm từ tháng 5?
-- TikTok và Instagram đăng gì, tương tác ra sao. Link ở [`4-facebook.md`](4-facebook.md).
+- TikTok và Instagram đăng gì, tương tác ra sao. Link ở [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md).
 - Từ tháng 9/2026, nhạc sống chỉ còn 3 tối cuối tuần. Đây là lịch riêng cho mùa thấp điểm hay sẽ giữ luôn? Các tối trong tuần có cần chương trình riêng để kéo khách không?
 - Tỷ lệ khách đặt trực tiếp so với qua OTA; công suất phòng theo mùa; doanh thu phòng so với ăn uống.
 - Ai đang làm nội dung web. Hầu hết bài 2025 – 2026 do một tài khoản đăng. Loạt cẩm nang tháng 09/2026 có phải do một đơn vị SEO bên ngoài làm không.
@@ -231,9 +231,9 @@ Giả sử bắt đầu từ tháng 11/2026.
 
 | Phần người phỏng vấn yêu cầu | Lấy từ đâu |
 | --- | --- |
-| Các chủ đề Sea Soul đã chạy | [`1-da-lam.md`](1-da-lam.md): lịch gộp theo tháng và những việc lặp lại; [`4-facebook.md`](4-facebook.md): những gì chỉ có trên Fanpage |
-| Tìm hiểu sản phẩm | [`2-san-pham.md`](2-san-pham.md): bảng phòng, ăn uống, spa, hội nghị, các gói |
-| Sẽ làm gì khi vào làm | Mục 4 và 6 ở trên, mục 7 của [`4-facebook.md`](4-facebook.md), cộng kế hoạch 30 – 60 – 90 ngày trong tab Kế hoạch của trang ôn |
+| Các chủ đề Sea Soul đã chạy | [`tim-hieu-1-da-lam.md`](tim-hieu-1-da-lam.md): lịch gộp theo tháng và những việc lặp lại; [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md): những gì chỉ có trên Fanpage |
+| Tìm hiểu sản phẩm | [`tim-hieu-2-san-pham.md`](tim-hieu-2-san-pham.md): bảng phòng, ăn uống, spa, hội nghị, các gói |
+| Sẽ làm gì khi vào làm | Mục 4 và 6 ở trên, mục 7 của [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md), cộng kế hoạch 30 – 60 – 90 ngày trong tab Kế hoạch của trang ôn |
 
 **Bốn nhận định đáng nói nhất:**
 1. "Sea Soul đã có những nghi lễ riêng: thả đèn hoa đăng, ông đồ cho chữ, nhạc sống ở Café Lounge. Em muốn biến chúng thành gói lưu trú và lịch sự kiện cả năm, công bố sớm 3 – 4 tuần."

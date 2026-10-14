@@ -2,7 +2,7 @@
 
 > **Nguồn:**
 > - Các trang phòng và dịch vụ trên seasoulhotel.vn, cào ngày 12/10/2026.
-> - Các bài khuyến mãi (xem [`1-da-lam.md`](1-da-lam.md)).
+> - Các bài khuyến mãi (xem [`tim-hieu-1-da-lam.md`](tim-hieu-1-da-lam.md)).
 > - Ghi chú nghiên cứu ngày 06/10/2026, dùng cho phần review và điểm số.
 >
 > Giá trên web là **giá niêm yết**. Giá bán thật qua OTA và khuyến mãi thấp hơn nhiều, xem mục 1.

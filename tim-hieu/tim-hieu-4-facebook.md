@@ -3,7 +3,7 @@
 > **Nguồn:** 2 Fanpage, quét bằng Playwright ngày 12–13/10/2026. Lần quét này có đăng nhập tài khoản cá nhân, chỉ đọc (không thích, không bình luận), mỗi lần cuộn cách nhau 20 giây.
 > - [Sea Soul Hotel](https://www.facebook.com/seasoulhotel.vn): 159 bài, từ 20/10/2025 tới 06/10/2026. Riêng năm 2026 có 135 bài.
 > - [Sea Soul Café Lounge](https://www.facebook.com/seasoulcafelounge): 82 bài, từ bài đầu tiên ngày 08/02/2026 tới 25/09/2026.
-> - Danh sách từng bài nằm trong [`bai-facebook.csv`](bai-facebook.csv). Toàn văn các bài lưu ngoài repo.
+> - Danh sách từng bài nằm trong [`tim-hieu-bai-facebook.csv`](tim-hieu-bai-facebook.csv). Toàn văn các bài lưu ngoài repo.
 >
 > **Cách đọc số:**
 > - "Lượt thích" là tổng mọi cảm xúc (thích, yêu thích…), tính tới ngày quét.

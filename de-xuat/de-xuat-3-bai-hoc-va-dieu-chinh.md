@@ -1,6 +1,6 @@
 # Bài học từ bài đăng cũ và điều chỉnh đề xuất
 
-> - **Dữ liệu:** 153 bài có chữ trên trang Sea Soul Hotel, từ 10/2025 tới 10/2026, quét ngày 13/10/2026. Danh sách từng bài ở [`../tim-hieu/bai-facebook.csv`](../tim-hieu/bai-facebook.csv).
+> - **Dữ liệu:** 153 bài có chữ trên trang Sea Soul Hotel, từ 10/2025 tới 10/2026, quét ngày 13/10/2026. Danh sách từng bài ở [`../tim-hieu/tim-hieu-bai-facebook.csv`](../tim-hieu/tim-hieu-bai-facebook.csv).
 > - **Cách so sánh:** dùng trung vị lượt thích (bài ở giữa khi xếp từ thấp tới cao), không dùng trung bình. Vài bài có chạy quảng cáo được hàng nghìn lượt thích sẽ kéo trung bình lên rất cao, còn trung vị thì không bị ảnh hưởng.
 > - **Lưu ý:** đây là tương quan, chưa phải nguyên nhân. Ví dụ, bài đăng buổi tối có thể đúng là bài được chạy quảng cáo. Vì vậy mỗi bài học nên được thử lại một cách có kiểm soát khi vào làm.
 

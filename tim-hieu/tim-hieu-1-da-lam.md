@@ -1,8 +1,8 @@
 # Sea Soul đã làm gì (06/2024 – 09/2026)
 
-> **Nguồn:** 83 bài trên seasoulhotel.vn và danh sách 25 album ảnh, cào ngày 12/10/2026. Số trong ngoặc là lượt xem tại ngày cào. Danh sách đầy đủ ở [`bai-viet.csv`](bai-viet.csv).
+> **Nguồn:** 83 bài trên seasoulhotel.vn và danh sách 25 album ảnh, cào ngày 12/10/2026. Số trong ngoặc là lượt xem tại ngày cào. Danh sách đầy đủ ở [`tim-hieu-bai-viet.csv`](tim-hieu-bai-viet.csv).
 >
-> **Giới hạn:** web chỉ là một kênh. Fanpage đăng nhiều hơn web (217 bài trong năm 2026 trên 2 trang). Những việc chỉ có trên Fanpage được ghi ở mục "Chỉ có trên Fanpage" bên dưới, chi tiết ở [`4-facebook.md`](4-facebook.md). TikTok chưa xem.
+> **Giới hạn:** web chỉ là một kênh. Fanpage đăng nhiều hơn web (217 bài trong năm 2026 trên 2 trang). Những việc chỉ có trên Fanpage được ghi ở mục "Chỉ có trên Fanpage" bên dưới, chi tiết ở [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md). TikTok chưa xem.
 
 ## Tóm tắt
 
@@ -172,7 +172,7 @@
 
 ## Chỉ có trên Fanpage
 
-Những việc dưới đây có bài trên Fanpage nhưng không có bài trên web. Chi tiết và giá ở [`4-facebook.md`](4-facebook.md).
+Những việc dưới đây có bài trên Fanpage nhưng không có bài trên web. Chi tiết và giá ở [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md).
 
 - **Cuối năm 2025:**
   - 20/10: bài chúc mừng Ngày Phụ nữ Việt Nam.

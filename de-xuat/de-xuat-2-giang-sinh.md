@@ -1,6 +1,6 @@
 # Đề bài 2: Giáng sinh 2026, ba phương án
 
-> - **Dữ liệu:** web và Fanpage Sea Soul, cào ngày 12/10/2026. Logo làm theo hệ thống ở [đề bài 1](1-20-10-halloween.md).
+> - **Dữ liệu:** web và Fanpage Sea Soul, cào ngày 12/10/2026. Logo làm theo hệ thống ở [đề bài 1](de-xuat-1-20-10-halloween.md).
 > - **Lịch:** 24/12 là thứ Năm, 25/12 là thứ Sáu. Ở Việt Nam đây là ngày đi học, đi làm bình thường. 01/01/2027 là thứ Sáu nên có kỳ nghỉ 3 ngày, 01 – 03/01. Tết Đinh Mùi rơi vào 06/02/2027.
 > - **Thời gian chuẩn bị:** hôm nay 12/10, còn hơn 10 tuần. Lần này đủ thời gian để công bố trước 3–4 tuần.
 > - **Mọi con số về giá, ngân sách và mục tiêu đều là đề xuất**, cần khách sạn duyệt.
@@ -127,7 +127,7 @@
 <p><img src="hinh/giang-sinh-c.jpg" width="360" alt="Mẫu bài đăng phương án C"></p>
 
 **Ý tưởng:**
-- **Lấy Giáng sinh để bán phòng.** Phân tích trong [`tim-hieu/`](../tim-hieu/3-phan-tich.md) cho thấy phòng gần như vắng mặt trên web năm 2026. Trên Fanpage thì phần lớn bài về phòng chỉ là ảnh không có giá. Trong khi đó, những bài có ưu đãi cụ thể như Black Friday 2025 (mua 1 tặng 1 phòng Suite) hay gói hè Seasoulantics được thích gấp nhiều lần.
+- **Lấy Giáng sinh để bán phòng.** Phân tích trong [`tim-hieu/`](../tim-hieu/tim-hieu-3-phan-tich.md) cho thấy phòng gần như vắng mặt trên web năm 2026. Trên Fanpage thì phần lớn bài về phòng chỉ là ảnh không có giá. Trong khi đó, những bài có ưu đãi cụ thể như Black Friday 2025 (mua 1 tặng 1 phòng Suite) hay gói hè Seasoulantics được thích gấp nhiều lần.
 - **Chỉ bán qua kênh trực tiếp:** hotline, Zalo, web. Khách sạn không mất 15–20% hoa hồng cho OTA, và khách quen dần với việc đặt trực tiếp.
 - **Có một thứ OTA không bán được:** Ông già Noel mang quà tới tận cửa phòng.
 
@@ -176,7 +176,7 @@ Giá gói cần tính lại theo giá phòng Premier Sea View tháng 12 mà khá
 - **Gói phòng của C bù chỗ A còn thiếu:** bán phòng và bán trực tiếp. Chi thêm khoảng 5 triệu.
 - **Nếu có ca đoàn sẵn lòng,** lấy đêm nến 23/12 của B làm một sự kiện trong A. Ánh nến vẫn hợp với chủ đề ánh sáng.
 
-**Bổ sung sau khi xem 153 bài Fanpage cũ** (lý do ở [`3-bai-hoc-va-dieu-chinh.md`](3-bai-hoc-va-dieu-chinh.md)):
+**Bổ sung sau khi xem 153 bài Fanpage cũ** (lý do ở [`de-xuat-3-bai-hoc-va-dieu-chinh.md`](de-xuat-3-bai-hoc-va-dieu-chinh.md)):
 - **Tiệc Giáng sinh và tất niên cho doanh nghiệp, mở bán từ 01/11.** Giá khoảng 280k mỗi khách như tháng 01/2026, đặt trước 30/11 có ưu đãi. Đây là nhóm bài được thích nhiều nhất trên Fanpage; tiệc tất niên 2025 được 1.066 lượt thích.
 - **Black Friday 27/11: lặp lại "mua 1 tặng 1 phòng Suite"** như năm 2025 (103 lượt thích), áp dụng cho kỳ nghỉ Giáng sinh và kèm quà của Ông già Noel.
 - **Bỏ bài lời chúc Giáng sinh.** Năm 2025, video lời chúc chỉ được 11 lượt thích. Thay bằng bài nhắc giờ và giá của bữa tối đêm 24/12.

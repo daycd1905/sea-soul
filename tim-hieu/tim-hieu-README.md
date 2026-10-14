@@ -4,14 +4,14 @@ Thư mục này gom dữ liệu công khai về Sea Soul Hotel Nha Trang để l
 
 | File | Có gì |
 | --- | --- |
-| [`1-da-lam.md`](1-da-lam.md) | Dòng thời gian 06/2024 – 09/2026: sự kiện, khuyến mãi, ra mắt sản phẩm, CSR. Lịch gộp theo tháng và những việc lặp lại hằng năm |
-| [`2-san-pham.md`](2-san-pham.md) | 6 hạng phòng (số phòng, giá niêm yết), nhà hàng, Café Lounge, pool bar, tầng 4, spa, hội nghị, các gói đã bán, sản phẩm khác |
-| [`3-phan-tich.md`](3-phan-tich.md) | Phân tích: họ đang dồn sức vào đâu, nội dung nào kéo người đọc, khoảng trống, việc nên ưu tiên nếu vào làm |
-| [`4-facebook.md`](4-facebook.md) | 2 Fanpage (Sea Soul Hotel, Sea Soul Café Lounge) từ 10/2025: đăng bao nhiêu, đăng gì, bài nào được thích nhiều, sản phẩm và giá chỉ có trên Fanpage, gợi ý |
-| [`bai-viet.csv`](bai-viet.csv) | 84 bài trên web: ngày đăng, tiêu đề, nhóm sản phẩm, dịp, lượt xem, link. Mở bằng Excel để lọc |
-| [`bai-facebook.csv`](bai-facebook.csv) | 241 bài trên 2 Fanpage: ngày giờ, trang, tiêu đề, nhóm, dịp, dạng bài, lượt thích, bình luận, chia sẻ, link |
+| [`tim-hieu-1-da-lam.md`](tim-hieu-1-da-lam.md) | Dòng thời gian 06/2024 – 09/2026: sự kiện, khuyến mãi, ra mắt sản phẩm, CSR. Lịch gộp theo tháng và những việc lặp lại hằng năm |
+| [`tim-hieu-2-san-pham.md`](tim-hieu-2-san-pham.md) | 6 hạng phòng (số phòng, giá niêm yết), nhà hàng, Café Lounge, pool bar, tầng 4, spa, hội nghị, các gói đã bán, sản phẩm khác |
+| [`tim-hieu-3-phan-tich.md`](tim-hieu-3-phan-tich.md) | Phân tích: họ đang dồn sức vào đâu, nội dung nào kéo người đọc, khoảng trống, việc nên ưu tiên nếu vào làm |
+| [`tim-hieu-4-facebook.md`](tim-hieu-4-facebook.md) | 2 Fanpage (Sea Soul Hotel, Sea Soul Café Lounge) từ 10/2025: đăng bao nhiêu, đăng gì, bài nào được thích nhiều, sản phẩm và giá chỉ có trên Fanpage, gợi ý |
+| [`tim-hieu-bai-viet.csv`](tim-hieu-bai-viet.csv) | 84 bài trên web: ngày đăng, tiêu đề, nhóm sản phẩm, dịp, lượt xem, link. Mở bằng Excel để lọc |
+| [`tim-hieu-bai-facebook.csv`](tim-hieu-bai-facebook.csv) | 241 bài trên 2 Fanpage: ngày giờ, trang, tiêu đề, nhóm, dịp, dạng bài, lượt thích, bình luận, chia sẻ, link |
 
-Bản PDF tổng hợp từ dữ liệu này nằm ở [`bao-cao/`](../bao-cao/). Các bản cũ và bản backup nằm ở [`luu-tru/`](../luu-tru/).
+Bản PDF tổng hợp từ dữ liệu này nằm ở [`bao-cao/`](../bao-cao/bao-cao-README.md). Các bản cũ và bản backup nằm ở [`luu-tru/`](../luu-tru/).
 
 ## Đọc nhanh: 6 ý chính
 
@@ -28,7 +28,7 @@ Bản PDF tổng hợp từ dữ liệu này nằm ở [`bao-cao/`](../bao-cao/)
 - **2 Fanpage**, quét ngày 12–13/10/2026 có đăng nhập: Sea Soul Hotel (159 bài từ 20/10/2025) và Sea Soul Café Lounge (82 bài từ 08/02/2026), cùng 10 reels có lượt xem.
 - **Điểm review và đối thủ**: lấy từ ghi chú nghiên cứu ngày 06/10/2026.
 - **Chưa có**:
-  - TikTok, Instagram, YouTube: chưa xem. Link nằm trong `4-facebook.md`.
+  - TikTok, Instagram, YouTube: chưa xem. Link nằm trong `tim-hieu-4-facebook.md`.
   - Giá thật trên các OTA.
   - Mọi số liệu nội bộ: doanh thu, công suất phòng, tỷ lệ khách đặt trực tiếp so với qua OTA.
 - Vì thiếu những nguồn trên, mọi nhận định về hiệu quả chỉ là suy luận từ web và Fanpage.

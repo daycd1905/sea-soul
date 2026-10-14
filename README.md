@@ -33,24 +33,28 @@ Trang ôn tập cho vị trí **Marketing Executive** tại Sea Soul Hotel Nha T
 
 ## Thư mục khác
 
-Bài về nhà sau buổi phỏng vấn, độc lập với hai trang trên. Mỗi thư mục có README riêng.
+Bài về nhà sau buổi phỏng vấn, độc lập với hai trang trên. Mỗi thư mục có file giới thiệu riêng, tên là `<thư mục>-README.md`. File trong ba thư mục đầu có tên bắt đầu bằng tên thư mục, để vẫn biết file thuộc đâu khi tải lên Claude Project.
 
 | Thư mục | Có gì |
 | --- | --- |
-| [`tim-hieu/`](tim-hieu/) | Dữ liệu công khai về Sea Soul và phân tích: 4 file md, 84 bài web và 241 bài Fanpage dạng CSV |
-| [`de-xuat/`](de-xuat/) | Đề xuất chiến dịch 20/10, Halloween, Giáng sinh, bài học từ Fanpage. Thư mục con chứa hình mẫu, logo và file gốc của hình |
-| [`bao-cao/`](bao-cao/) | 2 bản PDF đang dùng và file gốc HTML |
+| [`tim-hieu/`](tim-hieu/tim-hieu-README.md) | Dữ liệu công khai về Sea Soul và phân tích: 4 file md, 84 bài web và 241 bài Fanpage dạng CSV |
+| [`de-xuat/`](de-xuat/de-xuat-README.md) | Đề xuất chiến dịch 20/10, Halloween, Giáng sinh, bài học từ Fanpage. Thư mục con chứa hình mẫu, logo và file gốc của hình |
+| [`bao-cao/`](bao-cao/bao-cao-README.md) | 2 bản PDF đang dùng và file gốc HTML |
 | [`luu-tru/`](luu-tru/) | Bản cũ và bản backup, không sửa tiếp |
 
 ## Dùng với Claude Project
 
 Tải lên **các file nằm ngay trong** `tim-hieu/`, `de-xuat/` và `bao-cao/`, không lấy thư mục con. Tổng cộng 14 file:
 
-- `tim-hieu/`: `README.md`, `1-da-lam.md`, `2-san-pham.md`, `3-phan-tich.md`, `4-facebook.md`, `bai-viet.csv`, `bai-facebook.csv`
-- `de-xuat/`: `README.md`, `1-20-10-halloween.md`, `2-giang-sinh.md`, `3-bai-hoc-va-dieu-chinh.md`
-- `bao-cao/`: `README.md`, `bao-cao-chuong-trinh-da-chay.pdf`, `bao-cao-mua-le-hoi-2026.pdf`
+- `tim-hieu/`: `tim-hieu-README.md`, `tim-hieu-1-da-lam.md`, `tim-hieu-2-san-pham.md`, `tim-hieu-3-phan-tich.md`, `tim-hieu-4-facebook.md`, `tim-hieu-bai-viet.csv`, `tim-hieu-bai-facebook.csv`
+- `de-xuat/`: `de-xuat-README.md`, `de-xuat-1-20-10-halloween.md`, `de-xuat-2-giang-sinh.md`, `de-xuat-3-bai-hoc-va-dieu-chinh.md`
+- `bao-cao/`: `bao-cao-README.md`, `bao-cao-chuong-trinh-da-chay.pdf`, `bao-cao-mua-le-hoi-2026.pdf`
 
-Ba file `README.md` trùng tên nhưng khác nội dung, dòng tiêu đề đầu file cho biết file nào là của thư mục nào. Không tải `luu-tru/`, `index.html`, `mobile.html` và các thư mục `hinh/`, `nguon/`, `cach-lam/`. Khi sửa file trên máy, xoá bản cũ trong Project rồi tải lại.
+Không tải `luu-tru/`, `index.html`, `mobile.html` và các thư mục `hinh/`, `nguon/`, `cach-lam/`.
+
+Hai cách đưa file vào Project (mục **Context**, bấm dấu **+**):
+- **GitHub:** chọn repo `daycd1905/sea-soul` rồi tick 14 file trên. Sau mỗi lần push, bấm **Sync** trong Project để lấy bản mới.
+- **Tải lên tay:** chọn 14 file trên máy. Khi sửa file, xoá bản cũ trong Project rồi tải lại.
 
 Đoạn dán vào mục **Instructions** của Project:
 
@@ -63,7 +67,7 @@ File trong project gồm dữ liệu công khai (web seasoulhotel.vn cào ngày 
 - Khi nêu số liệu, ghi rõ lấy từ file nào.
 - Chưa có số liệu nội bộ (doanh thu, công suất phòng, tỷ lệ đặt trực tiếp/OTA), giá OTA,
   TikTok, Instagram. Không tự đoán; nói rõ là chưa có dữ liệu.
-- Số liệu gốc nằm trong bai-viet.csv (web) và bai-facebook.csv (Fanpage).
+- Số liệu gốc nằm trong tim-hieu-bai-viet.csv (web) và tim-hieu-bai-facebook.csv (Fanpage).
   Nếu PDF và CSV lệch nhau thì theo CSV.
 - Giá, ngân sách và KPI trong các đề xuất đều chưa được khách sạn duyệt.
 ```

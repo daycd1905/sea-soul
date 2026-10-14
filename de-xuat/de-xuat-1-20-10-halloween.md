@@ -1,10 +1,10 @@
 # Đề bài 1: làm 20/10 và Halloween theo kiểu Seasoulantern
 
 > - **Vai trò:** marketing full-stack. Một người lo từ ý tưởng, viết bài, làm hình, chạy quảng cáo tới đo kết quả.
-> - **Dữ liệu:** web và Fanpage Sea Soul, cào ngày 12/10/2026 (xem [`tim-hieu/`](../tim-hieu/)). Logo, màu và font lấy từ web Sea Soul.
+> - **Dữ liệu:** web và Fanpage Sea Soul, cào ngày 12/10/2026 (xem [`tim-hieu/`](../tim-hieu/tim-hieu-README.md)). Logo, màu và font lấy từ web Sea Soul.
 > - **Thời gian:** hôm nay là thứ Hai 12/10/2026. Còn 8 ngày tới 20/10 (thứ Ba) và 19 ngày tới Halloween 31/10 (thứ Bảy).
 > - **Mọi con số về giá, ngân sách và mục tiêu đều là đề xuất**, cần khách sạn duyệt.
-> - **Đã điều chỉnh theo 153 bài Fanpage cũ** (13/10/2026): giá ở dòng đầu, đăng buổi tối, thêm mức giá rẻ cho Halloween, thêm điểm cho trẻ em. Lý do ở [`3-bai-hoc-va-dieu-chinh.md`](3-bai-hoc-va-dieu-chinh.md).
+> - **Đã điều chỉnh theo 153 bài Fanpage cũ** (13/10/2026): giá ở dòng đầu, đăng buổi tối, thêm mức giá rẻ cho Halloween, thêm điểm cho trẻ em. Lý do ở [`de-xuat-3-bai-hoc-va-dieu-chinh.md`](de-xuat-3-bai-hoc-va-dieu-chinh.md).
 
 ## Tóm tắt
 
