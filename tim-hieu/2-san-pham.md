@@ -13,7 +13,7 @@
 | --- | --- | --- | --- |
 | Phòng | 198 phòng, 6 hạng, 125 phòng nhìn ra biển | Các tầng phòng, tòa 15 tầng | |
 | Nhà hàng trung tâm, trong bài viết gọi là "nhà hàng Trường Sa" | Buffet sáng, món gọi lẻ Âu Á, buffet hải sản cuối tuần; 270 chỗ, có chỗ ngồi trong nhà và ngoài trời nhìn ra thành phố | Tầng 3 | 06:00 – 22:00 |
-| Sea Soul Café Lounge | Cà phê, combo sáng, set menu, cocktail, semi-buffet sáng cuối tuần, nhạc sống mỗi tối, góc bán quà lưu niệm, khu chơi lái xe xúc cát | Tầng 1 | 06:00 – 23:00 |
+| Sea Soul Café Lounge | Cà phê, combo sáng, set menu, cocktail, semi-buffet sáng cuối tuần, nhạc sống (từ 09/2026 chỉ còn tối thứ Sáu – Chủ nhật), góc bán quà lưu niệm, khu chơi lái xe xúc cát | Tầng 1 | 06:00 – 23:00 |
 | Pool Bar | Nước ép, cocktail, bia, món nhẹ; 40–120 chỗ | Tầng 4 | 09:00 – 21:00 |
 | Hồ bơi | Trong nhà, hướng biển; có khu an toàn cho trẻ dưới 12 tuổi; khăn và ghế nằm miễn phí. **Chỉ dành cho khách lưu trú** | Tầng 4 | 07:00 – 20:00 |
 | Gym, yoga, kid club, xông hơi | Kid club và xông hơi có trong gói hè 2026 | Tầng 4 | Gym và yoga 06:00 – 20:00 |
@@ -53,7 +53,7 @@
 - **Giờ phục vụ:** buffet sáng 06:00 – 10:00; món gọi lẻ buổi trưa 11:00 – 14:30, buổi tối 16:00 – 21:30. Nhà hàng có 270 chỗ.
 - **Buffet sáng là thứ khách khen nhiều nhất trong review.**
 - **Đã có các sự kiện ẩm thực:**
-  - Buffet hải sản tối cuối tuần (05/2026).
+  - Buffet hải sản tối thứ Bảy và Chủ nhật, 18:00 – 22:00: 435k người lớn, 215k trẻ em (theo Fanpage 05–08/2026; web không ghi giá).
   - Buffet hải sản đêm giao thừa: 799k người lớn, 399k trẻ em.
   - Thực đơn của bếp trưởng mừng 2/9.
   - Set menu Tết ba miền.
@@ -61,7 +61,9 @@
 ### Sea Soul Café Lounge, tầng 1 (mở thử 23/12/2025, khai trương 31/12/2025)
 
 - **Phục vụ cả ngày.** Sáng có combo ăn sáng và cà phê; trong ngày có đồ uống và món Á Âu.
-- **Nhạc sống mỗi tối 19:30 – 20:30.** Các đêm xoay vòng violin, saxophone và ca sĩ; có tháng diễn trên ban công.
+- **Nhạc sống 19:30 – 20:30.**
+  - Tới tháng 8/2026, nhạc diễn mỗi tối, xoay vòng violin, saxophone và ca sĩ; có tháng diễn trên ban công.
+  - Từ tháng 9 chỉ còn tối thứ Sáu (violin), thứ Bảy (saxophone) và Chủ nhật (ca sĩ).
 - **Hoạt động đã làm:**
   - Semi-buffet sáng cuối tuần.
   - Trà chiều.
@@ -88,6 +90,15 @@
 | Tiệc tất niên | từ 269k/khách | Cuối năm 2025 |
 | Buffet hải sản đêm giao thừa | 799k người lớn, 399k trẻ em | 31/12/2025 |
 | Vé chỉ tham gia Countdown | 119k cho 2 người | 31/12/2025 |
+| Combo Halloween (Fanpage) | 219k | 31/10/2025 |
+| Buffet hải sản tối cuối tuần (Fanpage) | 435k người lớn, 215k trẻ em; kèm 1 đồ uống 535k | Từ 05/2026 |
+| Buffet sáng cuối tuần (Fanpage) | 119k người lớn, 59k trẻ em (dịp 30/4 là 159k và 79k) | Từ 05/2026 |
+| Combo sáng ở Café Lounge (Fanpage) | 105k (89k tới cuối 03/2026) | 2026 |
+| Combo trưa (Fanpage) | 89k | Từ 03/2026 |
+| Set trưa cho 2 người (Fanpage) | 339k | 03/2026 |
+| Coconut & Cake Combo (Fanpage) | 89k | 04/2026 |
+| Set hải sản và rượu vang (Fanpage) | 1.090k | Từ 03/2026 |
+| BBQ Black Angus T-Bone, vang, trò chơi cho 2 người (Fanpage) | 1.550k net | 06 – 12/2026 |
 
 ### Quà: bánh Trung thu 2026
 
@@ -101,7 +112,9 @@
 
 ## 3. Tầng 4: hồ bơi, gym, yoga, kid club
 
-- **Hồ bơi trong nhà, hướng biển**, mở 07:00 – 20:00, chỉ dành cho khách lưu trú. Đây là một trong những điểm khách khen nhiều nhất.
+- **Hồ bơi trong nhà, hướng biển**, mở 07:00 – 20:00. Đây là một trong những điểm khách khen nhiều nhất.
+  - Web ghi hồ bơi chỉ dành cho khách lưu trú. Nhưng Fanpage (19/03/2026) có bán cho khách ngoài: miễn phí hồ bơi và gym khi hóa đơn Café Lounge từ 250k, hoặc từ 110k mỗi khách, kèm nước và khăn.
+- **Khu lái xe tải công trường cho trẻ em:** 100k mỗi giờ (Fanpage 01/2026). Video giới thiệu được 556 lượt thích, thuộc nhóm bài được thích nhiều nhất.
   - Một bài năm 2025 gọi đây là "hồ bơi vô cực", không khớp với các trang khác.
 - **Lịch nâng cấp:**
   - Hồ bơi: 07–27/06/2026, có vẽ trang trí; rồi 30/09 – 14/10/2026.
@@ -128,6 +141,10 @@
   - Màn LED, sân khấu, âm thanh, ánh sáng.
   - Karaoke và pháo kim tuyến.
 - **Album ảnh cho thấy đã làm:** tiệc tri ân khách hàng, hoạt động doanh nghiệp, tiệc cưới, hội thảo. Tuy vậy, web không có trang bán dịch vụ cưới và không có bảng giá hội nghị.
+- **Fanpage thì có giá:**
+  - Tiệc (banquet) và tiệc tất niên 2026: từ 280k mỗi khách. Bài ngày 26/02/2026 được 1.825 lượt thích, nhiều nhất năm.
+  - Gói hội nghị: từ 170k mỗi khách (13/07/2026).
+  - Tiệc sinh nhật: từ 170k mỗi khách (16/03/2026).
 - **Quà doanh nghiệp:** bánh Trung thu giảm tới 30% cho đơn lớn.
 
 ## 6. Các gói lưu trú đã bán
@@ -140,7 +157,9 @@
 | Đặt 1 tặng 1 Premier Sea View | 02/2025 | Phòng, không gồm ăn sáng | Bằng giá 1 phòng |
 | Quà spa | 07 – 12/2025 | Đặt phòng trực tiếp, hoặc ở từ 2 đêm, được tặng liệu trình spa | |
 | VnExpress Marathon | 08/2025 | Ở từ 2 đêm tặng spa; ăn sáng; trái cây; hồ bơi, gym | Không ghi |
-| Ưu đãi cuối năm | Từ 27/11/2025 | Deluxe Twin, buffet sáng, hồ bơi, gym; tối thiểu 2 khách, 2 đêm | Từ 495k/khách/đêm (giảm 43%) |
+| Ưu đãi cuối năm | Từ 27/11/2025 (Fanpage từ 11/11) | Deluxe Twin, buffet sáng, hồ bơi, gym; tối thiểu 2 khách, 2 đêm | Từ 495k/khách/đêm (giảm 43%) |
+| Black Friday (chỉ trên Fanpage) | 28/11/2025 | Mua 1 tặng 1 phòng Suite | Trọn gói 2.150.000đ |
+| Suite kèm đưa đón sân bay (chỉ trên Fanpage) | 05/2026 | Phòng Suite, đưa đón sân bay 2 chiều miễn phí | Không ghi |
 | Seasoulantics Summer Package | 16/05 – 30/08/2026 | Deluxe City View, buffet sáng, set trưa, 1 đồ uống, giảm ăn uống, spa, giặt ủi; hồ bơi, gym, kid club, xông hơi | Từ 950k/khách cho 2N1Đ |
 
 ## 7. Liên hệ và đặt chỗ

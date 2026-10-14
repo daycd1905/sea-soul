@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mẫu thiết kế Tết 2027 Sea Soul</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal: #20404B; --gold: #E8A700; --ivory: #F4EFE6;
+  --red: #8E1F24; --branch: #E6D2B5;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #cfcfcf; font-family: 'Open Sans', sans-serif; padding: 40px; display: flex; flex-direction: column; gap: 40px; align-items: flex-start; }
+.ab { position: relative; overflow: hidden; flex: none; }
+svg.icon { display: block; }
+.word { font-family: 'Cormorant Garamond', serif; font-weight: 600; letter-spacing: .05em; line-height: 1; white-space: nowrap; font-variant-numeric: lining-nums; }
+.word .b { color: var(--accent); }
+.italic { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 500; }
+.layer { position: absolute; inset: 0; pointer-events: none; }
+
+.c-tet { background: var(--red); color: var(--ivory); --accent: var(--gold); --leaf: var(--branch); --bg: var(--red); }
+
+/* Bài đăng 4:5, cùng bố cục với mau-giang-sinh.html */
+.post { width: 1080px; height: 1350px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.post .top { position: relative; margin-top: 58px; font-size: 20px; letter-spacing: .42em; font-weight: 600; text-transform: uppercase; opacity: .85; }
+.post .icon { position: relative; width: 265px; height: 424px; margin-top: 56px; }
+.post .word { position: relative; font-size: 68px; margin-top: 46px; }
+.post h1 { position: relative; font-size: 74px; line-height: 1.05; margin-top: 12px; max-width: 940px; }
+.post .sub { position: relative; margin-top: 16px; font-size: 29px; font-weight: 600; letter-spacing: .02em; color: var(--accent); }
+.post .offers { position: relative; margin-top: 36px; display: flex; flex-direction: column; gap: 14px; font-size: 28px; }
+.post .offers b { color: var(--accent); }
+.post .cta { position: relative; margin-top: 46px; font-weight: 700; font-size: 28px; letter-spacing: .05em; padding: 18px 46px; border-radius: 999px; background: var(--gold); color: var(--red); }
+.post .foot { position: relative; margin-top: auto; margin-bottom: 46px; font-size: 19px; letter-spacing: .12em; opacity: .7; }
+
+/* Bản không có số điện thoại: thêm class no-tel vào thẻ html khi chụp (dùng cho phần đề xuất của luu-tru/kimhue-de-xuat-2026.pdf) */
+.no-tel .tel { display: none; }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="frame" viewBox="0 0 100 160">
+      <rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+    </symbol>
+    <!-- Cành mai: thân uốn hình chữ S như thân dừa trong logo Sea Soul, 3 bông 5 cánh và 2 nụ -->
+    <symbol id="mai" viewBox="0 0 100 160">
+      <path d="M30 116 C36 100 56 96 54 80 C52 64 34 60 40 44 C43 36 52 31 62 30" fill="none" stroke="var(--leaf)" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M45 92 C40 88 35 88 31 91" fill="none" stroke="var(--leaf)" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="30" cy="91.5" r="2.6" fill="var(--accent)"/>
+      <circle cx="31.5" cy="106" r="2.2" fill="var(--accent)" opacity=".85"/>
+      <g fill="var(--accent)">
+        <circle cx="54" cy="71.4" r="6.2"/><circle cx="60.28" cy="75.96" r="6.2"/><circle cx="57.88" cy="83.34" r="6.2"/><circle cx="50.12" cy="83.34" r="6.2"/><circle cx="47.72" cy="75.96" r="6.2"/>
+        <circle cx="40" cy="40.7" r="5"/><circle cx="45.04" cy="44.36" r="5"/><circle cx="43.12" cy="50.29" r="5"/><circle cx="36.88" cy="50.29" r="5"/><circle cx="34.96" cy="44.36" r="5"/>
+        <circle cx="63" cy="25" r="3.8"/><circle cx="66.8" cy="27.76" r="3.8"/><circle cx="65.35" cy="32.24" r="3.8"/><circle cx="60.65" cy="32.24" r="3.8"/><circle cx="59.2" cy="27.76" r="3.8"/>
+      </g>
+      <circle cx="54" cy="78" r="2.6" fill="var(--bg)"/><circle cx="54" cy="78" r="1.1" fill="var(--accent)"/>
+      <circle cx="40" cy="46" r="2.1" fill="var(--bg)"/><circle cx="40" cy="46" r="0.9" fill="var(--accent)"/>
+      <circle cx="63" cy="29" r="1.6" fill="var(--bg)"/>
+    </symbol>
+    <filter id="blur6"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+</svg>
+
+<!-- Bài công bố Tết 2027 -->
+<div id="tet" class="ab post c-tet">
+  <svg class="layer" viewBox="0 0 1080 1350" preserveAspectRatio="none">
+    <g fill="#E8A700" filter="url(#blur6)">
+      <circle cx="120" cy="180" r="26" opacity=".2"/><circle cx="960" cy="140" r="34" opacity=".16"/><circle cx="200" cy="520" r="18" opacity=".22"/>
+      <circle cx="900" cy="470" r="22" opacity=".2"/><circle cx="80" cy="860" r="30" opacity=".16"/><circle cx="1010" cy="820" r="26" opacity=".18"/>
+      <circle cx="160" cy="1180" r="36" opacity=".18"/><circle cx="930" cy="1210" r="30" opacity=".2"/><circle cx="330" cy="1290" r="20" opacity=".18"/>
+      <circle cx="760" cy="1300" r="24" opacity=".16"/><circle cx="540" cy="300" r="140" opacity=".09"/>
+    </g>
+  </svg>
+  <div class="top">Sea Soul Hotel · Nha Trang</div>
+  <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#mai"/></svg>
+  <div class="word"><span class="a">SEASOUL</span><span class="b">FUL TẾT</span></div>
+  <h1 class="italic">Sum vầy đầu xuân</h1>
+  <div class="sub">Tết Đinh Mùi · Mùng 1 là Thứ Bảy 06.02.2027</div>
+  <div class="offers">
+    <div><b>Gói Tết đầu xuân</b> · phòng nghỉ, lì xì đầu năm cho bé</div>
+    <div><b>Ông đồ cho chữ, múa lân</b> · sáng mùng 1</div>
+    <div><b>Thả đèn hoa đăng</b> · đêm Rằm tháng Giêng 20.02</div>
+  </div>
+  <div class="cta">Đặt phòng<span class="tel"> 0258 220 5555</span></div>
+  <div class="foot">Zalo · seasoulhotel.vn</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 160" width="300" height="480">
+<title>Seasoulight (Giáng sinh, phương án A): cây thông, dây đèn chữ S</title>
+<rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="#20404B" stroke-width="3"/>
+<path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M50 13 L52.6 19.6 L59.5 20 L54.2 24.4 L55.9 31.2 L50 27.4 L44.1 31.2 L45.8 24.4 L40.5 20 L47.4 19.6 Z" fill="#E8A700"/>
+<path d="M50 30 L66 56 L59 56 L72 82 L64 82 L78 110 L22 110 L36 82 L28 82 L41 56 L34 56 Z" fill="#2E7466"/>
+<rect x="45.5" y="109" width="9" height="9" rx="1.5" fill="#2E7466"/>
+<path d="M40 52 C52 60 66 58 61 69 C56 80 36 74 33 87 C30 100 58 101 72 98" fill="none" stroke="#E8A700" stroke-width="1.2" opacity=".8"/>
+<circle cx="40" cy="52" r="2.2" fill="#E8A700"/>
+<circle cx="46.62" cy="55.51" r="2.2" fill="#E8A700"/>
+<circle cx="53.64" cy="58.14" r="2.2" fill="#E8A700"/>
+<circle cx="60.35" cy="61.4" r="2.2" fill="#E8A700"/>
+<circle cx="61.31" cy="68.28" r="2.2" fill="#E8A700"/>
+<circle cx="56.49" cy="73.83" r="2.2" fill="#E8A700"/>
+<circle cx="49.48" cy="76.44" r="2.2" fill="#E8A700"/>
+<circle cx="42.24" cy="78.37" r="2.2" fill="#E8A700"/>
+<circle cx="35.73" cy="81.96" r="2.2" fill="#E8A700"/>
+<circle cx="32.78" cy="88.67" r="2.2" fill="#E8A700"/>
+<circle cx="36.28" cy="94.93" r="2.2" fill="#E8A700"/>
+<circle cx="43.14" cy="97.85" r="2.2" fill="#E8A700"/>
+<circle cx="50.53" cy="99.09" r="2.2" fill="#E8A700"/>
+<circle cx="58.02" cy="99.4" r="2.2" fill="#E8A700"/>
+<circle cx="65.51" cy="98.99" r="2.2" fill="#E8A700"/>
+</svg>

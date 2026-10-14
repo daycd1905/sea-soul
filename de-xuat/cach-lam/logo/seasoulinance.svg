@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 160" width="300" height="480">
+<title>Seasoulinance (20/10): bông hồng, thân cong hình chữ S</title>
+<rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="#20404B" stroke-width="3"/>
+<path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M50 121 C28 110 72 90 50 76" fill="none" stroke="#4F6F5A" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M50 100 C58 89 70 91 74 94 C67 103 57 105 50 100 Z" fill="#4F6F5A"/>
+<path d="M50 108 C42 100 31 101 27 104 C34 112 44 113 50 108 Z" fill="#4F6F5A" opacity=".8"/>
+<path d="M32 52 C32 38 42 32 50 36 C58 32 68 38 68 52 C68 66 60 76 50 76 C40 76 32 66 32 52 Z" fill="#B5536A"/>
+<path d="M50 41 C58 41 61 48 57 53 C53 58 45 56 45 51 C45 46 52 44 54 48" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round" opacity=".9"/>
+<path d="M36 57 C40 67 50 71 58 67" fill="none" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" opacity=".75"/>
+<path d="M64 49 C65 57 61 63 55 66" fill="none" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round" opacity=".65"/>
+</svg>

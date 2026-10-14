@@ -2,9 +2,10 @@
 
 > **Dựa trên:**
 > - Web seasoulhotel.vn, cào ngày 12/10/2026: 84 bài, 6 trang phòng, các trang dịch vụ, 25 album ảnh.
+> - 2 Fanpage, quét ngày 12–13/10/2026: Sea Soul Hotel từ 10/2025 (159 bài), Sea Soul Café Lounge từ 02/2026 (82 bài). Chi tiết ở [`4-facebook.md`](4-facebook.md).
 > - Ghi chú review ngày 06/10/2026.
 >
-> **Không có:** số liệu Fanpage, TikTok, OTA, doanh thu. Vì vậy đây là góc nhìn từ bên ngoài. Nên kiểm chứng lại trong buổi phỏng vấn hoặc khi đã vào làm.
+> **Không có:** số liệu TikTok, Instagram, OTA, doanh thu. Vì vậy đây là góc nhìn từ bên ngoài. Nên kiểm chứng lại trong buổi phỏng vấn hoặc khi đã vào làm.
 
 ## Tóm lại
 
@@ -12,8 +13,10 @@ Sea Soul đang xây hình ảnh **khách sạn có đời sống văn hóa và �
 
 Tuy vậy, trên web năm 2026:
 - Gần như không còn bài bán phòng.
-- Không có bài nào bán hội nghị.
+- Không có bài nào bán hội nghị (Fanpage thì có).
 - Sự kiện thường chỉ được báo trước vài ngày.
+
+Fanpage đăng nhiều hơn web rất nhiều: năm 2026 có 217 bài trên 2 trang, có cả tiệc, hội nghị và giá cụ thể mà web không có. Nhưng từ giữa năm, cả nhịp đăng lẫn lượt thích trên Fanpage đều giảm.
 
 ## 1. Họ đang dồn sức vào đâu
 
@@ -46,7 +49,7 @@ Ngoài bảng còn 4 trang dịch vụ không ghi ngày: nhà hàng, Café Loung
   | Spa | 5 bài | 1 bài |
   | Hội nghị | 3 bài | 0 bài |
   | Hồ bơi | 3 bài | 0 bài, chỉ có thông báo đóng cửa |
-- **Có thể họ bán phòng chủ yếu qua OTA và Fanpage**, nên không đăng lên web. Nhưng web là nơi khách đặt trực tiếp, tức là nơi khách sạn không mất 15–20% hoa hồng cho OTA.
+- **Fanpage nói về phòng nhiều hơn web, nhưng ít khi kèm giá.** Năm 2026, trang Hotel có 14 bài về phòng (ăn uống có 49 bài). Phần lớn là ảnh không có giá hay ưu đãi, trung vị 10,5 lượt thích. Vậy nhiều khả năng phòng được bán chủ yếu qua OTA. Trong khi đó web và Fanpage là nơi khách đặt trực tiếp, tức là nơi khách sạn không mất 15–20% hoa hồng cho OTA.
 
 ## 2. Nội dung nào kéo người đọc
 
@@ -68,6 +71,8 @@ So sánh: một bài khuyến mãi thông thường có khoảng **1.150 – 1.6
 - **Ra mắt cái mới và sự kiện lớn kéo người xem hơn khuyến mãi thường.** Ví dụ: Spa, Café Lounge, Countdown.
 - **Bốn trang chính sách và đặt phòng có 3.900 – 5.100 lượt mỗi trang.** Rất nhiều người đã tới bước muốn đặt phòng. Trong khi đó nút đặt phòng hiện chỉ là form để chờ nhân viên gọi lại. Đây là điểm nghẽn đáng sửa nhất.
 - **Lưu ý khi so số:** lượt xem cộng dồn theo thời gian, bài năm 2026 còn mới nên số thấp hơn.
+
+**Trên Fanpage, bài có giá và video kéo người xem.** 10 bài được thích nhiều nhất năm 2026 đều là ưu đãi có giá rõ (tiệc, buffet, gói hè, combo trưa). Video có trung vị 45 lượt thích, ảnh chỉ có 13. 3 reels buffet hải sản được 33–102 nghìn lượt xem mỗi reel. Xem mục 4 và 7 của [`4-facebook.md`](4-facebook.md).
 
 ## 3. Điểm mạnh: nên khen và nên dựa vào
 
@@ -105,13 +110,15 @@ So sánh: một bài khuyến mãi thông thường có khoảng **1.150 – 1.6
   | Noel | 7 ngày |
 
   Tiệc tất niên 2025 tới 27/11 mới đăng. Ngược lại, bánh Trung thu 2026 đăng trước 5 tuần.
+
+  Trên Fanpage, sự kiện lớn được báo sớm hơn web khoảng một tuần: Countdown trước 14 ngày, thắp sáng cây thông trước 10 ngày, tiệc tất niên 2025 đăng từ 17/11. Các dịp nhỏ vẫn chỉ báo trước 2–7 ngày, ví dụ Halloween 2025 đăng ngày 29/10.
 - **Vì sao quan trọng:** khách ngoại tỉnh và doanh nghiệp cần lên kế hoạch sớm. Quảng cáo cũng cần vài tuần để chạy.
 - **Gợi ý:** lên lịch nội dung theo quý. Mỗi dịp công bố trước 3 – 4 tuần, rồi nhắc lại 1 tuần và 1 ngày trước. Làm giống cách đã làm với bánh Trung thu 2026.
 
 ### 4.3 Chưa chuẩn bị mùa cuối năm và mảng hội nghị
 - **Thấy gì:**
-  - Tới 12/10/2026, web chưa có bài nào cho 20/10, Halloween, tất niên hay Noel.
-  - Năm 2026 không có bài nào về hội nghị.
+  - Tới 12/10/2026, web chưa có bài nào cho 20/10, Halloween, tất niên hay Noel. Fanpage đã báo đêm violin 20/10 và Halloween Seafood Night 31/10 trong bài ngày 02/10, nhưng cũng chưa có tất niên hay Noel.
+  - Web năm 2026 không có bài nào về hội nghị. Fanpage thì có: tiệc từ 280k, gói hội nghị từ 170k, tiệc sinh nhật từ 170k mỗi khách. Đây cũng là nhóm bài có trung vị lượt thích cao nhất (27).
   - Có album "Hoạt động doanh nghiệp", "Tiệc tri ân khách hàng", "Wedding", nhưng không có bài viết. Web cũng không có trang bán dịch vụ cưới.
 - **Gợi ý:**
   - Làm trang tiệc tất niên 2026 ngay trong tháng 10, dùng ảnh các tiệc đã tổ chức làm bằng chứng, rồi gửi cho doanh nghiệp.
@@ -169,6 +176,18 @@ So sánh: một bài khuyến mãi thông thường có khoảng **1.150 – 1.6
   - Gắn hồ bơi vào gói mùa mưa: hồ bơi trong nhà nên trời mưa vẫn bơi được.
   - Sau 15/11, làm nội dung về một khách sạn vừa được làm mới.
 
+### 4.10 Fanpage đang chững lại
+- **Thấy gì:**
+  - Trang Hotel có 1.961 người theo dõi và 4 đánh giá. Nhịp đăng giảm từ 19 bài mỗi tháng (01–04/2026) xuống 10–11 bài (06–09), rồi chỉ có 2 bài trong 12 ngày đầu tháng 10.
+  - Trung vị lượt thích mỗi bài giảm từ 35 (02/2026) xuống 8–9 (08–09/2026). 20 bài trên 100 lượt thích chiếm 74% tổng lượt thích, có thể là bài chạy quảng cáo.
+  - Trang Café Lounge tách riêng, chỉ có 490 người theo dõi, ít nhất 22/82 bài trùng với trang Hotel, và gần như ngừng đăng từ tháng 8.
+  - Sự kiện lên Fanpage trước, còn web đăng chậm hoặc không đăng.
+- **Gợi ý:**
+  - Lịch đăng đều khoảng 3 bài mỗi tuần cho mùa cuối năm.
+  - Bài nào cũng có giá rõ; mỗi sự kiện có một video.
+  - Gộp hai trang, hoặc tách nội dung cho rõ.
+  - Sự kiện đăng lên Fanpage thì cùng ngày đăng lên web. Chi tiết ở mục 9 của [`4-facebook.md`](4-facebook.md).
+
 ## 5. Họ đang nói với ai
 
 | Nhóm khách | Đã có trên web | Còn thiếu |
@@ -194,11 +213,14 @@ Giả sử bắt đầu từ tháng 11/2026.
 **Việc làm suốt 90 ngày:**
 - Chuỗi bài theo hạng phòng, bắt đầu từ Premier Sea View.
 - Mỗi cẩm nang có lời mời đặt phòng.
+- Mỗi sự kiện có ít nhất 1 reel. Sự kiện đăng lên Fanpage thì cùng ngày đăng lên web.
 - Đo bằng GA4 và Pixel, gửi báo cáo hằng tuần.
 
 ## 7. Còn chưa biết: nên hỏi hoặc kiểm tra
 
-- Fanpage và TikTok đăng gì, tương tác ra sao. Web không phản ánh hết.
+- Những bài Fanpage trên 100 lượt thích (tiệc, buffet, gói hè) có chạy quảng cáo không, ngân sách bao nhiêu, bán được bao nhiêu? Vì sao nhịp đăng giảm từ tháng 5?
+- TikTok và Instagram đăng gì, tương tác ra sao. Link ở [`4-facebook.md`](4-facebook.md).
+- Từ tháng 9/2026, nhạc sống chỉ còn 3 tối cuối tuần. Đây là lịch riêng cho mùa thấp điểm hay sẽ giữ luôn? Các tối trong tuần có cần chương trình riêng để kéo khách không?
 - Tỷ lệ khách đặt trực tiếp so với qua OTA; công suất phòng theo mùa; doanh thu phòng so với ăn uống.
 - Ai đang làm nội dung web. Hầu hết bài 2025 – 2026 do một tài khoản đăng. Loạt cẩm nang tháng 09/2026 có phải do một đơn vị SEO bên ngoài làm không.
 - Ngân sách quảng cáo và KPI của vị trí này.
@@ -209,13 +231,14 @@ Giả sử bắt đầu từ tháng 11/2026.
 
 | Phần người phỏng vấn yêu cầu | Lấy từ đâu |
 | --- | --- |
-| Các chủ đề Sea Soul đã chạy | [`1-da-lam.md`](1-da-lam.md): lịch gộp theo tháng và những việc lặp lại |
+| Các chủ đề Sea Soul đã chạy | [`1-da-lam.md`](1-da-lam.md): lịch gộp theo tháng và những việc lặp lại; [`4-facebook.md`](4-facebook.md): những gì chỉ có trên Fanpage |
 | Tìm hiểu sản phẩm | [`2-san-pham.md`](2-san-pham.md): bảng phòng, ăn uống, spa, hội nghị, các gói |
-| Sẽ làm gì khi vào làm | Mục 4 và 6 ở trên, cộng kế hoạch 30 – 60 – 90 ngày trong tab Kế hoạch của trang ôn |
+| Sẽ làm gì khi vào làm | Mục 4 và 6 ở trên, mục 7 của [`4-facebook.md`](4-facebook.md), cộng kế hoạch 30 – 60 – 90 ngày trong tab Kế hoạch của trang ôn |
 
-**Ba nhận định đáng nói nhất:**
-1. "Sea Soul đã có những nghi lễ riêng: thả đèn hoa đăng, ông đồ cho chữ, nhạc sống mỗi tối. Em muốn biến chúng thành gói lưu trú và lịch sự kiện cả năm, công bố sớm 3 – 4 tuần."
+**Bốn nhận định đáng nói nhất:**
+1. "Sea Soul đã có những nghi lễ riêng: thả đèn hoa đăng, ông đồ cho chữ, nhạc sống ở Café Lounge. Em muốn biến chúng thành gói lưu trú và lịch sự kiện cả năm, công bố sớm 3 – 4 tuần."
 2. "63% số phòng nhìn ra biển, nhưng năm nay phòng hầu như không xuất hiện trên web. Em muốn đưa phòng trở lại làm trọng tâm, kèm ưu đãi chỉ dành cho khách đặt trực tiếp."
 3. "Cẩm nang du lịch là thứ kéo người đọc nhiều nhất. Em muốn mỗi bài cẩm nang đều dẫn về đặt phòng."
+4. "Video buffet hải sản trên Fanpage được 33–102 nghìn lượt xem mỗi reel, gấp hàng chục lần các reels khác. Em muốn làm reel theo công thức đó cho mỗi sự kiện, và đo bằng số bàn đặt được."
 
 **Cách nói:** khen trước, mở đầu bằng "em quan sát thấy", và gợi ý nào cũng kèm cách đo. Người ngồi đối diện có thể chính là người viết những bài này, nên nói về cơ hội, không nói về lỗi.

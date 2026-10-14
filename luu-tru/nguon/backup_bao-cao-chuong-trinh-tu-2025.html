@@ -1,0 +1,974 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Rà soát chương trình 2025 – 2026 và đề xuất mùa lễ hội · Sea Soul Hotel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* Khổ A4. Lề trang 15 mm hai bên, nên vùng nội dung rộng 180 mm, khớp với viewBox 720 của các biểu đồ. */
+@page {
+  size: A4; margin: 15mm 15mm 16mm 15mm;
+  @bottom-left { content: "Sea Soul Hotel · Chương trình 01/2025 – 10/2026 và đề xuất mùa lễ hội 2026 – 2027"; font-family: 'Open Sans', sans-serif; font-size: 6.8pt; color: #7b898e; }
+  @bottom-right { content: "Trang " counter(page) " / " counter(pages); font-family: 'Open Sans', sans-serif; font-size: 6.8pt; color: #7b898e; }
+}
+@page cover { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+:root {
+  --teal: #20404B; --amber: #E8A700; --cream: #F7F1E3; --ivory: #F4EFE6; --ink: #1E2B30;
+  --line: #D9E0E2; --muted: #5B6B70; --sea: #00749c; --wash: #EEF3F4;
+}
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; font-family: 'Open Sans', sans-serif; font-size: 9.2pt; line-height: 1.48; color: var(--ink); background: #fff; }
+svg text { font-family: 'Open Sans', sans-serif; font-variant-numeric: tabular-nums; }
+@media screen { body { background: #ccc; } .sheet { width: 180mm; margin: 0 auto 10mm; background: #fff; padding: 15mm; } .cover { margin: 0 auto 10mm; } }
+
+/* Bìa */
+.cover { page: cover; width: 210mm; height: 297mm; background: var(--teal); color: var(--ivory); position: relative; overflow: hidden; box-sizing: border-box; padding: 24mm 22mm; display: flex; flex-direction: column; }
+.cover .brand { font-size: 8.5pt; letter-spacing: .42em; font-weight: 600; opacity: .8; }
+.cover .kicker { margin-top: 40mm; font-size: 9pt; letter-spacing: .35em; font-weight: 700; color: var(--amber); }
+.cover h1 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 40pt; line-height: 1.05; margin: 4mm 0 0; }
+.cover .sub { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 17pt; margin-top: 5mm; opacity: .92; color: var(--ivory); }
+.cover .cstats { display: flex; gap: 14mm; margin-top: 20mm; }
+.cover .cstats div { display: flex; flex-direction: column; border-left: 1.2pt solid var(--amber); padding-left: 4mm; }
+.cover .cstats b { font-size: 26pt; font-weight: 600; line-height: 1.1; }
+.cover .cstats span { font-size: 8.5pt; letter-spacing: .04em; opacity: .85; margin-top: 1mm; }
+.cover .who { margin-top: auto; font-size: 9.2pt; line-height: 1.8; border-top: .6pt solid rgba(244,239,230,.35); padding-top: 5mm; position: relative; z-index: 1; }
+.cover .who b { color: var(--amber); font-weight: 600; }
+.cover .waves { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 20mm; opacity: .14; }
+
+/* Nội dung */
+section { break-before: page; }
+h2, div.h2 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 22pt; color: var(--teal); margin: 0 0 3.5mm; padding-bottom: 1.8mm; border-bottom: 1.4pt solid var(--amber); line-height: 1.12; }
+h2 .k { display: block; font-family: 'Open Sans', sans-serif; font-size: 7.4pt; line-height: 2.2; padding-top: .8mm; letter-spacing: .3em; color: var(--amber); font-weight: 700; margin-bottom: .4mm; }
+h3 { font-size: 10.4pt; color: var(--teal); margin: 4mm 0 1.6mm; break-after: avoid; }
+h3.mt0 { margin-top: 0; }
+p { margin: 0 0 2.2mm; }
+p.lead { font-size: 9.8pt; line-height: 1.5; }
+ul, ol { margin: 0 0 2.2mm; padding-left: 5mm; }
+li { margin-bottom: .8mm; }
+ol.tight li, ul.tight li { margin-bottom: 1.3mm; }
+b { font-weight: 700; }
+table { width: 100%; border-collapse: collapse; font-size: 8.3pt; margin: 1mm 0 3mm; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th { background: var(--teal); color: #fff; text-align: left; padding: 1.4mm 2mm; font-weight: 600; vertical-align: bottom; }
+td { border-bottom: .6pt solid var(--line); padding: 1.4mm 2mm; vertical-align: top; }
+.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+tr.total td { font-weight: 700; border-top: 1pt solid var(--teal); border-bottom: 0; }
+.box { background: var(--cream); border-left: 3pt solid var(--amber); padding: 2.6mm 4mm; margin: 2mm 0 3mm; break-inside: avoid; }
+.box.t { background: var(--wash); border-left-color: var(--teal); }
+.box p:last-child, .box ul:last-child, .box ol:last-child { margin-bottom: 0; }
+.small { font-size: 7.6pt; color: var(--muted); line-height: 1.42; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.two.w46 { grid-template-columns: 92mm 1fr; }
+.two.w64 { grid-template-columns: 1fr 72mm; }
+table.mech td { padding: 1.05mm 2mm; }
+table.seg { font-size: 7.8pt; }
+table.top { font-size: 7.6pt; }
+table.top td { padding: .9mm 1.8mm; }
+table.top td.dt { color: var(--muted); white-space: nowrap; }
+table.seg td { padding: 1.1mm 1.8mm; }
+
+/* Chỉ số */
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 2.5mm 0 4mm; }
+.kpis.four { grid-template-columns: repeat(4, 1fr); }
+.kpi { border: .6pt solid var(--line); border-top: 2.2pt solid var(--teal); padding: 2.4mm 3mm 2.2mm; break-inside: avoid; }
+.kpi .v { font-size: 18pt; font-weight: 600; color: var(--teal); line-height: 1.12; }
+.kpi .l { font-size: 8.2pt; font-weight: 700; margin-top: .8mm; }
+.kpi .n { font-size: 7.4pt; color: var(--muted); margin-top: .6mm; line-height: 1.35; }
+
+/* Biểu đồ */
+figure.chart { margin: 2mm 0 3.5mm; break-inside: avoid; }
+.ttl { font-weight: 700; color: var(--teal); font-size: 9.6pt; }
+.sub { font-size: 7.8pt; color: var(--muted); margin: .3mm 0 1.6mm; }
+figure.chart svg { display: block; }
+figure.chart figcaption { font-size: 7.3pt; color: var(--muted); margin-top: 1.2mm; line-height: 1.4; }
+
+/* Giai đoạn */
+.phases { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3.5mm; margin-top: 2mm; }
+.ph { border: .6pt solid var(--line); border-top: 2.2pt solid var(--amber); padding: 2.6mm 3mm; font-size: 8.2pt; line-height: 1.42; break-inside: avoid; }
+.ph .pk { font-size: 6.8pt; letter-spacing: .14em; font-weight: 700; color: var(--muted); }
+.ph h4 { font-family: 'Cormorant Garamond', serif; font-size: 14pt; font-weight: 600; color: var(--teal); margin: .6mm 0 1.6mm; line-height: 1.1; }
+.ph p { margin: 0 0 1.4mm; }
+.ph .res { margin-top: 2mm; padding-top: 1.6mm; border-top: .6pt solid var(--line); font-weight: 600; color: var(--teal); }
+
+/* Danh mục */
+table.inv { font-size: 7.3pt; table-layout: fixed; line-height: 1.33; }
+table.inv th { font-size: 7.4pt; padding: 1.3mm 1.6mm; }
+table.inv td { padding: .85mm 1.5mm; }
+table.inv td.dt { white-space: nowrap; color: var(--muted); }
+table.inv td.nm { font-weight: 700; }
+table.inv td.tg { color: var(--muted); font-size: 7.1pt; }
+table.inv td.sg { font-size: 7.1pt; }
+table.inv tr.grp td { background: var(--cream); color: var(--teal); font-weight: 700; font-size: 8.2pt; padding: 1.5mm 2mm; border-bottom: 0; }
+table.inv tr.grp { break-after: avoid; }
+table.inv tr.up td { background: #FFFAEE; }
+.uptag { display: inline-block; font-size: 6.4pt; font-weight: 700; color: #7a5300; border: .6pt solid #d08f00; border-radius: 1.5mm; padding: 0 1.2mm; margin-left: 1mm; vertical-align: .3mm; }
+
+/* Lịch dịp lễ */
+table.occ { font-size: 7.8pt; table-layout: fixed; }
+table.occ td { padding: .8mm 1.8mm; vertical-align: middle; line-height: 1.38; }
+table.occ td.nm { font-weight: 700; }
+table.occ td.oc { text-align: center; }
+.pill { display: inline-block; font-size: 6.6pt; font-weight: 700; padding: .25mm 1.6mm; border-radius: 2mm; white-space: nowrap; line-height: 1.5; }
+.p-wf { background: #0a5677; color: #fff; }
+.p-w { background: #DCEBF1; color: #0a5677; }
+.p-f { background: #F8EBCB; color: #6b4900; }
+.p-greet { background: #ECEFF0; color: #4c5c61; }
+.p-up { background: #fff; color: #6b4900; border: .6pt solid #d08f00; }
+.p-todo { background: #fff; color: #8f3550; border: .6pt solid #c0506c; }
+.p-nf { color: #8a979b; font-weight: 600; }
+.p-na { color: #b7c2c5; }
+.legend-row { display: flex; flex-wrap: wrap; gap: 2.5mm 5mm; font-size: 7.4pt; color: var(--muted); margin: 0 0 2mm; align-items: center; }
+
+/* Bảng nhiệt */
+table.heat td { padding: 1.05mm 2mm; }
+table.heat td.hc { font-weight: 700; text-align: center; border-left: 1.5pt solid #fff; }
+table.heat tr.hl td:first-child { font-weight: 700; }
+table.heat th.num { text-align: center; }
+
+/* Insight */
+.ins { border-left: 3pt solid var(--amber); background: #FBF8F1; padding: 2.1mm 3.6mm 2mm; margin: 0 0 2.6mm; break-inside: avoid; }
+.ins h4 { margin: 0 0 1.4mm; font-size: 10pt; color: var(--teal); line-height: 1.3; }
+.ins h4 .no { color: #b98500; margin-right: 1.6mm; }
+.ins dl { display: grid; grid-template-columns: 16mm 1fr; gap: .7mm 3mm; margin: 0; font-size: 8.2pt; line-height: 1.4; }
+.ins dt { font-weight: 700; color: var(--muted); font-size: 7pt; letter-spacing: .05em; text-transform: uppercase; padding-top: .45mm; }
+.ins dd { margin: 0; }
+
+table.ksfs { table-layout: fixed; font-size: 7.8pt; }
+table.ksfs td { vertical-align: top; }
+table.ksfs ul { padding-left: 4mm; margin: 0; }
+table.ksfs li { margin-bottom: 1mm; }
+table.names td, table.small-t td { padding: 1.1mm 1.8mm; }
+table.names, table.small-t { font-size: 8pt; }
+table.names td:last-child { white-space: nowrap; }
+
+/* Trang ngăn cách Phần 10, cùng kiểu với bìa */
+@page divider { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+.cover.divider { page: divider; }
+.cover .marks { display: flex; gap: 9mm; margin-top: 20mm; }
+.cover .marks div { display: flex; flex-direction: column; align-items: center; gap: 3mm; }
+.cover .marks svg { width: 16mm; height: 25.6mm; }
+.cover .marks span { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 10.5pt; letter-spacing: .08em; white-space: nowrap; }
+.cover .marks small { font-size: 7.5pt; letter-spacing: .2em; opacity: .75; }
+
+/* Mục lục và link */
+a { color: inherit; text-decoration: none; }
+a.lnk { color: #00749c; text-decoration: underline; }
+.toc { margin-top: 3mm; }
+.toc .grp { font-size: 7.4pt; letter-spacing: .22em; font-weight: 700; color: #b98500; margin: 7mm 0 1.5mm; text-transform: uppercase; }
+.toc a { display: flex; align-items: flex-end; gap: 2mm; padding: 2.2mm 0 1.6mm; border-bottom: .6pt solid var(--line); font-size: 10.4pt; color: var(--ink); }
+.toc a .n { width: 9mm; flex: none; font-weight: 700; color: var(--teal); }
+.toc a .t { font-weight: 600; }
+.toc a .d { flex: 1; border-bottom: .9pt dotted #b7c2c5; margin: 0 1mm 1.3mm; }
+.toc a .pg { min-width: 8mm; text-align: right; font-weight: 600; color: var(--teal); font-variant-numeric: tabular-nums; }
+.toc a.sub { padding: 1.5mm 0 1.2mm 11mm; font-size: 9.4pt; border-bottom: 0; }
+.toc a.sub .t { font-weight: 400; }
+.toc-back { float: right; font-size: 7pt; letter-spacing: .06em; color: var(--muted); margin-top: .8mm; }
+
+/* Phần 10: đề xuất, cùng kiểu với de-xuat/nguon/bao-cao.html */
+td i { color: var(--muted); }
+.camp { break-inside: avoid; margin-bottom: 6mm; }
+.camp + .camp { border-top: .6pt solid var(--line); padding-top: 5mm; }
+.camp .head { display: flex; align-items: center; gap: 4mm; margin-bottom: 3mm; }
+.camp .head svg { width: 11mm; height: 17.6mm; flex: none; }
+.camp .kk { font-size: 7.2pt; letter-spacing: .22em; font-weight: 700; color: var(--muted); }
+.camp .w { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 21pt; letter-spacing: .05em; line-height: 1.05; color: var(--teal); margin-top: .6mm; }
+.camp .w b { font-weight: 600; color: var(--accent); }
+.camp .tag { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 14pt; color: var(--teal); line-height: 1.2; }
+.camp .body { display: grid; grid-template-columns: 1fr 44mm; gap: 6mm; align-items: start; }
+.camp .body.wide { grid-template-columns: 1fr 46mm; }
+.camp .h4 { font-size: 8.4pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); margin: 0 0 1mm; }
+.camp .h4 + p, .camp .h4 + ul { margin-bottom: 2.6mm; }
+.camp ul { padding-left: 4.5mm; }
+.camp li { margin-bottom: .9mm; }
+.camp .ms { font-size: 8.4pt; margin: 0 0 1.2mm; }
+.camp .ms b { color: var(--teal); }
+.camp .imgs { display: flex; flex-direction: column; gap: 3mm; }
+.camp figure { margin: 0; }
+.camp figure img { display: block; width: 100%; border: .5pt solid var(--line); }
+.camp figcaption { font-size: 7.2pt; color: var(--muted); margin-top: 1mm; line-height: 1.35; }
+.k2 { font-family: 'Open Sans', sans-serif; font-size: 7.4pt; line-height: 2.2; padding-top: .8mm; letter-spacing: .3em; color: var(--amber); font-weight: 700; margin-bottom: .4mm; }
+.cover h1 { max-width: 112mm; }
+.nw { white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="frame" viewBox="0 0 100 160">
+      <rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="rose" viewBox="0 0 100 160">
+      <path d="M50 121 C28 110 72 90 50 76" fill="none" stroke="var(--leaf)" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M50 100 C58 89 70 91 74 94 C67 103 57 105 50 100 Z" fill="var(--leaf)"/>
+      <path d="M50 108 C42 100 31 101 27 104 C34 112 44 113 50 108 Z" fill="var(--leaf)" opacity=".8"/>
+      <path d="M32 52 C32 38 42 32 50 36 C58 32 68 38 68 52 C68 66 60 76 50 76 C40 76 32 66 32 52 Z" fill="var(--accent)"/>
+      <path d="M50 41 C58 41 61 48 57 53 C53 58 45 56 45 51 C45 46 52 44 54 48" fill="none" stroke="var(--bg)" stroke-width="1.9" stroke-linecap="round" opacity=".9"/>
+      <path d="M36 57 C40 67 50 71 58 67" fill="none" stroke="var(--bg)" stroke-width="1.7" stroke-linecap="round" opacity=".75"/>
+    </symbol>
+    <symbol id="mask" viewBox="0 0 100 160">
+      <path d="M50 30 C36 30 25 42 25 60 C25 81 35 97 50 106" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="1.5 4.5" stroke-linecap="round" opacity=".6"/>
+      <path d="M33 58 C36 54 43 54 46 58 C43 62 36 62 33 58 Z" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".55"/>
+      <path d="M50 30 C64 30 76 42 76 60 C76 81 67 96 53 104 C52 94 53 86 50 78 Z" fill="var(--accent)"/>
+      <path d="M54 58 C57 53 65 53 68 58 C65 62.5 57 62.5 54 58 Z" fill="var(--bg)"/>
+      <path d="M61 79 C65 76 70 79 67 83 C64 87 66 90 70 89" fill="none" stroke="var(--bg)" stroke-width="1.4" stroke-linecap="round" opacity=".7"/>
+    </symbol>
+    <symbol id="tree" viewBox="0 0 100 160">
+      <path d="M50 13 L52.6 19.6 L59.5 20 L54.2 24.4 L55.9 31.2 L50 27.4 L44.1 31.2 L45.8 24.4 L40.5 20 L47.4 19.6 Z" fill="var(--accent)"/>
+      <path d="M50 30 L66 56 L59 56 L72 82 L64 82 L78 110 L22 110 L36 82 L28 82 L41 56 L34 56 Z" fill="var(--tree)"/>
+      <rect x="45.5" y="109" width="9" height="9" rx="1.5" fill="var(--tree)"/>
+      <path d="M40 52 C52 60 66 58 61 69 C56 80 36 74 33 87 C30 100 58 101 72 98" fill="none" stroke="var(--accent)" stroke-width="1.2" opacity=".8"/>
+      <path d="M40 52 C52 60 66 58 61 69 C56 80 36 74 33 87 C30 100 58 101 72 98" fill="none" stroke="var(--accent)" stroke-width="4.4" stroke-linecap="round" stroke-dasharray="0 7.5"/>
+    </symbol>
+    <!-- Cành mai cho Tết: thân chữ S, 3 bông 5 cánh, 2 nụ. Cùng bản vẽ với nguon/mau-tet-2027.html -->
+    <symbol id="mai" viewBox="0 0 100 160">
+      <path d="M30 116 C36 100 56 96 54 80 C52 64 34 60 40 44 C43 36 52 31 62 30" fill="none" stroke="var(--leaf)" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M45 92 C40 88 35 88 31 91" fill="none" stroke="var(--leaf)" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="30" cy="91.5" r="2.6" fill="var(--accent)"/>
+      <circle cx="31.5" cy="106" r="2.2" fill="var(--accent)" opacity=".85"/>
+      <g fill="var(--accent)">
+        <circle cx="54" cy="71.4" r="6.2"/><circle cx="60.28" cy="75.96" r="6.2"/><circle cx="57.88" cy="83.34" r="6.2"/><circle cx="50.12" cy="83.34" r="6.2"/><circle cx="47.72" cy="75.96" r="6.2"/>
+        <circle cx="40" cy="40.7" r="5"/><circle cx="45.04" cy="44.36" r="5"/><circle cx="43.12" cy="50.29" r="5"/><circle cx="36.88" cy="50.29" r="5"/><circle cx="34.96" cy="44.36" r="5"/>
+        <circle cx="63" cy="25" r="3.8"/><circle cx="66.8" cy="27.76" r="3.8"/><circle cx="65.35" cy="32.24" r="3.8"/><circle cx="60.65" cy="32.24" r="3.8"/><circle cx="59.2" cy="27.76" r="3.8"/>
+      </g>
+      <circle cx="54" cy="78" r="2.6" fill="var(--bg)"/><circle cx="54" cy="78" r="1.1" fill="var(--accent)"/>
+      <circle cx="40" cy="46" r="2.1" fill="var(--bg)"/><circle cx="40" cy="46" r="0.9" fill="var(--accent)"/>
+      <circle cx="63" cy="29" r="1.6" fill="var(--bg)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ===================== BÌA ===================== -->
+<div class="cover">
+  <div class="brand">SEA SOUL HOTEL · NHA TRANG</div>
+  <div class="kicker">RÀ SOÁT VÀ ĐỀ XUẤT MARKETING</div>
+  <h1>Các chương trình&#8194;<span class="nw">đã triển khai</span></h1>
+  <div class="sub">01/2025 – 10/2026 · Thống kê, insight và đề xuất</div>
+  <div class="cstats">
+    <div><b>64</b><span>chương trình đã chạy</span></div>
+    <div><b>66</b><span>bài trên website</span></div>
+    <div><b>241</b><span>bài trên 2 Fanpage</span></div>
+    <div><b>4</b><span>dịp lễ đề xuất</span></div>
+  </div>
+  <svg class="waves" viewBox="0 0 800 150" preserveAspectRatio="none" aria-hidden="true">
+    <g fill="none" stroke="#F4EFE6" stroke-width="2.4" stroke-linecap="round">
+      <path d="M0 50 C70 30 130 30 200 50 S330 70 400 50 S530 30 600 50 S730 70 800 50"/>
+      <path d="M0 95 C70 75 130 75 200 95 S330 115 400 95 S530 75 600 95 S730 115 800 95"/>
+    </g>
+  </svg>
+</div>
+
+<div class="sheet">
+
+<!-- ===================== MỤC LỤC ===================== -->
+<section id="toc" style="break-before: auto">
+  <div class="k2">NỘI DUNG BÁO CÁO</div>
+  <h2>Mục lục</h2>
+  <p class="small">Bấm vào tên phần để chuyển tới trang đó. Góc trên mỗi trang có nút "↑ Mục lục" để quay lại.</p>
+  <div class="toc">
+    <div class="grp">Rà soát các chương trình · 01/2025 – 10/2026</div>
+    <a href="#p1"><span class="n">1</span><span class="t">Tóm tắt</span><span class="d"></span><span class="pg">3</span></a>
+    <a href="#p2"><span class="n">2</span><span class="t">Bức tranh 22 tháng: hai giai đoạn</span><span class="d"></span><span class="pg">4</span></a>
+    <a href="#p3"><span class="n">3</span><span class="t">Danh mục chương trình</span><span class="d"></span><span class="pg">5</span></a>
+    <a href="#p4"><span class="n">4</span><span class="t">Cơ cấu chương trình</span><span class="d"></span><span class="pg">8</span></a>
+    <a href="#p5"><span class="n">5</span><span class="t">Lịch dịp lễ và những việc lặp lại</span><span class="d"></span><span class="pg">9</span></a>
+    <a href="#p6"><span class="n">6</span><span class="t">Thống kê website</span><span class="d"></span><span class="pg">11</span></a>
+    <a href="#p7"><span class="n">7</span><span class="t">Thống kê Fanpage</span><span class="d"></span><span class="pg">12</span></a>
+    <a href="#p8"><span class="n">8</span><span class="t">Hiệu quả theo chương trình</span><span class="d"></span><span class="pg">14</span></a>
+    <a href="#p9"><span class="n">9</span><span class="t">Insight và việc nên làm</span><span class="d"></span><span class="pg">15</span></a>
+    <div class="grp">Đề xuất mùa lễ hội · 2026 – 2027</div>
+    <a href="#p10"><span class="n">10</span><span class="t">Đề xuất cho các dịp sắp tới</span><span class="d"></span><span class="pg">17</span></a>
+    <a class="sub" href="#p10a"><span class="n"></span><span class="t">Tổng quan</span><span class="d"></span><span class="pg">18</span></a>
+    <a class="sub" href="#p10b"><span class="n"></span><span class="t">20/10 và Halloween</span><span class="d"></span><span class="pg">19</span></a>
+    <a class="sub" href="#p10c"><span class="n"></span><span class="t">Giáng sinh và năm mới</span><span class="d"></span><span class="pg">20</span></a>
+    <a class="sub" href="#p10d"><span class="n"></span><span class="t">Tết Đinh Mùi 2027</span><span class="d"></span><span class="pg">21</span></a>
+  </div>
+</section>
+
+<!-- ===================== 1. TÓM TẮT ===================== -->
+<section id="p1">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 1</div>
+  <h2>Tóm tắt</h2>
+  <p class="lead">Từ 01/2025 tới nay, Sea Soul đã công bố ít nhất <b>64 chương trình</b>: sự kiện lễ hội, ưu đãi ăn uống, gói lưu trú, spa, tiệc và hội nghị, hoạt động cộng đồng. Báo cáo này gom mọi chương trình thấy được trên website và 2 Fanpage, thống kê mức phản hồi theo từng loại.</p>
+
+  <div class="kpis">
+    <div class="kpi"><div class="v">64</div><div class="l">chương trình đã chạy</div><div class="n">26 năm 2025 · 38 năm 2026. Fanpage đã báo thêm 20/10 và Halloween 2026</div></div>
+    <div class="kpi"><div class="v">12.734</div><div class="l">lượt thích trên 2 Fanpage</div><div class="n">241 bài từ 20/10/2025; trung vị mỗi bài: trang Hotel 16, trang Café Lounge 4</div></div>
+    <div class="kpi"><div class="v">1.825</div><div class="l">lượt thích, bài cao nhất</div><div class="n">Luxury Banquet, tiệc trọn gói từ 280k mỗi khách (26/02/2026)</div></div>
+  </div>
+
+  <div class="two">
+    <div>
+      <h3 class="mt0">Đang làm tốt</h3>
+      <ol class="tight">
+        <li><b>Đã có bản sắc riêng.</b> Năm 2026: thả đèn hoa đăng 3 lần, ông đồ cho chữ 2 lần, nhạc sống mỗi tối ở Café Lounge, và 7 tên chiến dịch theo kiểu "Seasoul-".</li>
+        <li><b>Danh mục ăn uống phong phú, giá dễ tiếp cận.</b> Set, combo, buffet từ 89k tới 1.550k, đủ cho người Nha Trang, gia đình, cặp đôi và doanh nghiệp.</li>
+        <li><b>Đã có công thức bài hiệu quả.</b> Bài có giá rõ, hoặc có video, được thích gấp khoảng 3 lần: tiệc trọn gói 1.825, video buffet hải sản 1.209 (reel 102 nghìn lượt xem), gói hè 660.</li>
+        <li><b>Có thành tích thật để kể.</b> Travelers' Choice 2026, TripAdvisor 4,9; hỗ trợ nhân viên vùng lũ, ngày hội hiến máu.</li>
+      </ol>
+    </div>
+    <div>
+      <h3 class="mt0">Cơ hội</h3>
+      <ol class="tight">
+        <li><b>Đưa phòng và khách doanh nghiệp trở lại trung tâm.</b> Chương trình về phòng giảm từ 6 (2025) còn 2 (2026). Tiệc, hội nghị được phản hồi tốt nhất trên Fanpage, nhưng web năm 2026 không có bài nào.</li>
+        <li><b>Công bố sớm hơn.</b> Hầu hết dịp lễ chỉ báo trước 1 – 7 ngày. Bánh Trung thu 2026 được báo trước 5 tuần, cho thấy đội ngũ làm được.</li>
+        <li><b>Giữ nhịp và ngân sách cho Fanpage.</b> Nhịp đăng giảm từ 19 xuống 10 – 11 bài mỗi tháng. 20 bài trên 100 lượt thích chiếm 74% tổng lượt thích năm 2026.</li>
+        <li><b>Đồng bộ kênh, đo bằng doanh thu.</b> 22/45 chương trình gần đây chỉ có trên Fanpage; chưa có số đặt chỗ gắn với từng chương trình.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="box t"><p><b>Hướng đi đề xuất:</b> giữ bản sắc nghi lễ, nhưng đóng gói mỗi dịp thành một chương trình có giá, có video và được công bố trước 3 – 4 tuần; đưa phòng và tiệc, hội nghị vào mọi dịp; đo bằng số khách, doanh thu và lượt đặt trực tiếp, không chỉ đếm lượt thích. Kế hoạch cho từng dịp ở <a class="lnk" href="#p10">Phần 10</a>.</p></div>
+  <p class="small">Số liệu lấy từ dữ liệu công khai đã thu thập: 66 bài web đăng từ 01/2025, 241 bài Fanpage, ghi chú review ngày 06/10/2026. Lượt xem và lượt thích chưa phải doanh thu; chưa biết bài nào có chạy quảng cáo.</p>
+</section>
+
+<!-- ===================== 2. BỨC TRANH ===================== -->
+<section id="p2">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 2</div>
+  <h2>Bức tranh 22 tháng: hai giai đoạn</h2>
+  <p>Mỗi giai đoạn có một trọng tâm rõ. Điểm chuyển lớn nhất là Café Lounge mở cửa cuối tháng 12/2025: từ đó ăn uống, nhạc sống và nghi lễ văn hóa chiếm phần lớn chương trình, còn phòng lùi lại phía sau.</p>
+  <figure class="chart">
+    <div class="ttl">Nhịp hoạt động theo tháng và các mốc chính</div>
+    <div class="sub">Số bài mỗi tháng trên web và trên 2 Fanpage, 01/2025 – 10/2026</div>
+    <svg viewBox="0 0 720 330" width="100%" role="img" aria-label="Số bài mỗi tháng trên web và Fanpage, 01/2025 – 10/2026, cùng các mốc chính" xmlns="http://www.w3.org/2000/svg"><rect x="86.0" y="0.0" width="314.0" height="282.0" rx="0" fill="#eef3f4"/><text x="92.0" y="14.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="600">Giai đoạn 1 · Mở rộng dịch vụ</text><rect x="400.0" y="0.0" width="314.0" height="282.0" rx="0" fill="#f6f2e8"/><text x="406.0" y="14.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="600">Giai đoạn 2 · Café Lounge và nghi lễ văn hóa</text><line x1="214.5" y1="28.0" x2="214.5" y2="118.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><line x1="271.5" y1="56.0" x2="271.5" y2="118.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><line x1="414.3" y1="28.0" x2="414.3" y2="118.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><line x1="471.4" y1="56.0" x2="471.4" y2="118.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><line x1="557.0" y1="28.0" x2="557.0" y2="118.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><line x1="671.2" y1="84.0" x2="671.2" y2="118.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><text x="217.5" y="35.0" font-size="9" fill="#1E2B30" text-anchor="start" font-weight="700" stroke="#eef3f4" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">05/2025</text><text x="217.5" y="46.0" font-size="9.5" fill="#4c5c61" text-anchor="start" stroke="#eef3f4" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">Spa khai trương</text><text x="274.5" y="63.0" font-size="9" fill="#1E2B30" text-anchor="start" font-weight="700" stroke="#eef3f4" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">07/2025</text><text x="274.5" y="74.0" font-size="9.5" fill="#4c5c61" text-anchor="start" stroke="#eef3f4" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">Kỷ niệm 1 năm</text><text x="417.3" y="35.0" font-size="9" fill="#1E2B30" text-anchor="start" font-weight="700" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">12/2025</text><text x="417.3" y="46.0" font-size="9.5" fill="#4c5c61" text-anchor="start" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">Café Lounge mở cửa</text><text x="474.4" y="63.0" font-size="9" fill="#1E2B30" text-anchor="start" font-weight="700" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">02/2026</text><text x="474.4" y="74.0" font-size="9.5" fill="#4c5c61" text-anchor="start" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">Tết, lịch nhạc sống</text><text x="560.0" y="35.0" font-size="9" fill="#1E2B30" text-anchor="start" font-weight="700" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">05/2026</text><text x="560.0" y="46.0" font-size="9.5" fill="#4c5c61" text-anchor="start" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">Gói hè Seasoulantics</text><text x="668.2" y="91.0" font-size="9" fill="#1E2B30" text-anchor="end" font-weight="700" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">05 – 09/2026</text><text x="668.2" y="102.0" font-size="9.5" fill="#4c5c61" text-anchor="end" stroke="#f6f2e8" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">Thả đèn hoa đăng 3 lần</text><line x1="86.0" y1="118.0" x2="714.0" y2="118.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><circle cx="214.5" cy="118.0" r="5.4" fill="#ffffff"/><circle cx="214.5" cy="118.0" r="3.8" fill="#00749c"/><circle cx="271.5" cy="118.0" r="5.4" fill="#ffffff"/><circle cx="271.5" cy="118.0" r="3.8" fill="#00749c"/><circle cx="414.3" cy="118.0" r="5.4" fill="#ffffff"/><circle cx="414.3" cy="118.0" r="3.8" fill="#00749c"/><circle cx="471.4" cy="118.0" r="5.4" fill="#ffffff"/><circle cx="471.4" cy="118.0" r="3.8" fill="#00749c"/><circle cx="557.0" cy="118.0" r="5.4" fill="#ffffff"/><circle cx="557.0" cy="118.0" r="3.8" fill="#00749c"/><circle cx="671.2" cy="118.0" r="5.4" fill="#ffffff"/><circle cx="671.2" cy="118.0" r="3.8" fill="#00749c"/><line x1="86.0" y1="196.0" x2="714.0" y2="196.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><text x="4.0" y="152.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">Bài web</text><text x="4.0" y="165.0" font-size="9" fill="#7b898e" text-anchor="start">mỗi tháng</text><path d="M93.77,196.00 V192.90 Q93.77,190.40 96.27,190.40 H104.27 Q106.77,190.40 106.77,192.90 V196.00 Z" fill="#00749c"/><path d="M122.32,196.00 V192.90 Q122.32,190.40 124.82,190.40 H132.82 Q135.32,190.40 135.32,192.90 V196.00 Z" fill="#00749c"/><path d="M150.86,196.00 V181.70 Q150.86,179.20 153.36,179.20 H161.36 Q163.86,179.20 163.86,181.70 V196.00 Z" fill="#00749c"/><path d="M179.41,196.00 V192.90 Q179.41,190.40 181.91,190.40 H189.91 Q192.41,190.40 192.41,192.90 V196.00 Z" fill="#00749c"/><path d="M265.05,196.00 V148.10 Q265.05,145.60 267.55,145.60 H275.55 Q278.05,145.60 278.05,148.10 V196.00 Z" fill="#00749c"/><path d="M293.59,196.00 V142.50 Q293.59,140.00 296.09,140.00 H304.09 Q306.59,140.00 306.59,142.50 V196.00 Z" fill="#00749c"/><text x="300.1" y="136.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">10</text><path d="M322.14,196.00 V187.30 Q322.14,184.80 324.64,184.80 H332.64 Q335.14,184.80 335.14,187.30 V196.00 Z" fill="#00749c"/><path d="M350.68,196.00 V176.10 Q350.68,173.60 353.18,173.60 H361.18 Q363.68,173.60 363.68,176.10 V196.00 Z" fill="#00749c"/><path d="M379.23,196.00 V181.70 Q379.23,179.20 381.73,179.20 H389.73 Q392.23,179.20 392.23,181.70 V196.00 Z" fill="#00749c"/><path d="M407.77,196.00 V187.30 Q407.77,184.80 410.27,184.80 H418.27 Q420.77,184.80 420.77,187.30 V196.00 Z" fill="#00749c"/><path d="M436.32,196.00 V192.90 Q436.32,190.40 438.82,190.40 H446.82 Q449.32,190.40 449.32,192.90 V196.00 Z" fill="#00749c"/><path d="M464.86,196.00 V176.10 Q464.86,173.60 467.36,173.60 H475.36 Q477.86,173.60 477.86,176.10 V196.00 Z" fill="#00749c"/><path d="M493.41,196.00 V187.30 Q493.41,184.80 495.91,184.80 H503.91 Q506.41,184.80 506.41,187.30 V196.00 Z" fill="#00749c"/><path d="M521.95,196.00 V181.70 Q521.95,179.20 524.45,179.20 H532.45 Q534.95,179.20 534.95,181.70 V196.00 Z" fill="#00749c"/><path d="M550.50,196.00 V176.10 Q550.50,173.60 553.00,173.60 H561.00 Q563.50,173.60 563.50,176.10 V196.00 Z" fill="#00749c"/><path d="M579.05,196.00 V181.70 Q579.05,179.20 581.55,179.20 H589.55 Q592.05,179.20 592.05,181.70 V196.00 Z" fill="#00749c"/><path d="M607.59,196.00 V181.70 Q607.59,179.20 610.09,179.20 H618.09 Q620.59,179.20 620.59,181.70 V196.00 Z" fill="#00749c"/><path d="M636.14,196.00 V181.70 Q636.14,179.20 638.64,179.20 H646.64 Q649.14,179.20 649.14,181.70 V196.00 Z" fill="#00749c"/><path d="M664.68,196.00 V159.30 Q664.68,156.80 667.18,156.80 H675.18 Q677.68,156.80 677.68,159.30 V196.00 Z" fill="#00749c"/><text x="671.2" y="152.8" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">7</text><line x1="86.0" y1="278.0" x2="714.0" y2="278.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><text x="4.0" y="234.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">Bài Fanpage</text><text x="4.0" y="247.0" font-size="9" fill="#7b898e" text-anchor="start">2 trang, mỗi tháng</text><rect x="86.0" y="222.0" width="256.9" height="56.0" rx="0" fill="#ffffff" fill-opacity="0.65"/><text x="214.5" y="253.0" font-size="9.5" fill="#7b898e" text-anchor="middle" font-style="italic">Chưa có dữ liệu Fanpage (trước 20/10/2025)</text><path d="M693.23,278.00 V277.77 Q693.23,275.27 695.73,275.27 H703.73 Q706.23,275.27 706.23,277.77 V278.00 Z" fill="#d08f00"/><text x="699.7" y="271.3" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">2</text><path d="M664.68,278.00 V264.11 Q664.68,261.61 667.18,261.61 H675.18 Q677.68,261.61 677.68,264.11 V278.00 Z" fill="#d08f00"/><path d="M636.14,278.00 V264.11 Q636.14,261.61 638.64,261.61 H646.64 Q649.14,261.61 649.14,264.11 V278.00 Z" fill="#d08f00"/><path d="M607.59,278.00 V254.55 Q607.59,252.05 610.09,252.05 H618.09 Q620.59,252.05 620.59,254.55 V278.00 Z" fill="#d08f00"/><path d="M579.05,278.00 V251.82 Q579.05,249.32 581.55,249.32 H589.55 Q592.05,249.32 592.05,251.82 V278.00 Z" fill="#d08f00"/><path d="M550.50,278.00 V249.09 Q550.50,246.59 553.00,246.59 H561.00 Q563.50,246.59 563.50,249.09 V278.00 Z" fill="#d08f00"/><path d="M521.95,278.00 V238.16 Q521.95,235.66 524.45,235.66 H532.45 Q534.95,235.66 534.95,238.16 V278.00 Z" fill="#d08f00"/><path d="M493.41,278.00 V229.96 Q493.41,227.46 495.91,227.46 H503.91 Q506.41,227.46 506.41,229.96 V278.00 Z" fill="#d08f00"/><path d="M464.86,278.00 V224.50 Q464.86,222.00 467.36,222.00 H475.36 Q477.86,222.00 477.86,224.50 V278.00 Z" fill="#d08f00"/><text x="471.4" y="218.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">41</text><path d="M436.32,278.00 V254.55 Q436.32,252.05 438.82,252.05 H446.82 Q449.32,252.05 449.32,254.55 V278.00 Z" fill="#d08f00"/><path d="M407.77,278.00 V266.84 Q407.77,264.34 410.27,264.34 H418.27 Q420.77,264.34 420.77,266.84 V278.00 Z" fill="#d08f00"/><path d="M379.23,278.00 V268.21 Q379.23,265.71 381.73,265.71 H389.73 Q392.23,265.71 392.23,268.21 V278.00 Z" fill="#d08f00"/><path d="M350.68,278.00 V273.67 Q350.68,271.17 353.18,271.17 H361.18 Q363.68,271.17 363.68,273.67 V278.00 Z" fill="#d08f00"/><text x="100.3" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">1</text><text x="128.8" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">2</text><text x="157.4" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">3</text><text x="185.9" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">4</text><text x="214.5" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">5</text><text x="243.0" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">6</text><text x="271.5" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">7</text><text x="300.1" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">8</text><text x="328.6" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">9</text><text x="357.2" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">10</text><text x="385.7" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">11</text><text x="414.3" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">12</text><text x="442.8" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">1</text><text x="471.4" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">2</text><text x="499.9" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">3</text><text x="528.5" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">4</text><text x="557.0" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">5</text><text x="585.5" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">6</text><text x="614.1" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">7</text><text x="642.6" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">8</text><text x="671.2" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">9</text><text x="699.7" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="middle">10</text><line x1="88.0" y1="296.0" x2="426.5" y2="296.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="257.3" y="306.0" font-size="9.5" fill="#4c5c61" text-anchor="middle" font-weight="600">2025</text><line x1="430.5" y1="296.0" x2="712.0" y2="296.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="571.3" y="306.0" font-size="9.5" fill="#4c5c61" text-anchor="middle" font-weight="600">2026</text><text x="4.0" y="291.0" font-size="8.5" fill="#7b898e" text-anchor="start">Tháng</text><text x="714.0" y="326.0" font-size="8.5" fill="#7b898e" text-anchor="end">Tháng 10/2026 chỉ tính tới ngày 12.</text></svg>
+  </figure>
+  <div class="phases">
+    <div class="ph"><div class="pk">GIAI ĐOẠN 1 · 01 – 11/2025</div><h4>Mở rộng dịch vụ</h4>
+      <p><b>Trọng tâm:</b> ra mắt Spa, đẩy mùa hè, bắt đầu sự kiện văn hóa và tiệc doanh nghiệp.</p>
+      <p><b>Tiêu biểu:</b> đặt 1 tặng 1 Premier Sea View; quà spa khi đặt trực tiếp; kỷ niệm 1 năm; gói Marathon; workshop nón lá; Trung thu; Year End Party; Black Friday.</p>
+      <p><b>Ưu đãi hay dùng:</b> mua 1 tặng 1, tặng spa kèm phòng.</p>
+      <p class="res">24 chương trình · ra mắt Spa 6.146 lượt xem · Year End Party 1.066 lượt thích</p></div>
+    <div class="ph"><div class="pk">GIAI ĐOẠN 2 · 12/2025 – 10/2026</div><h4>Café Lounge và nghi lễ văn hóa</h4>
+      <p><b>Trọng tâm:</b> Café Lounge, nhạc sống, buffet; nghi lễ văn hóa; hệ tên Seasoul-.</p>
+      <p><b>Tiêu biểu:</b> thắp sáng cây thông; Countdown; Tết; tiệc trọn gói; buffet hải sản; gói hè Seasoulantics; 3 lần thả đèn hoa đăng.</p>
+      <p><b>Ưu đãi hay dùng:</b> set cho 2 người, combo, buffet giá cố định; giá "từ … mỗi khách" cho tiệc.</p>
+      <p class="res">40 chương trình · Luxury Banquet 1.825 lượt thích · reel buffet 102 nghìn lượt xem</p></div>
+  </div>
+  <h3>Đọc biểu đồ</h3>
+  <ul class="tight">
+    <li><b>Web đăng nhiều nhất vào 07 – 08/2025</b> (9 và 10 bài): ưu đãi Spa, kỷ niệm 1 năm, gói Marathon, workshop mừng 2/9.</li>
+    <li><b>Web không đăng bài nào trong tháng 05 và 06/2025,</b> đúng lúc vào mùa hè.</li>
+    <li><b>Fanpage đạt đỉnh 41 bài trong tháng 02/2026</b> (Tết, Valentine, trang Café Lounge bắt đầu đăng), sau đó giảm dần, còn 12 bài mỗi tháng từ tháng 8.</li>
+    <li><b>Tháng 09/2026 web có 7 bài, nhiều nhất năm 2026,</b> trong đó 4 bài là cẩm nang du lịch.</li>
+  </ul>
+</section>
+
+<!-- ===================== 3. DANH MỤC ===================== -->
+<section id="p3">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 3</div>
+  <h2>Danh mục chương trình</h2>
+  <p class="small"><b>Cách lập danh mục.</b> Một chương trình là một sự kiện, ưu đãi, gói, sản phẩm mới hay hoạt động cộng đồng có nội dung và thời gian riêng, được công bố trên web, Fanpage, hoặc có album ảnh trên web. Không tính bài chúc mừng không kèm ưu đãi và bài giới thiệu chung. <b>Ngày</b> là ngày đăng bài công bố đầu tiên. <b>Tín hiệu</b> ghi lượt xem web (cộng dồn tới 12/10/2026) và lượt thích Fanpage (tới 12 – 13/10/2026) của bài chính. Trước 20/10/2025 chỉ có dữ liệu web.</p>
+  <table class="inv">
+    <colgroup><col style="width:15mm"><col style="width:40mm"><col style="width:17mm"><col><col style="width:16mm"><col style="width:31mm"></colgroup>
+    <thead><tr><th>Ngày</th><th>Chương trình</th><th>Loại</th><th>Nội dung, ưu đãi, giá</th><th>Kênh</th><th>Tín hiệu</th></tr></thead>
+    <tbody>
+<tr class="grp"><td colspan="6">2025 · 26 chương trình · có dữ liệu Fanpage từ 20/10</td></tr>
+<tr><td class="dt">21/02</td><td class="nm">Đặt 1 tặng 1 Premier Sea View</td><td class="tg">Phòng</td><td>Tặng 1 phòng cùng hạng, không gồm ăn sáng</td><td class="tg">Web</td><td class="sg">1.827 xem</td></tr>
+<tr><td class="dt">06/03</td><td class="nm">Giờ vàng ở pool bar</td><td class="tg">Ăn uống</td><td>Mua 1 tặng 1 đồ uống, 16:00 – 18:00 mỗi ngày</td><td class="tg">Web</td><td class="sg">1.982 xem</td></tr>
+<tr><td class="dt">24/04</td><td class="nm">Ra mắt Sea Soul Spa (khai trương 05/2025)</td><td class="tg">Spa, tiện ích</td><td>Liệu trình 120 phút, ngâm lá thuốc Dao Đỏ</td><td class="tg">Web</td><td class="sg">6.146 xem</td></tr>
+<tr><td class="dt">04/07</td><td class="nm">Spa: mua gói Signature tặng thêm dịch vụ</td><td class="tg">Spa, tiện ích</td><td>Tặng gội sấy hoặc làm sạch móng</td><td class="tg">Web</td><td class="sg">2.045 xem</td></tr>
+<tr><td class="dt">04/07</td><td class="nm">Đặt phòng trực tiếp nhận quà spa</td><td class="tg">Phòng</td><td>Tặng chăm sóc tóc, tắm lá Dao Đỏ; đặt tới 31/12/2025</td><td class="tg">Web</td><td class="sg">3.758 xem</td></tr>
+<tr><td class="dt">04/07</td><td class="nm">Combo hè cho gia đình ở pool bar</td><td class="tg">Ăn uống</td><td>Bài không ghi giá</td><td class="tg">Web</td><td class="sg">1.304 xem</td></tr>
+<tr><td class="dt">05/07</td><td class="nm">Kỷ niệm 1 năm (sự kiện ngày 01/07)</td><td class="tg">Thương hiệu, CSR</td><td>Mua 1 tặng 1 tất cả dịch vụ</td><td class="tg">Web</td><td class="sg">1.757 và 1.448 xem</td></tr>
+<tr><td class="dt">14/07</td><td class="nm">Ở từ 2 đêm tặng liệu trình spa</td><td class="tg">Phòng</td><td>Áp dụng tới 31/12/2025</td><td class="tg">Web</td><td class="sg">1.211 xem</td></tr>
+<tr><td class="dt">08/08</td><td class="nm">Cho thuê văn phòng và vị trí treo biển quảng cáo</td><td class="tg">Tiệc, hội nghị</td><td>Không kèm ưu đãi</td><td class="tg">Web</td><td class="sg">1.689 xem</td></tr>
+<tr><td class="dt">08/08</td><td class="nm">Bia tươi ở pool bar</td><td class="tg">Ăn uống</td><td>Bia Tiger tươi 420 ml giá 70k</td><td class="tg">Web</td><td class="sg">1.231 xem</td></tr>
+<tr><td class="dt">08/08</td><td class="nm">Gói VnExpress Marathon Nha Trang</td><td class="tg">Phòng</td><td>Ở từ 2 đêm tặng spa, tặng vang khi hóa đơn từ 1 triệu; đặt 15 – 22/08</td><td class="tg">Web</td><td class="sg">1.349 xem</td></tr>
+<tr><td class="dt">09/08</td><td class="nm">Tuyển cộng tác viên spa</td><td class="tg">Spa, tiện ích</td><td>Hưởng hoa hồng; đưa đón khách miễn phí trong 10 km</td><td class="tg">Web</td><td class="sg">1.518 xem</td></tr>
+<tr><td class="dt">14/08</td><td class="nm">Workshop &quot;Nét Việt trên nón&quot; mừng 80 năm Quốc khánh</td><td class="tg">Sự kiện</td><td>Vẽ nón lá, tranh đất sét, tranh ốc 3D, móc khóa</td><td class="tg">Web</td><td class="sg">1.920 xem</td></tr>
+<tr><td class="dt">26/08</td><td class="nm">Thực đơn và đồ uống mừng 2/9</td><td class="tg">Ăn uống</td><td>Thực đơn của bếp trưởng; cocktail 99k, mocktail 59k</td><td class="tg">Web</td><td class="sg">1.901 và 2.033 xem</td></tr>
+<tr><td class="dt">26/09</td><td class="nm">Trung thu 2025</td><td class="tg">Sự kiện</td><td>Set trà bánh; workshop lồng đèn, múa lân, phá cỗ (05/10), làm bánh quy (06/10)</td><td class="tg">Web</td><td class="sg">1.659 và 1.566 xem</td></tr>
+<tr><td class="dt">10/10</td><td class="nm">Món mới ở nhà hàng</td><td class="tg">Ăn uống</td><td>Bài gần như chỉ có ảnh</td><td class="tg">Web</td><td class="sg">1.687 xem</td></tr>
+<tr><td class="dt">15/10</td><td class="nm">Giới thiệu không gian tiệc và hội nghị</td><td class="tg">Tiệc, hội nghị</td><td>Bài web gần như chỉ có ảnh; Fanpage có video phòng hội nghị (26/10)</td><td class="tg">Web, Fanpage</td><td class="sg">1.284 xem · 46 thích</td></tr>
+<tr><td class="dt">10/2025</td><td class="nm">Hoạt động doanh nghiệp</td><td class="tg">Tiệc, hội nghị</td><td>Chỉ có album ảnh, không có bài viết</td><td class="tg">Album web</td><td class="sg">–</td></tr>
+<tr><td class="dt">29/10</td><td class="nm">Halloween Night Feast – Dạ tiệc ma quái</td><td class="tg">Sự kiện</td><td>Combo 219k; báo trước 2 ngày</td><td class="tg">Fanpage</td><td class="sg">44 và 50 thích</td></tr>
+<tr><td class="dt">02/11</td><td class="nm">Tham gia Hội chợ Triển lãm 2025</td><td class="tg">Thương hiệu, CSR</td><td>Không kèm ưu đãi</td><td class="tg">Fanpage</td><td class="sg">51 thích</td></tr>
+<tr><td class="dt">11/11</td><td class="nm">Ưu đãi cuối năm &quot;nghỉ dưỡng 5 sao từ 495k/khách/đêm&quot;</td><td class="tg">Phòng</td><td>Giảm 43%: Deluxe Twin City View, ăn sáng, hồ bơi, gym; tối thiểu 2 khách, 2 đêm</td><td class="tg">Web, Fanpage</td><td class="sg">31 thích · web 27/11: 1.623 xem</td></tr>
+<tr><td class="dt">17/11</td><td class="nm">Year End Party 2025</td><td class="tg">Tiệc, hội nghị</td><td>Từ 269k/khách: champagne, màn LED, sân khấu, karaoke, pháo kim tuyến</td><td class="tg">Web, Fanpage</td><td class="sg">1.066 thích · web 27/11: 2.000 xem</td></tr>
+<tr><td class="dt">26/11</td><td class="nm">Hỗ trợ nhân viên bị ảnh hưởng do lũ</td><td class="tg">Thương hiệu, CSR</td><td>Hai đợt, cùng Công ty CP X20</td><td class="tg">Web, Fanpage</td><td class="sg">33 thích · 1.061 xem</td></tr>
+<tr><td class="dt">28/11</td><td class="nm">Black Friday</td><td class="tg">Phòng</td><td>Mua 1 tặng 1 phòng Suite, trọn gói 2.150.000đ</td><td class="tg">Fanpage</td><td class="sg">103 thích</td></tr>
+<tr><td class="dt">13/12</td><td class="nm">Thắp sáng cây thông, mở thử Café Lounge (23/12)</td><td class="tg">Sự kiện</td><td>Workshop bánh quy cho bé, piano, hợp xướng thiếu nhi, bốc thăm trúng thưởng</td><td class="tg">Web, Fanpage</td><td class="sg">137 thích · web 16/12: 1.424 xem</td></tr>
+<tr><td class="dt">17/12</td><td class="nm">Countdown 2026, khai trương Café Lounge (31/12)</td><td class="tg">Sự kiện</td><td>Buffet hải sản 799k/399k, tặng nửa tôm hùm; vé Countdown 119k/2 người</td><td class="tg">Web, Fanpage</td><td class="sg">110 thích · web 25/12: 3.725 xem</td></tr>
+<tr class="grp"><td colspan="6">2026 · 38 chương trình đã chạy, thêm 1 đã báo (tới 12/10)</td></tr>
+<tr><td class="dt">từ 01/2026</td><td class="nm">Nhạc sống ở Café Lounge, lịch hằng tháng</td><td class="tg">Ăn uống</td><td>Violin, saxophone, ca sĩ 19:30 – 20:30 mỗi tối; từ 09/2026 còn tối thứ Sáu – Chủ nhật</td><td class="tg">Web, Fanpage</td><td class="sg">429 thích (lịch tháng 2) · 2.034 xem</td></tr>
+<tr><td class="dt">19/01</td><td class="nm">Combo sáng ở Café Lounge</td><td class="tg">Ăn uống</td><td>89k; từ cuối tháng 3 là 105k</td><td class="tg">Fanpage</td><td class="sg">11 thích</td></tr>
+<tr><td class="dt">23/01</td><td class="nm">Tiệc tất niên 2026</td><td class="tg">Tiệc, hội nghị</td><td>Từ 280k/khách</td><td class="tg">Fanpage</td><td class="sg">124 thích</td></tr>
+<tr><td class="dt">27/01</td><td class="nm">Khu lái xe tải công trường cho trẻ em</td><td class="tg">Spa, tiện ích</td><td>100k mỗi giờ</td><td class="tg">Fanpage</td><td class="sg">556 thích, 78 bình luận (video)</td></tr>
+<tr><td class="dt">31/01</td><td class="nm">Tết 2026 (Seasoulful Tết)</td><td class="tg">Sự kiện</td><td>Ẩm thực Tết ba miền, gói bánh chưng, múa lân, ông đồ cho chữ, hái lộc, nhạc sống</td><td class="tg">Web, Fanpage</td><td class="sg">135 thích (video áo dài) · 2.040 xem</td></tr>
+<tr><td class="dt">07/02</td><td class="nm">Valentine</td><td class="tg">Ăn uống</td><td>Set trưa 439k, set tối 539k mỗi cặp; mocktail Be Mine, cocktail First Kiss</td><td class="tg">Web, Fanpage</td><td class="sg">99 thích · web 09/02: 1.561 xem</td></tr>
+<tr><td class="dt">12/02</td><td class="nm">Set menu Tết ba miền</td><td class="tg">Ăn uống</td><td>420k cho 2 khách, 16 – 22/02</td><td class="tg">Web, Fanpage</td><td class="sg">67 thích · 1.317 xem</td></tr>
+<tr><td class="dt">02/2026</td><td class="nm">Tiệc tri ân khách hàng</td><td class="tg">Tiệc, hội nghị</td><td>Chỉ có album ảnh, không có bài viết</td><td class="tg">Album web</td><td class="sg">–</td></tr>
+<tr><td class="dt">26/02</td><td class="nm">Luxury Banquet, tiệc trọn gói</td><td class="tg">Tiệc, hội nghị</td><td>Từ 280k/khách</td><td class="tg">Fanpage</td><td class="sg">1.825 thích, cao nhất năm</td></tr>
+<tr><td class="dt">02/03</td><td class="nm">SeaSoulighting Her Day (8/3)</td><td class="tg">Sự kiện</td><td>Nhạc sống tháng 3 dành tặng phụ nữ; 2 album ảnh</td><td class="tg">Web, Fanpage</td><td class="sg">162 thích · web 04/03: 1.357 xem</td></tr>
+<tr><td class="dt">09/03</td><td class="nm">Voucher 10% khi đánh giá trên Google Maps</td><td class="tg">Thương hiệu, CSR</td><td>Cho lần ghé sau ở Café Lounge, 01/03 – 24/04</td><td class="tg">Web, Fanpage</td><td class="sg">1.210 xem · 5 thích</td></tr>
+<tr><td class="dt">16/03</td><td class="nm">Tiệc sinh nhật</td><td class="tg">Tiệc, hội nghị</td><td>Từ 170k/khách</td><td class="tg">Fanpage</td><td class="sg">285 thích</td></tr>
+<tr><td class="dt">17/03</td><td class="nm">Golden Hour ở Café Lounge</td><td class="tg">Ăn uống</td><td>Mua 1 tặng 1</td><td class="tg">Fanpage</td><td class="sg">3 thích (trang Café Lounge)</td></tr>
+<tr><td class="dt">19/03</td><td class="nm">Hồ bơi và gym cho khách ngoài</td><td class="tg">Spa, tiện ích</td><td>Miễn phí khi hóa đơn Café Lounge từ 250k, hoặc từ 110k/khách</td><td class="tg">Fanpage</td><td class="sg">8 thích</td></tr>
+<tr><td class="dt">24 – 31/03</td><td class="nm">Set trưa cho 2 người; set hải sản và rượu vang</td><td class="tg">Ăn uống</td><td>339k cho 2 người; 1.090k mỗi set</td><td class="tg">Fanpage</td><td class="sg">11 – 13 thích</td></tr>
+<tr><td class="dt">25/03</td><td class="nm">Giờ Trái Đất (28/03)</td><td class="tg">Thương hiệu, CSR</td><td>Tại Café Lounge</td><td class="tg">Fanpage</td><td class="sg">16 thích</td></tr>
+<tr><td class="dt">30/03</td><td class="nm">Combo trưa</td><td class="tg">Ăn uống</td><td>89k</td><td class="tg">Fanpage</td><td class="sg">194 thích; bài 06/07: 415 thích</td></tr>
+<tr><td class="dt">04/04</td><td class="nm">Coconut &amp; Cake Combo</td><td class="tg">Ăn uống</td><td>89k</td><td class="tg">Fanpage</td><td class="sg">3 thích (trang Café Lounge)</td></tr>
+<tr><td class="dt">26/04</td><td class="nm">Dịp 30/4 – 1/5: &quot;Chào đại lễ&quot;, &quot;Chill lễ lớn&quot;</td><td class="tg">Ăn uống</td><td>Semi-buffet sáng 159k/79k; set Sài Gòn Rising 539k/2 người; cocktail 109k, mocktail 69k; giảm 10% rượu vang theo chai</td><td class="tg">Web, Fanpage</td><td class="sg">85 thích · 966 và 1.039 xem</td></tr>
+<tr><td class="dt">04/05</td><td class="nm">Phòng Suite kèm đưa đón sân bay</td><td class="tg">Phòng</td><td>Miễn phí đưa đón 2 chiều; không ghi giá</td><td class="tg">Fanpage</td><td class="sg">9 thích</td></tr>
+<tr><td class="dt">06/05</td><td class="nm">Buffet sáng cuối tuần (semi-buffet)</td><td class="tg">Ăn uống</td><td>119k người lớn, 59k trẻ em</td><td class="tg">Fanpage</td><td class="sg">119 thích; video 14/05: 163 thích</td></tr>
+<tr><td class="dt">13/05</td><td class="nm">Gói hè Seasoulantics (16/05 – 30/08)</td><td class="tg">Phòng</td><td>Từ 950k/khách cho 2N1Đ: Deluxe City View, buffet sáng, set trưa, 1 đồ uống; giảm ăn uống, spa, giặt ủi</td><td class="tg">Web, Fanpage</td><td class="sg">660 thích · web 16/05: 958 xem</td></tr>
+<tr><td class="dt">20/05</td><td class="nm">Buffet hải sản tối cuối tuần</td><td class="tg">Ăn uống</td><td>435k người lớn, 215k trẻ em, kèm nhạc sống (web không ghi giá)</td><td class="tg">Web, Fanpage</td><td class="sg">1.209 thích (video 11/06) · 3 reel 33 – 102 nghìn xem · 1.169 xem</td></tr>
+<tr><td class="dt">27/05</td><td class="nm">Thả đèn hoa đăng Phật Đản (31/05)</td><td class="tg">Sự kiện</td><td>Ở đài phun nước trước Café Lounge; giảm 10% đồ uống healthy</td><td class="tg">Web, Fanpage</td><td class="sg">964 xem · 12 thích</td></tr>
+<tr><td class="dt">30/05</td><td class="nm">Seasoulantics Children&#x27;s Day (31/05 – 01/06)</td><td class="tg">Sự kiện</td><td>Hoạt động cho trẻ em dịp 1/6</td><td class="tg">Fanpage</td><td class="sg">6 thích</td></tr>
+<tr><td class="dt">17/06</td><td class="nm">Tiệc cưới &quot;Begin your forever with us&quot;</td><td class="tg">Tiệc, hội nghị</td><td>Không ghi giá; album Wedding 06/2026</td><td class="tg">Fanpage</td><td class="sg">15 thích</td></tr>
+<tr><td class="dt">22/06</td><td class="nm">BBQ Black Angus T-Bone</td><td class="tg">Ăn uống</td><td>Kèm vang và trò chơi cho 2 người, 1.550k net, tới 31/12/2026</td><td class="tg">Fanpage</td><td class="sg">5 thích</td></tr>
+<tr><td class="dt">26/06</td><td class="nm">Seasoulanniversary, kỷ niệm 2 năm</td><td class="tg">Thương hiệu, CSR</td><td>Giảm 20% món gọi lẻ ở Café Lounge, 01 – 02/07</td><td class="tg">Web, Fanpage</td><td class="sg">969 xem · 6 thích</td></tr>
+<tr><td class="dt">06/07</td><td class="nm">Xe cocktail ở sảnh ngoài trời</td><td class="tg">Ăn uống</td><td>Tối thứ Sáu, thứ Bảy; không ghi giá</td><td class="tg">Fanpage</td><td class="sg">6 thích · reel 1.600 xem</td></tr>
+<tr><td class="dt">13/07</td><td class="nm">Gói hội nghị &quot;Elevate every meeting&quot;</td><td class="tg">Tiệc, hội nghị</td><td>Từ 170k/khách</td><td class="tg">Fanpage</td><td class="sg">7 thích</td></tr>
+<tr><td class="dt">16/07</td><td class="nm">Ngày hội hiến máu (01/08)</td><td class="tg">Thương hiệu, CSR</td><td>Đồng hành cùng Bệnh viện Quân y 87</td><td class="tg">Web</td><td class="sg">638 xem</td></tr>
+<tr><td class="dt">17/07</td><td class="nm">Travelers&#x27; Choice 2026, điểm 9,3 trên Trip.com</td><td class="tg">Thương hiệu, CSR</td><td>Bài khoe giải thưởng</td><td class="tg">Web, Fanpage</td><td class="sg">1.111 xem · 26 thích</td></tr>
+<tr><td class="dt">22/07</td><td class="nm">Spa mua 1 tặng 1</td><td class="tg">Spa, tiện ích</td><td>Liệu trình tắm lá Dao Đỏ</td><td class="tg">Web</td><td class="sg">647 xem</td></tr>
+<tr><td class="dt">23/07</td><td class="nm">Đón gia đình NSND Tự Long</td><td class="tg">Thương hiệu, CSR</td><td>Có album ảnh 07/2026</td><td class="tg">Fanpage</td><td class="sg">66 thích</td></tr>
+<tr><td class="dt">20/08</td><td class="nm">Bánh Trung thu 2026 (Seasoulantern)</td><td class="tg">Ăn uống</td><td>3 hộp 590k – 1.390k; đơn lớn và doanh nghiệp giảm tới 30%</td><td class="tg">Web, Fanpage</td><td class="sg">609 xem · Fanpage 04/09: 132 thích</td></tr>
+<tr><td class="dt">21/08</td><td class="nm">Vu Lan: Sea Soulantern Festival</td><td class="tg">Sự kiện</td><td>Ông đồ cho chữ (22 – 23 và 27/08); thả đèn hoa đăng (24 – 27/08)</td><td class="tg">Web, Fanpage</td><td class="sg">522 xem · 8 – 12 thích</td></tr>
+<tr><td class="dt">27/08</td><td class="nm">Quốc khánh 2/9 &quot;Celebrate the moment&quot;</td><td class="tg">Sự kiện</td><td>Hát live trong buffet hải sản tối 2/9</td><td class="tg">Web, Fanpage</td><td class="sg">25 thích · web 14/09 (sau dịp lễ): 427 xem</td></tr>
+<tr><td class="dt">18/09</td><td class="nm">Seasoulantern Trung thu (23 – 25/09)</td><td class="tg">Sự kiện</td><td>Set tối 439k/2 khách, trà chiều 249k/2 khách, thả đèn hoa đăng 20:00 – 20:30</td><td class="tg">Web, Fanpage</td><td class="sg">331 xem · 7 – 17 thích</td></tr>
+<tr class="up"><td class="dt">02/10</td><td class="nm">Seasoulinance (20/10), Seasoulanthom (31/10) <span class="uptag">sắp diễn ra</span></td><td class="tg">Sự kiện</td><td>Đêm violin 20/10; Halloween Seafood Night và saxophone 31/10</td><td class="tg">Fanpage</td><td class="sg">4 thích</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ===================== 4. CƠ CẤU ===================== -->
+<section id="p4">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 4</div>
+  <h2>Cơ cấu chương trình</h2>
+  <figure class="chart">
+    <div class="ttl">Số chương trình theo loại và năm</div>
+    <div class="sub">64 chương trình đã chạy, 01/2025 – 09/2026</div>
+    <svg viewBox="0 0 720 198" width="100%" role="img" aria-label="Số chương trình theo loại và năm" xmlns="http://www.w3.org/2000/svg"><rect x="168.0" y="4.5" width="9.0" height="9.0" rx="2" fill="#2f87b0"/><text x="182.0" y="12.0" font-size="9.5" fill="#4c5c61" text-anchor="start">2025</text><rect x="218.9" y="4.5" width="9.0" height="9.0" rx="2" fill="#0a5677"/><text x="232.9" y="12.0" font-size="9.5" fill="#4c5c61" text-anchor="start">2026 (tới 09)</text><line x1="168.0" y1="26.0" x2="168.0" y2="174.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="168.0" y="194.0" font-size="8.5" fill="#7b898e" text-anchor="middle">0</text><line x1="301.7" y1="26.0" x2="301.7" y2="174.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="301.7" y="194.0" font-size="8.5" fill="#7b898e" text-anchor="middle">5</text><line x1="435.4" y1="26.0" x2="435.4" y2="174.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="435.4" y="194.0" font-size="8.5" fill="#7b898e" text-anchor="middle">10</text><line x1="569.1" y1="26.0" x2="569.1" y2="174.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="569.1" y="194.0" font-size="8.5" fill="#7b898e" text-anchor="middle">15</text><text x="160.0" y="40.5" font-size="10" fill="#1E2B30" text-anchor="end">Ăn uống &amp; giải trí</text><rect x="168.0" y="30.0" width="131.7" height="13.0" rx="0" fill="#2f87b0"/><text x="233.8" y="40.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">5</text><path d="M301.68,30.00 H673.00 Q676.00,30.00 676.00,33.00 V40.00 Q676.00,43.00 673.00,43.00 H301.68 Z" fill="#0a5677"/><text x="488.8" y="40.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">14</text><text x="682.0" y="40.5" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">19</text><text x="160.0" y="65.5" font-size="10" fill="#1E2B30" text-anchor="end">Sự kiện &amp; lễ hội</text><rect x="168.0" y="55.0" width="131.7" height="13.0" rx="0" fill="#2f87b0"/><text x="233.8" y="65.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">5</text><path d="M301.68,55.00 H485.84 Q488.84,55.00 488.84,58.00 V65.00 Q488.84,68.00 485.84,68.00 H301.68 Z" fill="#0a5677"/><text x="395.3" y="65.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">7</text><text x="494.8" y="65.5" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">12</text><text x="160.0" y="90.5" font-size="10" fill="#1E2B30" text-anchor="end">Tiệc, hội nghị &amp; B2B</text><rect x="168.0" y="80.0" width="104.9" height="13.0" rx="0" fill="#2f87b0"/><text x="220.5" y="90.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">4</text><path d="M274.95,80.00 H432.37 Q435.37,80.00 435.37,83.00 V90.00 Q435.37,93.00 432.37,93.00 H274.95 Z" fill="#0a5677"/><text x="355.2" y="90.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">6</text><text x="441.4" y="90.5" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">10</text><text x="160.0" y="115.5" font-size="10" fill="#1E2B30" text-anchor="end">Thương hiệu, CSR &amp; PR</text><rect x="168.0" y="105.0" width="78.2" height="13.0" rx="0" fill="#2f87b0"/><text x="207.1" y="115.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">3</text><path d="M248.21,105.00 H405.63 Q408.63,105.00 408.63,108.00 V115.00 Q408.63,118.00 405.63,118.00 H248.21 Z" fill="#0a5677"/><text x="328.4" y="115.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">6</text><text x="414.6" y="115.5" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">9</text><text x="160.0" y="140.5" font-size="10" fill="#1E2B30" text-anchor="end">Phòng &amp; gói lưu trú</text><rect x="168.0" y="130.0" width="158.4" height="13.0" rx="0" fill="#2f87b0"/><text x="247.2" y="140.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">6</text><path d="M328.42,130.00 H378.89 Q381.89,130.00 381.89,133.00 V140.00 Q381.89,143.00 378.89,143.00 H328.42 Z" fill="#0a5677"/><text x="355.2" y="140.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">2</text><text x="387.9" y="140.5" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">8</text><text x="160.0" y="165.5" font-size="10" fill="#1E2B30" text-anchor="end">Spa &amp; tiện ích</text><rect x="168.0" y="155.0" width="78.2" height="13.0" rx="0" fill="#2f87b0"/><text x="207.1" y="165.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">3</text><path d="M248.21,155.00 H325.42 Q328.42,155.00 328.42,158.00 V165.00 Q328.42,168.00 325.42,168.00 H248.21 Z" fill="#0a5677"/><text x="288.3" y="165.0" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">3</text><text x="334.4" y="165.5" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">6</text><line x1="168.0" y1="26.0" x2="168.0" y2="174.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/></svg>
+  </figure>
+  <div class="two w64">
+    <div>
+      <ul class="tight">
+        <li><b>Ăn uống và giải trí là nhóm lớn nhất (19 chương trình),</b> tăng từ 5 (2025) lên 14 (2026), theo nhịp mở Café Lounge.</li>
+        <li><b>Phòng và gói lưu trú giảm:</b> 6 chương trình năm 2025, chỉ còn 2 năm 2026, dù năm 2026 xem được cả Fanpage.</li>
+        <li><b>Tiệc, hội nghị và B2B có 10 chương trình,</b> trong đó tiệc tri ân khách hàng và hoạt động doanh nghiệp chỉ được biết qua album ảnh.</li>
+        <li><b>Lưu ý khi so sánh các năm:</b> năm 2026 có nhiều chương trình hơn một phần vì xem được Fanpage. Trước 20/10/2025 chỉ có dữ liệu web.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="box" style="margin-top:0"><p><b>Kênh công bố.</b> Từ 20/10/2025, khi xem được cả web và Fanpage, có 45 chương trình: <b>22 chỉ có trên Fanpage</b>, 21 có trên cả hai, 2 chỉ có trên web. Tiệc trọn gói (1.825 lượt thích), khu lái xe tải cho bé (556) và tiệc sinh nhật (285) đều không có trên web.</p></div>
+      <div class="box t"><p><b>Nội dung thường trực</b> (không tính vào danh mục): 9 cẩm nang du lịch (03/2025 – 09/2026), riêng bài "Top 9 con suối" có 12.923 lượt xem; 3 bài kể trải nghiệm (07/2025); 10 reel món ăn và nhạc sống (06 – 09/2026).</p></div>
+    </div>
+  </div>
+
+  <h3>Cơ chế ưu đãi đã dùng</h3>
+  <table class="mech">
+    <colgroup><col style="width:52mm"><col style="width:24mm"><col></colgroup>
+    <thead><tr><th>Cơ chế chính</th><th class="num">Số chương trình</th><th>Ví dụ</th></tr></thead>
+    <tbody>
+<tr><td class="nm">Set, combo, buffet giá cố định</td><td class="num">18</td><td>Set Valentine 439k – 539k, combo trưa 89k, buffet hải sản 435k</td></tr>
+<tr><td class="nm">Không kèm ưu đãi</td><td class="num">14</td><td>Ra mắt Spa, giải Travelers&#x27; Choice, hiến máu, tiệc cưới</td></tr>
+<tr><td class="nm">Trải nghiệm, sự kiện đi kèm</td><td class="num">11</td><td>Thả đèn hoa đăng, ông đồ cho chữ, workshop cho bé, nhạc sống</td></tr>
+<tr><td class="nm">Mua X tặng Y</td><td class="num">6</td><td>1 tặng 1 Premier Sea View, 1 tặng 1 Suite, giờ vàng pool bar, spa 1 tặng 1</td></tr>
+<tr><td class="nm">Tặng kèm dịch vụ, quà</td><td class="num">5</td><td>Quà spa khi đặt trực tiếp hoặc ở từ 2 đêm, đưa đón sân bay cho Suite</td></tr>
+<tr><td class="nm">Giá &quot;từ … mỗi khách&quot; (tiệc)</td><td class="num">5</td><td>Year End Party từ 269k, tiệc trọn gói từ 280k, hội nghị từ 170k</td></tr>
+<tr><td class="nm">Giảm theo %</td><td class="num">3</td><td>Cuối năm 2025 giảm 43%, kỷ niệm 2 năm giảm 20%, voucher 10% khi đánh giá</td></tr>
+<tr><td class="nm">Gói lưu trú trọn gói</td><td class="num">2</td><td>Gói VnExpress Marathon (2025), gói hè Seasoulantics (2026)</td></tr>
+<tr class="total"><td>Tổng</td><td class="num">64</td><td></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ===================== 5. LỊCH DỊP LỄ ===================== -->
+<section id="p5">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 5</div>
+  <h2>Lịch dịp lễ và những việc lặp lại</h2>
+  <p>Bảng dưới đối chiếu các dịp trong năm với những gì Sea Soul đã làm. Nhiều dịp được làm lần đầu trong năm 2026 (Tết, Valentine, 8/3, 30/4, Phật Đản, 1/6, Vu Lan); mùa hè, kỷ niệm khai trương, Quốc khánh và Trung thu đã làm cả hai năm; Halloween năm 2026 đã được báo.</p>
+  <div class="legend-row">
+    <span><span class="pill p-wf">Web, Fanpage</span> có trên cả hai</span>
+    <span><span class="pill p-w">Web</span> / <span class="pill p-f">Fanpage</span> có trên một kênh</span>
+    <span><span class="pill p-greet">Chỉ bài chúc</span> không có ưu đãi</span>
+    <span><span class="pill p-up">Đã báo, sắp diễn ra</span></span>
+    <span><span class="pill p-todo">Chưa công bố</span> tính tới 12/10/2026</span>
+  </div>
+  <table class="occ">
+    <colgroup><col style="width:36mm"><col style="width:28mm"><col style="width:32mm"><col></colgroup>
+    <thead><tr><th>Dịp</th><th style="text-align:center">2025</th><th style="text-align:center">2026</th><th>Đã làm gì</th></tr></thead>
+    <tbody>
+<tr><td class="nm">Tết Nguyên đán</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>Seasoulful Tết 2026: ông đồ cho chữ, múa lân, gói bánh chưng, hái lộc; set Tết ba miền 420k</td></tr>
+<tr><td class="nm">Valentine 14/2</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>Set trưa 439k, set tối 539k mỗi cặp; mocktail, cocktail riêng của dịp</td></tr>
+<tr><td class="nm">Quốc tế Phụ nữ 8/3</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>SeaSoulighting Her Day; nhạc sống tháng 3 dành tặng phụ nữ</td></tr>
+<tr><td class="nm">Giờ Trái Đất</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-f">Fanpage</span></td><td>Hoạt động ở Café Lounge, 28/03/2026</td></tr>
+<tr><td class="nm">30/4 – 1/5</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>Semi-buffet sáng, set Sài Gòn Rising, đồ uống theo chủ đề</td></tr>
+<tr><td class="nm">Phật Đản</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>Thả đèn hoa đăng lần thứ nhất trong năm 2026</td></tr>
+<tr><td class="nm">Quốc tế Thiếu nhi 1/6</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-f">Fanpage</span></td><td>Seasoulantics Children&#x27;s Day</td></tr>
+<tr><td class="nm">Mùa hè</td><td class="oc"><span class="pill p-w">Web</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>2025: pool bar, quà spa, gói Marathon · 2026: Seasoulantics, buffet hải sản</td></tr>
+<tr><td class="nm">Kỷ niệm khai trương 01/07</td><td class="oc"><span class="pill p-w">Web</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>2025: mua 1 tặng 1 mọi dịch vụ · 2026: Seasoulanniversary, giảm 20% món gọi lẻ</td></tr>
+<tr><td class="nm">Vu Lan</td><td class="oc"><span class="pill p-nf">Không thấy</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>Ông đồ cho chữ, thả đèn hoa đăng lần thứ hai</td></tr>
+<tr><td class="nm">Quốc khánh 2/9</td><td class="oc"><span class="pill p-w">Web</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>2025: workshop nón lá, thực đơn bếp trưởng · 2026: hát live trong buffet; bài web đăng sau dịp lễ</td></tr>
+<tr><td class="nm">Trung thu</td><td class="oc"><span class="pill p-w">Web</span></td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td>2025: set trà bánh, workshop lồng đèn · 2026: Seasoulantern, bánh Trung thu, thả đèn lần thứ ba</td></tr>
+<tr><td class="nm">Phụ nữ Việt Nam 20/10</td><td class="oc"><span class="pill p-greet">Chỉ bài chúc</span></td><td class="oc"><span class="pill p-up">Đã báo, sắp diễn ra</span></td><td>2025: bài chúc, 37 thích · 2026: đêm violin Seasoulinance</td></tr>
+<tr><td class="nm">Halloween 31/10</td><td class="oc"><span class="pill p-f">Fanpage</span></td><td class="oc"><span class="pill p-up">Đã báo, sắp diễn ra</span></td><td>2025: combo 219k, báo trước 2 ngày · 2026: Seasoulanthom</td></tr>
+<tr><td class="nm">Black Friday</td><td class="oc"><span class="pill p-f">Fanpage</span></td><td class="oc"><span class="pill p-todo">Chưa công bố</span></td><td>2025: mua 1 tặng 1 phòng Suite, 2.150.000đ, 103 thích</td></tr>
+<tr><td class="nm">Tiệc tất niên</td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td class="oc"><span class="pill p-todo">Chưa công bố</span></td><td>2025: từ 269k/khách, Fanpage 17/11, web 27/11; 01/2026: tất niên âm lịch từ 280k</td></tr>
+<tr><td class="nm">Giáng sinh</td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td class="oc"><span class="pill p-todo">Chưa công bố</span></td><td>2025: thắp sáng cây thông, hợp xướng thiếu nhi, mở thử Café Lounge</td></tr>
+<tr><td class="nm">Countdown, năm mới</td><td class="oc"><span class="pill p-wf">Web, Fanpage</span></td><td class="oc"><span class="pill p-todo">Chưa công bố</span></td><td>Countdown 2026: buffet 799k, vé 119k/2 người, khai trương Café Lounge</td></tr>
+    </tbody>
+  </table>
+  <p class="small">"Không thấy": không có bài trên web; trước 20/10/2025 chưa có dữ liệu Fanpage nên có thể đã làm mà chỉ đăng Fanpage.</p>
+
+  <div class="two" style="break-inside: avoid">
+    <div>
+      <h3>Nghi lễ đang thành truyền thống</h3>
+      <ul>
+        <li><b>Thả đèn hoa đăng:</b> 3 lần trong năm 2026 (Phật Đản, Vu Lan, Trung thu), gắn với tên Seasoulantern.</li>
+        <li><b>Ông đồ cho chữ:</b> Tết và Vu Lan 2026.</li>
+        <li><b>Hoạt động cho bé:</b> workshop nón lá (2/9/2025), lồng đèn và bánh quy (Trung thu 2025), trang trí bánh quy (Giáng sinh 2025); khu lái xe tải từ 01/2026.</li>
+        <li><b>Nhạc sống ở Café Lounge:</b> mỗi tối từ 01/2026; từ 09/2026 còn tối thứ Sáu tới Chủ nhật.</li>
+        <li><b>Dịp đã làm cả 2 năm:</b> mùa hè, kỷ niệm 01/07, Quốc khánh 2/9, Trung thu; Halloween (2025; năm 2026 đã báo).</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Hệ tên "Seasoul-"</h3>
+      <table class="names">
+        <thead><tr><th>Tên</th><th>Dùng cho</th><th>Thời gian</th></tr></thead>
+        <tbody>
+          <tr><td><b>Seasoulful Tết</b></td><td>Tết</td><td>02/2026</td></tr>
+          <tr><td><b>SeaSoulighting Her Day</b></td><td>8/3</td><td>03/2026</td></tr>
+          <tr><td><b>Seasoulantics</b></td><td>Gói hè, Ngày Thiếu nhi</td><td>05 – 08/2026</td></tr>
+          <tr><td><b>Seasoulanniversary</b></td><td>Kỷ niệm 2 năm</td><td>06 – 07/2026</td></tr>
+          <tr><td><b>Seasoulantern</b></td><td>Bánh Trung thu, Vu Lan, Trung thu</td><td>08 – 09/2026</td></tr>
+          <tr><td><b>Seasoulinance</b></td><td>20/10</td><td>10/2026</td></tr>
+          <tr><td><b>Seasoulanthom</b></td><td>Halloween</td><td>10/2026</td></tr>
+        </tbody>
+      </table>
+      <p class="small">7 tên trong khoảng 9 tháng; trừ Seasoulantern và Seasoulantics, mỗi tên chỉ dùng cho một dịp. Tên còn được viết nhiều kiểu: "Seasoulantern" và "Sea Soulantern", "Seasoulantics" và "SeaSoulantics", "SeaSoulighting" và tên album "Ingiting".</p>
+    </div>
+  </div>
+  <figure class="chart">
+    <div class="ttl">Công bố trước bao nhiêu ngày</div>
+    <div class="sub">Từ bài công bố có chi tiết tới ngày diễn ra. Trung vị các dịp lễ, sự kiện: 5,5 ngày trên Fanpage, 4 ngày trên web</div>
+    <svg viewBox="0 0 720 312" width="100%" role="img" aria-label="Số ngày công bố trước mỗi dịp, web và Fanpage" xmlns="http://www.w3.org/2000/svg"><circle cx="200.5" cy="9.0" r="4.2" fill="#00749c"/><text x="210.0" y="12.0" font-size="9.5" fill="#4c5c61" text-anchor="start">Web</text><circle cx="246.2" cy="9.0" r="4.2" fill="#d08f00"/><text x="255.7" y="12.0" font-size="9.5" fill="#4c5c61" text-anchor="start">Fanpage</text><rect x="540.4" y="30.0" width="58.8" height="248.0" rx="0" fill="#00749c" fill-opacity="0.08"/><text x="569.8" y="26.0" font-size="9" fill="#4c5c61" text-anchor="middle" font-weight="600">Nên công bố: 21 – 28 ngày</text><line x1="246.4" y1="34.0" x2="246.4" y2="276.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="246.4" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">sau 14</text><line x1="305.2" y1="34.0" x2="305.2" y2="276.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="305.2" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">sau 7</text><line x1="364.0" y1="34.0" x2="364.0" y2="276.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><text x="364.0" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">ngày diễn ra</text><line x1="422.8" y1="34.0" x2="422.8" y2="276.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="422.8" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">7</text><line x1="481.6" y1="34.0" x2="481.6" y2="276.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="481.6" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">14</text><line x1="540.4" y1="34.0" x2="540.4" y2="276.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="540.4" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">21</text><line x1="599.2" y1="34.0" x2="599.2" y2="276.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="599.2" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">28</text><line x1="658.0" y1="34.0" x2="658.0" y2="276.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="658.0" y="304.0" font-size="8.5" fill="#7b898e" text-anchor="middle">35</text><text x="186.0" y="47.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Halloween 31/10/2025</text><circle cx="380.8" cy="44.0" r="5.800000000000001" fill="#ffffff"/><circle cx="380.8" cy="44.0" r="4.2" fill="#d08f00"/><text x="389.8" y="47.5" font-size="9" fill="#4c5c61" text-anchor="start">2</text><text x="186.0" y="69.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Thắp sáng cây thông 23/12/2025</text><line x1="422.8" y1="66.0" x2="448.0" y2="66.0" stroke="#c3cdd0" stroke-width="2" stroke-linecap="round"/><circle cx="422.8" cy="66.0" r="5.800000000000001" fill="#ffffff"/><circle cx="422.8" cy="66.0" r="4.2" fill="#00749c"/><circle cx="448.0" cy="66.0" r="5.800000000000001" fill="#ffffff"/><circle cx="448.0" cy="66.0" r="4.2" fill="#d08f00"/><text x="413.8" y="69.5" font-size="9" fill="#4c5c61" text-anchor="end">7</text><text x="457.0" y="69.5" font-size="9" fill="#4c5c61" text-anchor="start">10</text><text x="186.0" y="91.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Countdown 31/12/2025</text><line x1="414.4" y1="88.0" x2="481.6" y2="88.0" stroke="#c3cdd0" stroke-width="2" stroke-linecap="round"/><circle cx="414.4" cy="88.0" r="5.800000000000001" fill="#ffffff"/><circle cx="414.4" cy="88.0" r="4.2" fill="#00749c"/><circle cx="481.6" cy="88.0" r="5.800000000000001" fill="#ffffff"/><circle cx="481.6" cy="88.0" r="4.2" fill="#d08f00"/><text x="405.4" y="91.5" font-size="9" fill="#4c5c61" text-anchor="end">6</text><text x="490.6" y="91.5" font-size="9" fill="#4c5c61" text-anchor="start">14</text><text x="186.0" y="113.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Valentine 14/02/2026</text><line x1="406.0" y1="110.0" x2="422.8" y2="110.0" stroke="#c3cdd0" stroke-width="2" stroke-linecap="round"/><circle cx="406.0" cy="110.0" r="5.800000000000001" fill="#ffffff"/><circle cx="406.0" cy="110.0" r="4.2" fill="#00749c"/><circle cx="422.8" cy="110.0" r="5.800000000000001" fill="#ffffff"/><circle cx="422.8" cy="110.0" r="4.2" fill="#d08f00"/><text x="397.0" y="113.5" font-size="9" fill="#4c5c61" text-anchor="end">5</text><text x="431.8" y="113.5" font-size="9" fill="#4c5c61" text-anchor="start">7</text><text x="186.0" y="135.5" font-size="9.8" fill="#1E2B30" text-anchor="end">8/3/2026</text><line x1="397.6" y1="132.0" x2="414.4" y2="132.0" stroke="#c3cdd0" stroke-width="2" stroke-linecap="round"/><circle cx="397.6" cy="132.0" r="5.800000000000001" fill="#ffffff"/><circle cx="397.6" cy="132.0" r="4.2" fill="#00749c"/><circle cx="414.4" cy="132.0" r="5.800000000000001" fill="#ffffff"/><circle cx="414.4" cy="132.0" r="4.2" fill="#d08f00"/><text x="388.6" y="135.5" font-size="9" fill="#4c5c61" text-anchor="end">4</text><text x="423.4" y="135.5" font-size="9" fill="#4c5c61" text-anchor="start">6</text><text x="186.0" y="157.5" font-size="9.8" fill="#1E2B30" text-anchor="end">30/4/2026</text><line x1="389.2" y1="154.0" x2="397.6" y2="154.0" stroke="#c3cdd0" stroke-width="2" stroke-linecap="round"/><circle cx="389.2" cy="154.0" r="5.800000000000001" fill="#ffffff"/><circle cx="389.2" cy="154.0" r="4.2" fill="#00749c"/><circle cx="397.6" cy="154.0" r="5.800000000000001" fill="#ffffff"/><circle cx="397.6" cy="154.0" r="4.2" fill="#d08f00"/><text x="380.2" y="157.5" font-size="9" fill="#4c5c61" text-anchor="end">3</text><text x="406.6" y="157.5" font-size="9" fill="#4c5c61" text-anchor="start">4</text><text x="186.0" y="179.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Phật Đản 31/05/2026</text><circle cx="397.6" cy="172.0" r="5.800000000000001" fill="#ffffff"/><circle cx="397.6" cy="172.0" r="4.2" fill="#00749c"/><circle cx="397.6" cy="180.0" r="5.800000000000001" fill="#ffffff"/><circle cx="397.6" cy="180.0" r="4.2" fill="#d08f00"/><text x="406.6" y="179.5" font-size="9" fill="#4c5c61" text-anchor="start">4 (cả hai)</text><text x="186.0" y="201.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Vu Lan, từ 22/08/2026</text><circle cx="372.4" cy="194.0" r="5.800000000000001" fill="#ffffff"/><circle cx="372.4" cy="194.0" r="4.2" fill="#00749c"/><circle cx="372.4" cy="202.0" r="5.800000000000001" fill="#ffffff"/><circle cx="372.4" cy="202.0" r="4.2" fill="#d08f00"/><text x="381.4" y="201.5" font-size="9" fill="#4c5c61" text-anchor="start">1 (cả hai)</text><text x="186.0" y="223.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Quốc khánh 2/9/2026</text><line x1="263.2" y1="220.0" x2="414.4" y2="220.0" stroke="#c3cdd0" stroke-width="2" stroke-linecap="round"/><circle cx="263.2" cy="220.0" r="5.800000000000001" fill="#ffffff"/><circle cx="263.2" cy="220.0" r="4.2" fill="#00749c"/><circle cx="414.4" cy="220.0" r="5.800000000000001" fill="#ffffff"/><circle cx="414.4" cy="220.0" r="4.2" fill="#d08f00"/><text x="254.2" y="223.5" font-size="9" fill="#4c5c61" text-anchor="end">sau 12</text><text x="423.4" y="223.5" font-size="9" fill="#4c5c61" text-anchor="start">6</text><text x="186.0" y="245.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Seasoulantern 23/09/2026</text><circle cx="406.0" cy="238.0" r="5.800000000000001" fill="#ffffff"/><circle cx="406.0" cy="238.0" r="4.2" fill="#00749c"/><circle cx="406.0" cy="246.0" r="5.800000000000001" fill="#ffffff"/><circle cx="406.0" cy="246.0" r="4.2" fill="#d08f00"/><text x="415.0" y="245.5" font-size="9" fill="#4c5c61" text-anchor="start">5 (cả hai)</text><text x="186.0" y="267.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Bánh Trung thu 2026</text><line x1="666.4" y1="264.0" x2="540.4" y2="264.0" stroke="#c3cdd0" stroke-width="2" stroke-linecap="round"/><circle cx="666.4" cy="264.0" r="5.800000000000001" fill="#ffffff"/><circle cx="666.4" cy="264.0" r="4.2" fill="#00749c"/><circle cx="540.4" cy="264.0" r="5.800000000000001" fill="#ffffff"/><circle cx="540.4" cy="264.0" r="4.2" fill="#d08f00"/><text x="531.4" y="267.5" font-size="9" fill="#4c5c61" text-anchor="end">21</text><text x="675.4" y="267.5" font-size="9" fill="#4c5c61" text-anchor="start">36</text></svg>
+    <figcaption>Theo bảng ở tim-hieu/3-phan-tich.md (mục 4.2) và tim-hieu/4-facebook.md (mục 6). Trung vị không tính bánh Trung thu vì đó là sản phẩm, không phải sự kiện. Halloween 2025 không có bài web. Seasoulantern có video giới thiệu từ 14/09, trước bài công bố 4 ngày.</figcaption>
+  </figure>
+</section>
+
+<!-- ===================== 6. WEBSITE ===================== -->
+<section id="p6">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 6</div>
+  <h2>Thống kê website</h2>
+  <div class="kpis four">
+    <div class="kpi"><div class="v">66</div><div class="l">bài đăng từ 01/2025</div><div class="n">2025: 36 bài · 2026: 30 bài (tới 09)</div></div>
+    <div class="kpi"><div class="v">106.438</div><div class="l">lượt xem cộng dồn</div><div class="n">65 bài có bộ đếm, tính tới 12/10/2026</div></div>
+    <div class="kpi"><div class="v">1.349</div><div class="l">lượt xem mỗi bài (trung vị)</div><div class="n">Bài 2025: 1.673 · 2026: 966</div></div>
+    <div class="kpi"><div class="v">12.923</div><div class="l">lượt xem, bài cao nhất</div><div class="n">Cẩm nang "Top 9 con suối ở Nha Trang"</div></div>
+  </div>
+  <div class="two w46">
+    <div>
+      <div class="ttl">Số bài theo nhóm và năm</div>
+      <div class="sub">Ô càng đậm càng nhiều bài; năm 2026 tính tới hết tháng 9</div>
+      <table class="heat">
+        <thead><tr><th>Nhóm</th><th class="num">2025</th><th class="num">2026</th><th class="num">Tổng</th></tr></thead>
+        <tbody>
+<tr><td>Ăn uống</td><td class="num hc" style="background:rgba(0,116,156,0.64);color:#fff">6</td><td class="num hc" style="background:rgba(0,116,156,0.85);color:#fff">8</td><td class="num">14</td></tr>
+<tr><td>Nhạc sống Café Lounge</td><td class="num hc" style="background:transparent;color:var(--ink)">·</td><td class="num hc" style="background:rgba(0,116,156,0.74);color:#fff">7</td><td class="num">7</td></tr>
+<tr><td>Sự kiện lễ hội, văn hóa</td><td class="num hc" style="background:rgba(0,116,156,0.42);color:var(--ink)">4</td><td class="num hc" style="background:rgba(0,116,156,0.42);color:var(--ink)">4</td><td class="num">8</td></tr>
+<tr><td>Cẩm nang du lịch (SEO)</td><td class="num hc" style="background:rgba(0,116,156,0.53);color:#fff">5</td><td class="num hc" style="background:rgba(0,116,156,0.42);color:var(--ink)">4</td><td class="num">9</td></tr>
+<tr><td>Thương hiệu, CSR</td><td class="num hc" style="background:rgba(0,116,156,0.42);color:var(--ink)">4</td><td class="num hc" style="background:rgba(0,116,156,0.32);color:var(--ink)">3</td><td class="num">7</td></tr>
+<tr><td>Chính sách, thông báo</td><td class="num hc" style="background:rgba(0,116,156,0.11);color:var(--ink)">1</td><td class="num hc" style="background:rgba(0,116,156,0.21);color:var(--ink)">2</td><td class="num">3</td></tr>
+<tr class="hl"><td>Phòng, gói lưu trú</td><td class="num hc" style="background:rgba(0,116,156,0.53);color:#fff">5</td><td class="num hc" style="background:rgba(0,116,156,0.11);color:var(--ink)">1</td><td class="num">6</td></tr>
+<tr class="hl"><td>Spa</td><td class="num hc" style="background:rgba(0,116,156,0.53);color:#fff">5</td><td class="num hc" style="background:rgba(0,116,156,0.11);color:var(--ink)">1</td><td class="num">6</td></tr>
+<tr class="hl"><td>Hồ bơi, pool bar, gym</td><td class="num hc" style="background:rgba(0,116,156,0.32);color:var(--ink)">3</td><td class="num hc" style="background:transparent;color:var(--ink)">·</td><td class="num">3</td></tr>
+<tr class="hl"><td>Hội nghị, tiệc, doanh nghiệp</td><td class="num hc" style="background:rgba(0,116,156,0.32);color:var(--ink)">3</td><td class="num hc" style="background:transparent;color:var(--ink)">·</td><td class="num">3</td></tr>
+<tr class="total"><td>Tổng</td><td class="num">36</td><td class="num">30</td><td class="num">66</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3 class="mt0">Đọc bảng</h3>
+      <ul class="tight">
+        <li><b>Năm 2026, một nửa số bài (15/30) là ăn uống và nhạc sống,</b> hợp lý khi Café Lounge vừa mở.</li>
+        <li><b>Phòng, spa, hồ bơi và hội nghị gần như vắng mặt:</b> 16 bài năm 2025, còn 2 bài năm 2026.</li>
+        <li><b>Cẩm nang du lịch là cửa vào lớn nhất.</b> Bài "Top 9 con suối" có trung bình khoảng 22,3 lượt xem mỗi ngày suốt 19 tháng. Chưa rõ những bài này có dẫn được người đọc sang đặt phòng hay không.</li>
+        <li><b>Ra mắt cái mới kéo người xem:</b> bài ra mắt Spa (04/2025) có 6.146 lượt, bài Countdown kèm khai trương Café Lounge có 3.725 lượt, gấp khoảng 3 – 4,5 lần trung vị.</li>
+        <li><b>Bài năm 2026 có ít lượt xem hơn</b> (trung vị 966), một phần vì bài còn mới, nên chưa so trực tiếp được với bài cũ.</li>
+      </ul>
+    </div>
+  </div>
+  <figure class="chart">
+    <div class="ttl">Mười bài có nhiều lượt xem nhất</div>
+    <div class="sub">Lượt xem cộng dồn tới 12/10/2026; vạch vàng là trung vị của mọi bài</div>
+    <svg viewBox="0 0 720 220" width="100%" role="img" aria-label="Mười bài web có nhiều lượt xem nhất" xmlns="http://www.w3.org/2000/svg"><text x="322.0" y="17.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Top 9 con suối ở Nha Trang</text><text x="175.9" y="17.0" font-size="9" fill="#7b898e" text-anchor="end">cẩm nang · 03/2025</text><path d="M330.00,8.00 H647.00 Q650.00,8.00 650.00,11.00 V16.00 Q650.00,19.00 647.00,19.00 H330.00 Z" fill="#00749c"/><text x="656.0" y="17.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">12.923</text><text x="322.0" y="36.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Sea Soul Spa khai trương</text><text x="186.6" y="36.0" font-size="9" fill="#7b898e" text-anchor="end">ra mắt · 04/2025</text><path d="M330.00,27.00 H479.19 Q482.19,27.00 482.19,30.00 V35.00 Q482.19,38.00 479.19,38.00 H330.00 Z" fill="#00749c"/><text x="488.2" y="36.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">6.146</text><text x="322.0" y="55.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Đặt phòng trực tiếp nhận quà spa</text><text x="143.5" y="55.0" font-size="9" fill="#7b898e" text-anchor="end">ưu đãi · 07/2025</text><path d="M330.00,46.00 H420.06 Q423.06,46.00 423.06,49.00 V54.00 Q423.06,57.00 420.06,57.00 H330.00 Z" fill="#00749c"/><text x="429.1" y="55.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">3.758</text><text x="322.0" y="74.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Countdown 2026, khai trương Café Lounge</text><text x="105.8" y="74.0" font-size="9" fill="#7b898e" text-anchor="end">sự kiện · 12/2025</text><path d="M330.00,65.00 H419.24 Q422.24,65.00 422.24,68.00 V73.00 Q422.24,76.00 419.24,76.00 H330.00 Z" fill="#00749c"/><text x="428.2" y="74.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">3.725</text><text x="322.0" y="93.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Kinh nghiệm du lịch Nha Trang – Đà Lạt</text><text x="111.2" y="93.0" font-size="9" fill="#7b898e" text-anchor="end">cẩm nang · 10/2025</text><path d="M330.00,84.00 H410.42 Q413.42,84.00 413.42,87.00 V92.00 Q413.42,95.00 410.42,95.00 H330.00 Z" fill="#00749c"/><text x="419.4" y="93.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">3.369</text><text x="322.0" y="112.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Lịch trình Nha Trang 2 ngày 1 đêm</text><text x="138.1" y="112.0" font-size="9" fill="#7b898e" text-anchor="end">cẩm nang · 03/2025</text><path d="M330.00,103.00 H390.54 Q393.54,103.00 393.54,106.00 V111.00 Q393.54,114.00 390.54,114.00 H330.00 Z" fill="#00749c"/><text x="399.5" y="112.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">2.566</text><text x="322.0" y="131.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Mua gói spa Signature, tặng thêm dịch vụ</text><text x="100.4" y="131.0" font-size="9" fill="#7b898e" text-anchor="end">spa · 07/2025</text><path d="M330.00,122.00 H377.64 Q380.64,122.00 380.64,125.00 V130.00 Q380.64,133.00 377.64,133.00 H330.00 Z" fill="#00749c"/><text x="386.6" y="131.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">2.045</text><text x="322.0" y="150.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Chuỗi hoạt động Tết 2026</text><text x="186.6" y="150.0" font-size="9" fill="#7b898e" text-anchor="end">sự kiện · 01/2026</text><path d="M330.00,141.00 H377.51 Q380.51,141.00 380.51,144.00 V149.00 Q380.51,152.00 377.51,152.00 H330.00 Z" fill="#00749c"/><text x="386.5" y="150.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">2.040</text><text x="322.0" y="169.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Lịch diễn nhạc sống tháng 2</text><text x="170.5" y="169.0" font-size="9" fill="#7b898e" text-anchor="end">nhạc sống · 02/2026</text><path d="M330.00,160.00 H377.37 Q380.37,160.00 380.37,163.00 V168.00 Q380.37,171.00 377.37,171.00 H330.00 Z" fill="#00749c"/><text x="386.4" y="169.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">2.034</text><text x="322.0" y="188.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Đồ uống mừng 2/9 &quot;Raise Your Glass&quot;</text><text x="127.3" y="188.0" font-size="9" fill="#7b898e" text-anchor="end">ăn uống · 08/2025</text><path d="M330.00,179.00 H377.34 Q380.34,179.00 380.34,182.00 V187.00 Q380.34,190.00 377.34,190.00 H330.00 Z" fill="#00749c"/><text x="386.3" y="188.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">2.033</text><line x1="330.0" y1="5.0" x2="330.0" y2="193.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><line x1="363.4" y1="5.0" x2="363.4" y2="193.0" stroke="#d08f00" stroke-width="1.5" stroke-linecap="butt"/><text x="363.4" y="208.0" font-size="9" fill="#4c5c61" text-anchor="middle">Trung vị mọi bài: 1.349</text></svg>
+    <figcaption>Cẩm nang và bài ra mắt dẫn đầu; 3 trong 6 bài đầu là cẩm nang du lịch. Bài khuyến mãi thường chỉ có 1.110 – 1.560 lượt (trung vị của hai chuyên mục "Tin tức &amp; Ưu đãi" và "Chương trình khuyến mại").</figcaption>
+  </figure>
+</section>
+
+<!-- ===================== 7. FANPAGE ===================== -->
+<section id="p7">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 7</div>
+  <h2>Thống kê Fanpage</h2>
+  <div class="kpis four">
+    <div class="kpi"><div class="v">241</div><div class="l">bài trên 2 trang</div><div class="n">Hotel 159 bài từ 20/10/2025; Café Lounge 82 bài từ 08/02/2026</div></div>
+    <div class="kpi"><div class="v">1.961 · 490</div><div class="l">người theo dõi</div><div class="n">Trang Hotel · trang Café Lounge</div></div>
+    <div class="kpi"><div class="v">12.734</div><div class="l">lượt thích</div><div class="n">748 bình luận, 543 chia sẻ</div></div>
+    <div class="kpi"><div class="v">16 · 4</div><div class="l">lượt thích mỗi bài (trung vị)</div><div class="n">Trang Hotel · trang Café Lounge</div></div>
+  </div>
+  <figure class="chart">
+    <div class="ttl">Nhịp đăng và mức phản hồi theo tháng</div>
+    <div class="sub">Trên: số bài của 2 trang. Dưới: trung vị lượt thích mỗi bài của trang Hotel, và số bài trên 100 lượt thích</div>
+    <svg viewBox="0 0 720 312" width="100%" role="img" aria-label="Fanpage theo tháng: số bài và trung vị lượt thích, 10/2025 – 10/2026" xmlns="http://www.w3.org/2000/svg"><rect x="104.0" y="4.5" width="9.0" height="9.0" rx="2" fill="#00749c"/><text x="118.0" y="12.0" font-size="9.5" fill="#4c5c61" text-anchor="start">Sea Soul Hotel</text><rect x="207.2" y="4.5" width="9.0" height="9.0" rx="2" fill="#d08f00"/><text x="221.2" y="12.0" font-size="9.5" fill="#4c5c61" text-anchor="start">Sea Soul Café Lounge</text><text x="4.0" y="40.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">Số bài</text><text x="4.0" y="53.0" font-size="9" fill="#7b898e" text-anchor="start">mỗi tháng</text><line x1="104.0" y1="124.0" x2="712.0" y2="124.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="127.0" font-size="8.5" fill="#7b898e" text-anchor="end">0</text><line x1="104.0" y1="82.2" x2="712.0" y2="82.2" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="85.2" font-size="8.5" fill="#7b898e" text-anchor="end">20</text><line x1="104.0" y1="40.4" x2="712.0" y2="40.4" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="43.4" font-size="8.5" fill="#7b898e" text-anchor="end">40</text><path d="M116.38,124.00 V116.56 Q116.38,113.56 119.38,113.56 H135.38 Q138.38,113.56 138.38,116.56 V124.00 Z" fill="#00749c"/><text x="127.4" y="109.6" font-size="9" fill="#4c5c61" text-anchor="middle">5</text><path d="M163.15,124.00 V108.20 Q163.15,105.20 166.15,105.20 H182.15 Q185.15,105.20 185.15,108.20 V124.00 Z" fill="#00749c"/><text x="174.2" y="101.2" font-size="9" fill="#4c5c61" text-anchor="middle">9</text><path d="M209.92,124.00 V106.11 Q209.92,103.11 212.92,103.11 H228.92 Q231.92,103.11 231.92,106.11 V124.00 Z" fill="#00749c"/><text x="220.9" y="99.1" font-size="9" fill="#4c5c61" text-anchor="middle">10</text><path d="M256.69,124.00 V87.31 Q256.69,84.31 259.69,84.31 H275.69 Q278.69,84.31 278.69,87.31 V124.00 Z" fill="#00749c"/><text x="267.7" y="80.3" font-size="9" fill="#4c5c61" text-anchor="middle">19</text><rect x="303.5" y="84.3" width="22.0" height="39.7" rx="0" fill="#00749c"/><path d="M303.46,82.31 V39.36 Q303.46,36.36 306.46,36.36 H322.46 Q325.46,36.36 325.46,39.36 V82.31 Z" fill="#d08f00"/><text x="314.5" y="32.4" font-size="9" fill="#4c5c61" text-anchor="middle">41</text><rect x="350.2" y="84.3" width="22.0" height="39.7" rx="0" fill="#00749c"/><path d="M350.23,82.31 V47.71 Q350.23,44.71 353.23,44.71 H369.23 Q372.23,44.71 372.23,47.71 V82.31 Z" fill="#d08f00"/><text x="361.2" y="40.7" font-size="9" fill="#4c5c61" text-anchor="middle">37</text><rect x="397.0" y="84.3" width="22.0" height="39.7" rx="0" fill="#00749c"/><path d="M397.00,82.31 V60.24 Q397.00,57.24 400.00,57.24 H416.00 Q419.00,57.24 419.00,60.24 V82.31 Z" fill="#d08f00"/><text x="408.0" y="53.2" font-size="9" fill="#4c5c61" text-anchor="middle">31</text><rect x="443.8" y="94.8" width="22.0" height="29.2" rx="0" fill="#00749c"/><path d="M443.77,92.76 V76.96 Q443.77,73.96 446.77,73.96 H462.77 Q465.77,73.96 465.77,76.96 V92.76 Z" fill="#d08f00"/><text x="454.8" y="70.0" font-size="9" fill="#4c5c61" text-anchor="middle">23</text><rect x="490.5" y="101.0" width="22.0" height="23.0" rx="0" fill="#00749c"/><path d="M490.54,99.02 V81.13 Q490.54,78.13 493.54,78.13 H509.54 Q512.54,78.13 512.54,81.13 V99.02 Z" fill="#d08f00"/><text x="501.5" y="74.1" font-size="9" fill="#4c5c61" text-anchor="middle">21</text><rect x="537.3" y="101.0" width="22.0" height="23.0" rx="0" fill="#00749c"/><path d="M537.31,99.02 V85.31 Q537.31,82.31 540.31,82.31 H556.31 Q559.31,82.31 559.31,85.31 V99.02 Z" fill="#d08f00"/><text x="548.3" y="78.3" font-size="9" fill="#4c5c61" text-anchor="middle">19</text><rect x="584.1" y="101.0" width="22.0" height="23.0" rx="0" fill="#00749c"/><path d="M584.08,99.02 V99.02 Q584.08,96.93 586.17,96.93 H603.99 Q606.08,96.93 606.08,99.02 V99.02 Z" fill="#d08f00"/><text x="595.1" y="92.9" font-size="9" fill="#4c5c61" text-anchor="middle">12</text><rect x="630.8" y="103.1" width="22.0" height="20.9" rx="0" fill="#00749c"/><path d="M630.85,101.11 V99.93 Q630.85,96.93 633.85,96.93 H649.85 Q652.85,96.93 652.85,99.93 V101.11 Z" fill="#d08f00"/><text x="641.8" y="92.9" font-size="9" fill="#4c5c61" text-anchor="middle">12</text><path d="M677.62,124.00 V122.82 Q677.62,119.82 680.62,119.82 H696.62 Q699.62,119.82 699.62,122.82 V124.00 Z" fill="#00749c"/><text x="688.6" y="115.8" font-size="9" fill="#4c5c61" text-anchor="middle">2</text><text x="4.0" y="168.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">Trung vị</text><text x="4.0" y="181.0" font-size="9" fill="#7b898e" text-anchor="start">lượt thích</text><text x="4.0" y="193.0" font-size="9" fill="#7b898e" text-anchor="start">mỗi bài</text><text x="4.0" y="205.0" font-size="9" fill="#7b898e" text-anchor="start">(trang Hotel)</text><line x1="104.0" y1="252.0" x2="712.0" y2="252.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="255.0" font-size="8.5" fill="#7b898e" text-anchor="end">0</text><line x1="104.0" y1="233.2" x2="712.0" y2="233.2" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="236.2" font-size="8.5" fill="#7b898e" text-anchor="end">10</text><line x1="104.0" y1="214.4" x2="712.0" y2="214.4" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="217.4" font-size="8.5" fill="#7b898e" text-anchor="end">20</text><line x1="104.0" y1="195.6" x2="712.0" y2="195.6" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="198.6" font-size="8.5" fill="#7b898e" text-anchor="end">30</text><line x1="104.0" y1="176.8" x2="712.0" y2="176.8" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="179.8" font-size="8.5" fill="#7b898e" text-anchor="end">40</text><line x1="104.0" y1="158.0" x2="712.0" y2="158.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="98.0" y="161.0" font-size="8.5" fill="#7b898e" text-anchor="end">50</text><polyline fill="none" stroke="#00749c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="127.4,169.3 174.2,190.0 220.9,209.7 267.7,205.0 314.5,186.2 361.2,231.3 408.0,220.0 454.8,226.6 501.5,225.7 548.3,231.3 595.1,235.1 641.8,236.0"/><line x1="641.8" y1="236.0" x2="688.6" y2="244.5" stroke="#00749c" stroke-width="2" stroke-opacity="0.45"/><circle cx="127.4" cy="169.3" r="5.4" fill="#ffffff"/><circle cx="127.4" cy="169.3" r="3.8" fill="#00749c"/><text x="127.4" y="160.3" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">44</text><circle cx="174.2" cy="190.0" r="5.4" fill="#ffffff"/><circle cx="174.2" cy="190.0" r="3.8" fill="#00749c"/><circle cx="220.9" cy="209.7" r="5.4" fill="#ffffff"/><circle cx="220.9" cy="209.7" r="3.8" fill="#00749c"/><circle cx="267.7" cy="205.0" r="5.4" fill="#ffffff"/><circle cx="267.7" cy="205.0" r="3.8" fill="#00749c"/><circle cx="314.5" cy="186.2" r="5.4" fill="#ffffff"/><circle cx="314.5" cy="186.2" r="3.8" fill="#00749c"/><text x="314.5" y="177.2" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">35</text><circle cx="361.2" cy="231.3" r="5.4" fill="#ffffff"/><circle cx="361.2" cy="231.3" r="3.8" fill="#00749c"/><circle cx="408.0" cy="220.0" r="5.4" fill="#ffffff"/><circle cx="408.0" cy="220.0" r="3.8" fill="#00749c"/><circle cx="454.8" cy="226.6" r="5.4" fill="#ffffff"/><circle cx="454.8" cy="226.6" r="3.8" fill="#00749c"/><circle cx="501.5" cy="225.7" r="5.4" fill="#ffffff"/><circle cx="501.5" cy="225.7" r="3.8" fill="#00749c"/><circle cx="548.3" cy="231.3" r="5.4" fill="#ffffff"/><circle cx="548.3" cy="231.3" r="3.8" fill="#00749c"/><circle cx="595.1" cy="235.1" r="5.4" fill="#ffffff"/><circle cx="595.1" cy="235.1" r="3.8" fill="#00749c"/><circle cx="641.8" cy="236.0" r="5.4" fill="#ffffff"/><circle cx="641.8" cy="236.0" r="3.8" fill="#00749c"/><text x="641.8" y="227.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">8,5</text><circle cx="688.6" cy="244.5" r="3.8" fill="#ffffff" stroke="#00749c" stroke-width="2"/><text x="688.6" y="235.5" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">4</text><text x="4.0" y="270.0" font-size="9" fill="#4c5c61" text-anchor="start" font-weight="600">Bài &gt;100 thích</text><text x="127.4" y="270.0" font-size="9.5" fill="#7b898e" text-anchor="middle">0</text><text x="174.2" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">3</text><text x="220.9" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">2</text><text x="267.7" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">4</text><text x="314.5" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">4</text><text x="361.2" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">4</text><text x="408.0" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">1</text><text x="454.8" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">4</text><text x="501.5" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">1</text><text x="548.3" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">1</text><text x="595.1" y="270.0" font-size="9.5" fill="#7b898e" text-anchor="middle">0</text><text x="641.8" y="270.0" font-size="9.5" fill="#1E2B30" text-anchor="middle" font-weight="600">1</text><text x="688.6" y="270.0" font-size="9.5" fill="#7b898e" text-anchor="middle">0</text><text x="127.4" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">10/25</text><text x="174.2" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">11/25</text><text x="220.9" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">12/25</text><text x="267.7" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">01/26</text><text x="314.5" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">02/26</text><text x="361.2" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">03/26</text><text x="408.0" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">04/26</text><text x="454.8" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">05/26</text><text x="501.5" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">06/26</text><text x="548.3" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">07/26</text><text x="595.1" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">08/26</text><text x="641.8" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">09/26</text><text x="688.6" y="288.0" font-size="9" fill="#7b898e" text-anchor="middle">10/26</text><text x="712.0" y="306.0" font-size="8.5" fill="#7b898e" text-anchor="end">Tháng 10/2026 chỉ có 2 bài (tới ngày 12), vẽ bằng chấm rỗng.</text></svg>
+  </figure>
+  <ul class="tight">
+    <li><b>Nhịp đăng giảm từ tháng 5.</b> Trang Hotel đăng 19 bài mỗi tháng trong 4 tháng đầu năm, còn 10 – 11 bài từ tháng 6, và chỉ 2 bài trong 12 ngày đầu tháng 10. Trang Café Lounge gần như dừng từ tháng 8.</li>
+    <li><b>Kết quả dồn vào vài bài.</b> 20 bài trên 100 lượt thích chiếm 74% tổng lượt thích năm 2026 của trang Hotel. Từ tháng 8 gần như không còn bài như vậy, và trung vị rơi xuống 8 – 9.</li>
+    <li><b>Giờ đăng:</b> 64/159 bài của trang Hotel đăng buổi sáng, chỉ 38 bài đăng sau 18 giờ, dù bài buổi tối được thích nhiều hơn (xem trang sau).</li>
+  </ul>
+  <div class="ttl" style="margin-top:3mm">10 bài được thích nhiều nhất</div>
+  <div class="sub">Cả 2 trang, 10/2025 – 10/2026</div>
+  <table class="top">
+    <colgroup><col style="width:19mm"><col style="width:20mm"><col style="width:13mm"><col style="width:14mm"><col style="width:17mm"><col style="width:14mm"><col></colgroup>
+    <thead><tr><th>Ngày</th><th>Trang</th><th>Dạng</th><th class="num">Thích</th><th class="num">Bình luận</th><th class="num">Chia sẻ</th><th>Nội dung</th></tr></thead>
+    <tbody>
+<tr><td class="dt">26/02/2026</td><td>Hotel</td><td>Ảnh</td><td class="num"><b>1.825</b></td><td class="num">25</td><td class="num">4</td><td>Luxury Banquet: tiệc trọn gói từ 280k/khách</td></tr>
+<tr><td class="dt">11/06/2026</td><td>Café Lounge</td><td>Video</td><td class="num"><b>1.209</b></td><td class="num">234</td><td class="num">220</td><td>Buffet cuối tuần: sáng 119k, tối hải sản 435k</td></tr>
+<tr><td class="dt">17/11/2025</td><td>Hotel</td><td>Ảnh</td><td class="num"><b>1.066</b></td><td class="num">12</td><td class="num">14</td><td>Year End Party 2025, từ 269k/khách</td></tr>
+<tr><td class="dt">13/05/2026</td><td>Hotel</td><td>Ảnh</td><td class="num"><b>660</b></td><td class="num">22</td><td class="num">5</td><td>Gói hè Seasoulantics, từ 950k/khách</td></tr>
+<tr><td class="dt">27/01/2026</td><td>Hotel</td><td>Video</td><td class="num"><b>556</b></td><td class="num">78</td><td class="num">19</td><td>Khu lái xe tải công trường cho bé, 100k/giờ</td></tr>
+<tr><td class="dt">13/06/2026</td><td>Hotel</td><td>Ảnh</td><td class="num"><b>433</b></td><td class="num">6</td><td class="num">7</td><td>Buffet hải sản cuối tuần</td></tr>
+<tr><td class="dt">02/02/2026</td><td>Hotel</td><td>Ảnh</td><td class="num"><b>429</b></td><td class="num">5</td><td class="num">3</td><td>Lịch diễn nhạc sống tháng 2</td></tr>
+<tr><td class="dt">06/07/2026</td><td>Hotel</td><td>Ảnh</td><td class="num"><b>415</b></td><td class="num">34</td><td class="num">31</td><td>Bữa trưa ở Café Lounge, combo 89k</td></tr>
+<tr><td class="dt">05/03/2026</td><td>Hotel</td><td>Video</td><td class="num"><b>308</b></td><td class="num">30</td><td class="num">4</td><td>Một buổi staycation qua trải nghiệm của khách</td></tr>
+<tr><td class="dt">16/03/2026</td><td>Hotel</td><td>Ảnh</td><td class="num"><b>285</b></td><td class="num">0</td><td class="num">2</td><td>Tiệc sinh nhật từ 170k/khách</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 7 · TIẾP</div>
+  <h2>Nội dung nào được phản hồi</h2>
+  <figure class="chart">
+    <div class="ttl">Đăng nhiều chưa chắc được thích nhiều</div>
+    <div class="sub">Trang Hotel, năm 2026: số bài và trung vị lượt thích mỗi bài theo nhóm nội dung</div>
+    <svg viewBox="0 0 720 239" width="100%" role="img" aria-label="Trang Hotel năm 2026: số bài và trung vị lượt thích theo nhóm nội dung" xmlns="http://www.w3.org/2000/svg"><text x="196.0" y="12.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">Số bài</text><text x="470.0" y="12.0" font-size="10" fill="#1E2B30" text-anchor="start" font-weight="700">Trung vị lượt thích mỗi bài</text><line x1="572.7" y1="24.0" x2="572.7" y2="212.0" stroke="#4c5c61" stroke-width="1" stroke-linecap="butt"/><text x="572.7" y="226.0" font-size="9" fill="#4c5c61" text-anchor="middle">Trung vị chung: 14</text><text x="188.0" y="37.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Ăn uống</text><path d="M196.00,28.00 H407.00 Q410.00,28.00 410.00,31.00 V37.00 Q410.00,40.00 407.00,40.00 H196.00 Z" fill="#c3cdd0"/><text x="415.0" y="37.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">49</text><path d="M470.00,28.00 H599.00 Q602.00,28.00 602.00,31.00 V37.00 Q602.00,40.00 599.00,40.00 H470.00 Z" fill="#c3cdd0"/><text x="607.0" y="37.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">18</text><text x="188.0" y="58.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Sự kiện, dịp lễ</text><path d="M196.00,49.00 H302.18 Q305.18,49.00 305.18,52.00 V58.00 Q305.18,61.00 302.18,61.00 H196.00 Z" fill="#c3cdd0"/><text x="310.2" y="58.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">25</text><path d="M470.00,49.00 H577.00 Q580.00,49.00 580.00,52.00 V58.00 Q580.00,61.00 577.00,61.00 H470.00 Z" fill="#c3cdd0"/><text x="585.0" y="58.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">15</text><text x="188.0" y="79.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Phòng &amp; lưu trú</text><path d="M196.00,70.00 H254.14 Q257.14,70.00 257.14,73.00 V79.00 Q257.14,82.00 254.14,82.00 H196.00 Z" fill="#c3cdd0"/><text x="262.1" y="79.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">14</text><path d="M470.00,70.00 H544.00 Q547.00,70.00 547.00,73.00 V79.00 Q547.00,82.00 544.00,82.00 H470.00 Z" fill="#c3cdd0"/><text x="552.0" y="79.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">10,5</text><text x="188.0" y="100.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Nhạc sống</text><path d="M196.00,91.00 H254.14 Q257.14,91.00 257.14,94.00 V100.00 Q257.14,103.00 254.14,103.00 H196.00 Z" fill="#c3cdd0"/><text x="262.1" y="100.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">14</text><path d="M470.00,91.00 H540.33 Q543.33,91.00 543.33,94.00 V100.00 Q543.33,103.00 540.33,103.00 H470.00 Z" fill="#c3cdd0"/><text x="548.3" y="100.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">10</text><text x="188.0" y="121.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Tiệc, hội nghị, sinh nhật</text><path d="M196.00,112.00 H232.31 Q235.31,112.00 235.31,115.00 V121.00 Q235.31,124.00 232.31,124.00 H196.00 Z" fill="#00749c"/><text x="240.3" y="121.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">9</text><path d="M470.00,112.00 H665.00 Q668.00,112.00 668.00,115.00 V121.00 Q668.00,124.00 665.00,124.00 H470.00 Z" fill="#d08f00"/><text x="673.0" y="121.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">27</text><text x="188.0" y="142.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Spa</text><path d="M196.00,133.00 H219.20 Q222.20,133.00 222.20,136.00 V142.00 Q222.20,145.00 219.20,145.00 H196.00 Z" fill="#c3cdd0"/><text x="227.2" y="142.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">6</text><path d="M470.00,133.00 H551.33 Q554.33,133.00 554.33,136.00 V142.00 Q554.33,145.00 551.33,145.00 H470.00 Z" fill="#c3cdd0"/><text x="559.3" y="142.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">11,5</text><text x="188.0" y="163.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Thương hiệu, CSR</text><path d="M196.00,154.00 H201.73 Q204.73,154.00 204.73,157.00 V163.00 Q204.73,166.00 201.73,166.00 H196.00 Z" fill="#c3cdd0"/><text x="209.7" y="163.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">2</text><text x="472.0" y="163.5" font-size="9" fill="#7b898e" text-anchor="start" font-style="italic">ít hơn 5 bài</text><text x="188.0" y="184.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Hồ bơi, tiện ích</text><path d="M196.00,175.00 H201.73 Q204.73,175.00 204.73,178.00 V184.00 Q204.73,187.00 201.73,187.00 H196.00 Z" fill="#c3cdd0"/><text x="209.7" y="184.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">2</text><text x="472.0" y="184.5" font-size="9" fill="#7b898e" text-anchor="start" font-style="italic">ít hơn 5 bài</text><text x="188.0" y="205.5" font-size="9.8" fill="#1E2B30" text-anchor="end">Khác, không có chữ, thông báo</text><path d="M196.00,196.00 H254.14 Q257.14,196.00 257.14,199.00 V205.00 Q257.14,208.00 254.14,208.00 H196.00 Z" fill="#c3cdd0"/><text x="262.1" y="205.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">14</text><path d="M470.00,196.00 H558.67 Q561.67,196.00 561.67,199.00 V205.00 Q561.67,208.00 558.67,208.00 H470.00 Z" fill="#c3cdd0"/><text x="566.7" y="205.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" paint-order="stroke">12,5</text><line x1="196.0" y1="24.0" x2="196.0" y2="212.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><line x1="470.0" y1="24.0" x2="470.0" y2="212.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/></svg>
+    <figcaption>Nhóm dưới 5 bài không tính trung vị. "Hồ bơi, tiện ích" có 2 bài, trong đó video khu lái xe tải cho bé được 556 lượt thích. Nhóm do máy phân loại theo tiêu đề nên có thể lệch vài bài.</figcaption>
+  </figure>
+  <figure class="chart">
+    <div class="ttl">Những yếu tố đi kèm lượt thích cao hơn</div>
+    <div class="sub">Trang Hotel, trung vị lượt thích mỗi bài khi có và khi không có từng yếu tố</div>
+    <svg viewBox="0 0 720 218" width="100%" role="img" aria-label="Trung vị lượt thích mỗi bài khi có và không có từng yếu tố" xmlns="http://www.w3.org/2000/svg"><circle cx="234.5" cy="7.0" r="4.2" fill="#00749c"/><text x="244.0" y="10.0" font-size="9.5" fill="#4c5c61" text-anchor="start">Có yếu tố</text><circle cx="311.5" cy="7.0" r="4.2" fill="#c3cdd0"/><text x="321.0" y="10.0" font-size="9.5" fill="#4c5c61" text-anchor="start">Không có</text><line x1="230.0" y1="22.0" x2="230.0" y2="200.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/><text x="230.0" y="212.0" font-size="8.5" fill="#7b898e" text-anchor="middle">0</text><line x1="312.0" y1="22.0" x2="312.0" y2="200.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="312.0" y="212.0" font-size="8.5" fill="#7b898e" text-anchor="middle">10</text><line x1="394.0" y1="22.0" x2="394.0" y2="200.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="394.0" y="212.0" font-size="8.5" fill="#7b898e" text-anchor="middle">20</text><line x1="476.0" y1="22.0" x2="476.0" y2="200.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="476.0" y="212.0" font-size="8.5" fill="#7b898e" text-anchor="middle">30</text><line x1="558.0" y1="22.0" x2="558.0" y2="200.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="558.0" y="212.0" font-size="8.5" fill="#7b898e" text-anchor="middle">40</text><line x1="640.0" y1="22.0" x2="640.0" y2="200.0" stroke="#e3e8e9" stroke-width="1" stroke-linecap="butt"/><text x="640.0" y="212.0" font-size="8.5" fill="#7b898e" text-anchor="middle">50</text><text x="220.0" y="35.0" font-size="9.8" fill="#1E2B30" text-anchor="end" font-weight="600">Ghi giá cụ thể</text><text x="220.0" y="46.0" font-size="8.6" fill="#7b898e" text-anchor="end">có giá so với không có giá</text><line x1="348.9" y1="34.0" x2="623.6" y2="34.0" stroke="#c3cdd0" stroke-width="2.4" stroke-linecap="round"/><circle cx="348.9" cy="34.0" r="6.0" fill="#ffffff"/><circle cx="348.9" cy="34.0" r="4.4" fill="#c3cdd0"/><circle cx="623.6" cy="34.0" r="6.0" fill="#ffffff"/><circle cx="623.6" cy="34.0" r="4.4" fill="#00749c"/><text x="339.9" y="37.5" font-size="9.5" fill="#4c5c61" text-anchor="end">14,5</text><text x="632.6" y="37.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="700">48</text><text x="650.0" y="37.5" font-size="9" fill="#7b898e" text-anchor="start">(gấp 3,3 lần)</text><text x="220.0" y="65.0" font-size="9.8" fill="#1E2B30" text-anchor="end" font-weight="600">Dạng bài</text><text x="220.0" y="76.0" font-size="8.6" fill="#7b898e" text-anchor="end">video so với ảnh</text><line x1="344.8" y1="64.0" x2="599.0" y2="64.0" stroke="#c3cdd0" stroke-width="2.4" stroke-linecap="round"/><circle cx="344.8" cy="64.0" r="6.0" fill="#ffffff"/><circle cx="344.8" cy="64.0" r="4.4" fill="#c3cdd0"/><circle cx="599.0" cy="64.0" r="6.0" fill="#ffffff"/><circle cx="599.0" cy="64.0" r="4.4" fill="#00749c"/><text x="335.8" y="67.5" font-size="9.5" fill="#4c5c61" text-anchor="end">14</text><text x="608.0" y="67.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="700">45</text><text x="625.4" y="67.5" font-size="9" fill="#7b898e" text-anchor="start">(gấp 3,2 lần)</text><text x="220.0" y="95.0" font-size="9.8" fill="#1E2B30" text-anchor="end" font-weight="600">Giờ đăng</text><text x="220.0" y="106.0" font-size="8.6" fill="#7b898e" text-anchor="end">18 – 24 giờ so với trước 18 giờ</text><line x1="353.0" y1="94.0" x2="443.2" y2="94.0" stroke="#c3cdd0" stroke-width="2.4" stroke-linecap="round"/><circle cx="353.0" cy="94.0" r="6.0" fill="#ffffff"/><circle cx="353.0" cy="94.0" r="4.4" fill="#c3cdd0"/><circle cx="443.2" cy="94.0" r="6.0" fill="#ffffff"/><circle cx="443.2" cy="94.0" r="4.4" fill="#00749c"/><text x="344.0" y="97.5" font-size="9.5" fill="#4c5c61" text-anchor="end">15</text><text x="452.2" y="97.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="700">26</text><text x="469.6" y="97.5" font-size="9" fill="#7b898e" text-anchor="start">(gấp 1,7 lần)</text><text x="220.0" y="125.0" font-size="9.8" fill="#1E2B30" text-anchor="end" font-weight="600">Nhóm tiệc, hội nghị</text><text x="220.0" y="136.0" font-size="8.6" fill="#7b898e" text-anchor="end">tiệc, hội nghị, sinh nhật so với nhóm khác</text><line x1="348.9" y1="124.0" x2="607.2" y2="124.0" stroke="#c3cdd0" stroke-width="2.4" stroke-linecap="round"/><circle cx="348.9" cy="124.0" r="6.0" fill="#ffffff"/><circle cx="348.9" cy="124.0" r="4.4" fill="#c3cdd0"/><circle cx="607.2" cy="124.0" r="6.0" fill="#ffffff"/><circle cx="607.2" cy="124.0" r="4.4" fill="#00749c"/><text x="339.9" y="127.5" font-size="9.5" fill="#4c5c61" text-anchor="end">14,5</text><text x="616.2" y="127.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="700">46</text><text x="633.6" y="127.5" font-size="9" fill="#7b898e" text-anchor="start">(gấp 3,2 lần)</text><text x="220.0" y="155.0" font-size="9.8" fill="#1E2B30" text-anchor="end" font-weight="600">Gia đình, trẻ em</text><text x="220.0" y="166.0" font-size="8.6" fill="#7b898e" text-anchor="end">có nội dung cho bé so với không có</text><line x1="344.8" y1="154.0" x2="435.0" y2="154.0" stroke="#c3cdd0" stroke-width="2.4" stroke-linecap="round"/><circle cx="344.8" cy="154.0" r="6.0" fill="#ffffff"/><circle cx="344.8" cy="154.0" r="4.4" fill="#c3cdd0"/><circle cx="435.0" cy="154.0" r="6.0" fill="#ffffff"/><circle cx="435.0" cy="154.0" r="4.4" fill="#00749c"/><text x="335.8" y="157.5" font-size="9.5" fill="#4c5c61" text-anchor="end">14</text><text x="444.0" y="157.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="700">25</text><text x="461.4" y="157.5" font-size="9" fill="#7b898e" text-anchor="start">(gấp 1,8 lần)</text><text x="220.0" y="185.0" font-size="9.8" fill="#1E2B30" text-anchor="end" font-weight="600">Số hashtag (năm 2026)</text><text x="220.0" y="196.0" font-size="8.6" fill="#7b898e" text-anchor="end">dưới 10 so với từ 10 trở lên</text><line x1="344.8" y1="184.0" x2="451.4" y2="184.0" stroke="#c3cdd0" stroke-width="2.4" stroke-linecap="round"/><circle cx="344.8" cy="184.0" r="6.0" fill="#ffffff"/><circle cx="344.8" cy="184.0" r="4.4" fill="#c3cdd0"/><circle cx="451.4" cy="184.0" r="6.0" fill="#ffffff"/><circle cx="451.4" cy="184.0" r="4.4" fill="#00749c"/><text x="335.8" y="187.5" font-size="9.5" fill="#4c5c61" text-anchor="end">14</text><text x="460.4" y="187.5" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="700">27</text><text x="477.8" y="187.5" font-size="9" fill="#7b898e" text-anchor="start">(gấp 1,9 lần)</text></svg>
+    <figcaption>Dạng bài, giờ đăng, nhóm tiệc: tính từ 159 bài của trang Hotel. Giá, nội dung cho bé, hashtag: theo phân tích toàn văn 153 bài có chữ trong de-xuat/3-bai-hoc-va-dieu-chinh.md. Đây là tương quan, chưa phải nguyên nhân: bài được chạy quảng cáo có thể rơi nhiều vào nhóm có giá, có video, đăng buổi tối.</figcaption>
+  </figure>
+  <figure class="chart">
+    <div class="ttl">Ba reel buffet chiếm 95% lượt xem reel</div>
+    <div class="sub">10 reel của trang Hotel, 06 – 09/2026</div>
+    <svg viewBox="0 0 720 186" width="100%" role="img" aria-label="Lượt xem 10 reel của trang Hotel" xmlns="http://www.w3.org/2000/svg"><text x="242.0" y="16.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Buffet hải sản cuối tuần (03/06)</text><path d="M250.00,8.00 H617.00 Q620.00,8.00 620.00,11.00 V15.00 Q620.00,18.00 617.00,18.00 H250.00 Z" fill="#00749c"/><text x="626.0" y="16.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">102 nghìn</text><text x="242.0" y="33.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Buffet hải sản cuối tuần (19/07)</text><path d="M250.00,25.00 H482.78 Q485.78,25.00 485.78,28.00 V32.00 Q485.78,35.00 482.78,35.00 H250.00 Z" fill="#00749c"/><text x="491.8" y="33.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">65 nghìn</text><text x="242.0" y="50.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Buffet hải sản cuối tuần (20/06)</text><path d="M250.00,42.00 H366.71 Q369.71,42.00 369.71,45.00 V49.00 Q369.71,52.00 366.71,52.00 H250.00 Z" fill="#00749c"/><text x="375.7" y="50.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">33 nghìn</text><text x="242.0" y="67.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Seafood &amp; Wine Platter (14/06)</text><path d="M250.00,59.00 H259.33 Q262.33,59.00 262.33,62.00 V66.00 Q262.33,69.00 259.33,69.00 H250.00 Z" fill="#c3cdd0"/><text x="268.3" y="67.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">3,4 nghìn</text><text x="242.0" y="84.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Cocktail mùa hè (06/07)</text><path d="M250.00,76.00 H252.80 Q255.80,76.00 255.80,79.00 V83.00 Q255.80,86.00 252.80,86.00 H250.00 Z" fill="#c3cdd0"/><text x="261.8" y="84.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1,6 nghìn</text><text x="242.0" y="101.0" font-size="9.8" fill="#1E2B30" text-anchor="end">BBQ T-Bone và rượu vang (10/07)</text><path d="M250.00,93.00 H252.44 Q255.44,93.00 255.44,96.00 V100.00 Q255.44,103.00 252.44,103.00 H250.00 Z" fill="#c3cdd0"/><text x="261.4" y="101.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1,5 nghìn</text><text x="242.0" y="118.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Nhạc sống mỗi tối (08/08)</text><path d="M250.00,110.00 H251.35 Q254.35,110.00 254.35,113.00 V117.00 Q254.35,120.00 251.35,120.00 H250.00 Z" fill="#c3cdd0"/><text x="260.4" y="118.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1,2 nghìn</text><text x="242.0" y="135.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Combo trưa 89K (07/09)</text><path d="M250.00,127.00 H250.99 Q253.99,127.00 253.99,130.00 V134.00 Q253.99,137.00 250.99,137.00 H250.00 Z" fill="#c3cdd0"/><text x="260.0" y="135.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1,1 nghìn</text><text x="242.0" y="152.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Seasoulantern (14/09)</text><path d="M250.00,144.00 H250.99 Q253.99,144.00 253.99,147.00 V151.00 Q253.99,154.00 250.99,154.00 H250.00 Z" fill="#c3cdd0"/><text x="260.0" y="152.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1,1 nghìn</text><text x="242.0" y="169.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Lời chúc Trung thu (25/09)</text><path d="M250.00,161.00 H250.00 Q251.70,161.00 251.70,162.70 V169.30 Q251.70,171.00 250.00,171.00 H250.00 Z" fill="#c3cdd0"/><text x="257.7" y="169.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">470</text><line x1="250.0" y1="5.0" x2="250.0" y2="173.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/></svg>
+    <figcaption>Ba reel buffet có khoảng 1 lượt thích trên 1.000 lượt xem, tỷ lệ hay gặp khi có chạy quảng cáo.</figcaption>
+  </figure>
+</section>
+
+<!-- ===================== 8. HIỆU QUẢ ===================== -->
+<section id="p8">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 8</div>
+  <h2>Hiệu quả theo chương trình</h2>
+  <figure class="chart">
+    <div class="ttl">16 chương trình có bài trên 100 lượt thích</div>
+    <div class="sub">Lượt thích của bài Fanpage tốt nhất ở mỗi chương trình, 10/2025 – 10/2026</div>
+    <svg viewBox="0 0 720 272" width="100%" role="img" aria-label="Chương trình có bài trên 100 lượt thích" xmlns="http://www.w3.org/2000/svg"><text x="292.0" y="16.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Luxury Banquet, tiệc từ 280k/khách</text><path d="M300.00,8.00 H637.00 Q640.00,8.00 640.00,11.00 V15.00 Q640.00,18.00 637.00,18.00 H300.00 Z" fill="#00749c"/><text x="646.0" y="16.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1.825</text><text x="292.0" y="32.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Buffet hải sản cuối tuần 435k</text><path d="M300.00,24.00 H522.24 Q525.24,24.00 525.24,27.00 V31.00 Q525.24,34.00 522.24,34.00 H300.00 Z" fill="#00749c"/><text x="531.2" y="32.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1.209</text><text x="292.0" y="48.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Year End Party 2025, từ 269k/khách</text><path d="M300.00,40.00 H495.60 Q498.60,40.00 498.60,43.00 V47.00 Q498.60,50.00 495.60,50.00 H300.00 Z" fill="#00749c"/><text x="504.6" y="48.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">1.066</text><text x="292.0" y="64.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Gói hè Seasoulantics, từ 950k/khách</text><path d="M300.00,56.00 H419.96 Q422.96,56.00 422.96,59.00 V63.00 Q422.96,66.00 419.96,66.00 H300.00 Z" fill="#00749c"/><text x="429.0" y="64.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">660</text><text x="292.0" y="80.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Khu lái xe tải cho bé, 100k/giờ</text><path d="M300.00,72.00 H400.58 Q403.58,72.00 403.58,75.00 V79.00 Q403.58,82.00 400.58,82.00 H300.00 Z" fill="#00749c"/><text x="409.6" y="80.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">556</text><text x="292.0" y="96.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Nhạc sống: lịch diễn tháng 2</text><path d="M300.00,88.00 H376.92 Q379.92,88.00 379.92,91.00 V95.00 Q379.92,98.00 376.92,98.00 H300.00 Z" fill="#00749c"/><text x="385.9" y="96.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">429</text><text x="292.0" y="112.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Combo trưa 89k</text><path d="M300.00,104.00 H374.32 Q377.32,104.00 377.32,107.00 V111.00 Q377.32,114.00 374.32,114.00 H300.00 Z" fill="#00749c"/><text x="383.3" y="112.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">415</text><text x="292.0" y="128.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Tiệc sinh nhật, từ 170k/khách</text><path d="M300.00,120.00 H350.10 Q353.10,120.00 353.10,123.00 V127.00 Q353.10,130.00 350.10,130.00 H300.00 Z" fill="#00749c"/><text x="359.1" y="128.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">285</text><text x="292.0" y="144.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Buffet sáng cuối tuần 119k</text><path d="M300.00,136.00 H327.37 Q330.37,136.00 330.37,139.00 V143.00 Q330.37,146.00 327.37,146.00 H300.00 Z" fill="#00749c"/><text x="336.4" y="144.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">163</text><text x="292.0" y="160.0" font-size="9.8" fill="#1E2B30" text-anchor="end">SeaSoulighting Her Day (8/3)</text><path d="M300.00,152.00 H327.18 Q330.18,152.00 330.18,155.00 V159.00 Q330.18,162.00 327.18,162.00 H300.00 Z" fill="#00749c"/><text x="336.2" y="160.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">162</text><text x="292.0" y="176.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Thắp sáng cây thông 2025</text><path d="M300.00,168.00 H322.52 Q325.52,168.00 325.52,171.00 V175.00 Q325.52,178.00 322.52,178.00 H300.00 Z" fill="#00749c"/><text x="331.5" y="176.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">137</text><text x="292.0" y="192.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Tết 2026 (video áo dài)</text><path d="M300.00,184.00 H322.15 Q325.15,184.00 325.15,187.00 V191.00 Q325.15,194.00 322.15,194.00 H300.00 Z" fill="#00749c"/><text x="331.2" y="192.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">135</text><text x="292.0" y="208.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Bánh Trung thu 2026</text><path d="M300.00,200.00 H321.59 Q324.59,200.00 324.59,203.00 V207.00 Q324.59,210.00 321.59,210.00 H300.00 Z" fill="#00749c"/><text x="330.6" y="208.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">132</text><text x="292.0" y="224.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Tiệc tất niên 2026, từ 280k/khách</text><path d="M300.00,216.00 H320.10 Q323.10,216.00 323.10,219.00 V223.00 Q323.10,226.00 320.10,226.00 H300.00 Z" fill="#00749c"/><text x="329.1" y="224.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">124</text><text x="292.0" y="240.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Countdown 2026</text><path d="M300.00,232.00 H317.49 Q320.49,232.00 320.49,235.00 V239.00 Q320.49,242.00 317.49,242.00 H300.00 Z" fill="#00749c"/><text x="326.5" y="240.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">110</text><text x="292.0" y="256.0" font-size="9.8" fill="#1E2B30" text-anchor="end">Black Friday: mua 1 tặng 1 phòng Suite</text><path d="M300.00,248.00 H316.19 Q319.19,248.00 319.19,251.00 V255.00 Q319.19,258.00 316.19,258.00 H300.00 Z" fill="#00749c"/><text x="325.2" y="256.0" font-size="9.5" fill="#1E2B30" text-anchor="start" font-weight="600">103</text><line x1="300.0" y1="5.0" x2="300.0" y2="259.0" stroke="#b7c2c5" stroke-width="1" stroke-linecap="butt"/></svg>
+  </figure>
+  <div class="two">
+    <div>
+      <h3 class="mt0">Điểm chung của nhóm dẫn đầu</h3>
+      <ul class="tight">
+        <li><b>Phần lớn là ưu đãi có giá rõ:</b> tiệc từ 170k – 280k mỗi khách, buffet 119k – 435k, combo 89k, gói hè từ 950k.</li>
+        <li><b>Hướng tới nhóm đông người:</b> doanh nghiệp, gia đình có trẻ em, bạn bè đi ăn cuối tuần.</li>
+        <li><b>Chỉ 3 chương trình lễ hội có tên hoặc nghi thức riêng lọt vào nhóm này:</b> SeaSoulighting Her Day (162), thắp sáng cây thông (137), Tết 2026 (135).</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="mt0">Mang dấu ấn riêng nhưng tín hiệu thấp</h3>
+      <table class="small-t">
+        <thead><tr><th>Chương trình</th><th class="num">Thích</th><th class="num">Xem web</th></tr></thead>
+        <tbody>
+          <tr><td>Seasoulantern Trung thu 2026</td><td class="num">7 – 17</td><td class="num">331</td></tr>
+          <tr><td>Vu Lan: ông đồ, thả đèn hoa đăng</td><td class="num">8 – 12</td><td class="num">522</td></tr>
+          <tr><td>Thả đèn hoa đăng Phật Đản</td><td class="num">12</td><td class="num">964</td></tr>
+          <tr><td>Seasoulanniversary, kỷ niệm 2 năm</td><td class="num">6</td><td class="num">969</td></tr>
+          <tr><td>Seasoulantics Children's Day</td><td class="num">6</td><td class="num">–</td></tr>
+        </tbody>
+      </table>
+      <p class="small">Các chương trình này rơi vào 05 – 09/2026, khi trung vị chung của trang chỉ 8,5 – 14 lượt thích mỗi bài. Chúng được báo trước 1 – 5 ngày, chủ yếu bằng ảnh và ít ghi giá. Nhiều khả năng vấn đề nằm ở cách công bố hơn là ở ý tưởng.</p>
+    </div>
+  </div>
+  <h3>Theo nhóm khách</h3>
+  <table class="seg">
+    <colgroup><col style="width:30mm"><col><col style="width:44mm"><col style="width:44mm"></colgroup>
+    <thead><tr><th>Nhóm khách</th><th>Chương trình đã làm</th><th>Tín hiệu</th><th>Còn thiếu</th></tr></thead>
+    <tbody>
+      <tr><td><b>Người Nha Trang</b></td><td>Café Lounge, nhạc sống, buffet hải sản 435k, buffet sáng 119k, combo trưa 89k, lễ hội văn hóa</td><td>Video buffet 1.209 thích; combo trưa 415</td><td>Chương trình khách quen; lý do ghé vào tối trong tuần</td></tr>
+      <tr><td><b>Gia đình có trẻ em</b></td><td>Workshop nón lá, lồng đèn, bánh quy; khu lái xe tải 100k/giờ; Children's Day; kid club trong gói hè</td><td>Video khu xe tải 556 thích, 78 bình luận; bài có nội dung cho bé: trung vị 25</td><td>Gói lưu trú riêng cho gia đình; từ 2025 chưa có gói nào</td></tr>
+      <tr><td><b>Cặp đôi</b></td><td>Valentine, set cho 2 người 249k – 539k, BBQ cho 2 người</td><td>Valentine 99 thích; BBQ 5</td><td>Gói lưu trú cho cặp đôi; quảng bá phòng Suite</td></tr>
+      <tr><td><b>Doanh nghiệp</b></td><td>Year End Party, tiệc trọn gói, sinh nhật, hội nghị, bánh Trung thu giảm tới 30%, cho thuê văn phòng</td><td>Tiệc trọn gói 1.825 thích; Year End Party 1.066</td><td>Trang web có giá, hồ sơ năng lực, bài kể lại các tiệc đã làm</td></tr>
+      <tr><td><b>Khách du lịch</b></td><td>Gói lưu trú, gói VnExpress Marathon (08/2025), cẩm nang du lịch, giải Travelers' Choice, bài song ngữ Việt – Anh</td><td>Cẩm nang 12.923 lượt xem; gói hè 660 thích</td><td>Ưu đãi đặt trực tiếp; bản tiếng Anh hoàn chỉnh; gói theo các giải thể thao lớn</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ===================== 9. INSIGHT ===================== -->
+<section id="p9">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 9</div>
+  <h2>Insight và việc nên làm</h2>
+
+  <div class="ins"><h4><span class="no">01</span> Bản sắc riêng đã có, nhưng chưa được khuếch đại</h4><dl>
+    <dt>Thấy gì</dt><dd>Năm 2026 có 3 lần thả đèn hoa đăng, 2 lần ông đồ cho chữ, hoạt động cho bé, nhạc sống mỗi tối và 7 tên "Seasoul-". Ngoài Tết (video áo dài được 135 lượt thích), bài về các nghi lễ này chỉ được 6 – 17 lượt thích trên Fanpage và 331 – 964 lượt xem trên web.</dd>
+    <dt>Ý nghĩa</dt><dd>Nghi lễ riêng là thứ khó sao chép nhất, hợp với khách gia đình, người địa phương và báo chí. Không ai biết tới thì không tạo ra khách.</dd>
+    <dt>Nên làm</dt><dd>Chọn 2 – 3 nghi lễ trụ cột, ví dụ "mùa ánh sáng Seasoulantern" (Vu Lan, Trung thu, Giáng sinh), giữ một tên qua các năm. Công bố trước 3 – 4 tuần; mỗi dịp có một reel quay khách thật và một mức giá rõ.</dd>
+    <dt>Đo bằng</dt><dd>Số khách tham dự, doanh thu đêm sự kiện, lượt xem reel.</dd></dl></div>
+
+  <div class="ins"><h4><span class="no">02</span> Tiệc, hội nghị và buffet kéo khách mạnh nhất nhưng ít được đầu tư nội dung</h4><dl>
+    <dt>Thấy gì</dt><dd>Luxury Banquet được 1.825 lượt thích, Year End Party 2025 được 1.066, tiệc sinh nhật 285. Nhóm tiệc, hội nghị có trung vị 46, cao nhất trang Hotel, nhưng chỉ chiếm 13/159 bài. Web năm 2026 không có bài hội nghị nào; tiệc cưới và tiệc tri ân chỉ có album. Video buffet hải sản được 1.209 lượt thích, 234 bình luận, 220 chia sẻ.</dd>
+    <dt>Ý nghĩa</dt><dd>Một tiệc doanh nghiệp mang lại doanh thu bằng nhiều bàn lẻ. Doanh nghiệp thường tìm trên Google và xem tiệc đã làm trước khi gọi.</dd>
+    <dt>Nên làm</dt><dd>Trang tiệc, hội nghị, cưới trên web, có giá "từ" và ảnh các tiệc đã làm. Mở bán tiệc tất niên từ đầu tháng 11. Mỗi tuần một bài cho khách doanh nghiệp trong quý IV.</dd>
+    <dt>Đo bằng</dt><dd>Số yêu cầu báo giá, số tiệc chốt, doanh thu tiệc.</dd></dl></div>
+
+  <div class="ins"><h4><span class="no">03</span> Phòng, nguồn thu lớn nhất, gần như vắng mặt trong năm 2026</h4><dl>
+    <dt>Thấy gì</dt><dd>Chương trình về phòng: 6 (2025), 2 (2026). Web năm 2026 chỉ 1/30 bài về phòng. Fanpage có 14 bài về phòng, phần lớn là ảnh không giá, trung vị 10,5 lượt thích. Khi có ưu đãi cụ thể, bài phòng được thích gấp nhiều lần: gói hè 660, video staycation 308, Black Friday 103. Quà spa khi đặt trực tiếp chạy năm 2025, sang năm 2026 không làm lại.</dd>
+    <dt>Ý nghĩa</dt><dd>125/198 phòng nhìn ra biển. Mỗi lượt đặt trực tiếp giữ lại khoảng 15 – 20% hoa hồng trả cho OTA.</dd>
+    <dt>Nên làm</dt><dd>Chuỗi bài theo hạng phòng, bắt đầu từ Premier Sea View (83 phòng, 42%). Ưu đãi chỉ dành cho khách đặt trực tiếp. Ghi giá "từ" sát giá bán. Dịp lễ nào cũng có phần phòng.</dd>
+    <dt>Đo bằng</dt><dd>Số đêm phòng đặt trực tiếp, tỷ lệ đặt trực tiếp so với OTA.</dd></dl></div>
+
+  <div class="ins"><h4><span class="no">04</span> Công bố quá sát ngày</h4><dl>
+    <dt>Thấy gì</dt><dd>Trung vị 5,5 ngày trên Fanpage, 4 ngày trên web. Vu Lan báo trước 1 ngày, Halloween 2025 báo trước 2 ngày; bài web dịp 2/9/2026 đăng sau dịp lễ 12 ngày. Countdown (14 ngày) và bánh Trung thu 2026 (5 tuần trên web) là ngoại lệ.</dd>
+    <dt>Ý nghĩa</dt><dd>Khách ngoại tỉnh và doanh nghiệp lên kế hoạch trước vài tuần; quảng cáo cũng cần thời gian để chạy.</dd>
+    <dt>Nên làm</dt><dd>Lịch marketing theo quý. Công bố trước 21 – 28 ngày, nhắc lại trước 7 ngày và 1 ngày. Web và Fanpage đăng cùng ngày.</dd>
+    <dt>Đo bằng</dt><dd>Tỷ lệ chương trình được công bố trước ít nhất 21 ngày; tỷ lệ bàn, phòng đặt trước.</dd></dl></div>
+</section>
+
+<section>
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 9 · TIẾP</div>
+  <div class="h2">Insight và việc nên làm</div>
+
+  <div class="ins"><h4><span class="no">05</span> Kết quả trên Fanpage dựa vào vài bài được đẩy</h4><dl>
+    <dt>Thấy gì</dt><dd>20 bài trên 100 lượt thích chiếm 74% tổng lượt thích năm 2026 của trang Hotel. Reel buffet có khoảng 1 lượt thích trên 1.000 lượt xem. Từ tháng 8 gần như không còn bài trên 100 lượt thích; trung vị giảm từ 35 (02/2026) xuống 8,5 (09/2026).</dd>
+    <dt>Ý nghĩa</dt><dd>Không đẩy bài thì chương trình gần như không tới được ai, kể cả chương trình hay.</dd>
+    <dt>Nên làm</dt><dd>Ngân sách đẩy bài hằng tháng ổn định, chỉ dành cho bài có giá và video. Giữ nhịp khoảng 3 bài mỗi tuần.</dd>
+    <dt>Đo bằng</dt><dd>Trung vị lượt thích (mốc 8 – 9, mục tiêu từ 30), chi phí mỗi tin nhắn, số bàn và phòng đặt từ quảng cáo.</dd></dl></div>
+
+  <div class="ins"><h4><span class="no">06</span> Công thức bài hiệu quả đã rõ</h4><dl>
+    <dt>Thấy gì</dt><dd>Trung vị lượt thích: bài có giá 48, không có giá 14,5; video 45, ảnh 14; đăng sau 18 giờ 26, trước 18 giờ 15; có nội dung cho bé 25, không có 14; dưới 10 hashtag 27, từ 10 hashtag 14. Bài chỉ chúc mừng: 10,5.</dd>
+    <dt>Ý nghĩa</dt><dd>Khách cần biết ngay "bao nhiêu tiền, khi nào, đặt ở đâu".</dd>
+    <dt>Nên làm</dt><dd>Checklist trước khi đăng: giá ở dòng đầu, có video, đăng 19:00 – 21:00, 3 – 5 hashtag, không đăng bài chúc không kèm ưu đãi.</dd>
+    <dt>Đo bằng</dt><dd>Mỗi lần chỉ thử một yếu tố, so trung vị trước và sau.</dd></dl></div>
+
+  <div class="ins"><h4><span class="no">07</span> Kênh đang bị chia nhỏ</h4><dl>
+    <dt>Thấy gì</dt><dd>Từ 20/10/2025, 22/45 chương trình chỉ có trên Fanpage, như tiệc trọn gói từ 280k, hội nghị và sinh nhật từ 170k, buffet sáng 119k. Giá buffet hải sản 435k cũng chỉ thấy trên Fanpage. Trang Café Lounge có 490 người theo dõi, trung vị 4 lượt thích, ít nhất 22/82 bài trùng với trang Hotel. Tên chương trình được viết nhiều kiểu.</dd>
+    <dt>Ý nghĩa</dt><dd>Khách tìm trên Google không thấy sản phẩm chỉ có trên Fanpage. Hai trang chia nhỏ người xem.</dd>
+    <dt>Nên làm</dt><dd>Đăng web cùng ngày với Fanpage; mỗi sản phẩm có một trang web ghi giá bằng chữ. Gộp hai Fanpage, hoặc tách vai trò rõ ràng. Lập bảng tên chuẩn cho dịch vụ và chiến dịch.</dd>
+    <dt>Đo bằng</dt><dd>Số chương trình có trang web; lượt vào web từ Fanpage và Google.</dd></dl></div>
+
+  <div class="ins"><h4><span class="no">08</span> Ưu đãi nghiêng về giảm sâu, chưa khớp với định vị 5 sao</h4><dl>
+    <dt>Thấy gì</dt><dd>"Mua X tặng Y" được dùng 6 lần, trong đó 2 lần cho phòng: đặt 1 tặng 1 Premier Sea View và Black Friday 1 tặng 1 Suite. Cuối năm 2025 giảm 43%. Giá niêm yết tăng 10 – 20% trong năm 2026, trong khi giá bán qua khuyến mãi khoảng 1 triệu mỗi phòng mỗi đêm.</dd>
+    <dt>Ý nghĩa</dt><dd>Giảm sâu thường xuyên khiến khách quen chờ khuyến mãi và kéo giá phòng bình quân xuống.</dd>
+    <dt>Nên làm</dt><dd>Ưu tiên ưu đãi cộng thêm giá trị: tặng spa, nâng hạng phòng, quà theo dịp. Giảm giá có điều kiện: đặt sớm, đặt trực tiếp, ở dài ngày.</dd>
+    <dt>Đo bằng</dt><dd>Giá phòng bình quân (ADR), tỷ lệ đặt phòng có dùng ưu đãi.</dd></dl></div>
+
+  <h3>Tóm lại: giữ, chỉnh, bắt đầu, dừng</h3>
+  <table class="ksfs">
+    <thead><tr><th>Giữ và làm mạnh hơn</th><th>Chỉnh</th><th>Bắt đầu</th><th>Dừng</th></tr></thead>
+    <tbody><tr>
+      <td><ul><li>Thả đèn hoa đăng, ông đồ cho chữ</li><li>Nhạc sống ở Café Lounge</li><li>Buffet hải sản cuối tuần</li><li>Tiệc trọn gói, Year End Party</li><li>Gói hè Seasoulantics</li><li>Hoạt động cho bé</li><li>Khoe giải thưởng</li></ul></td>
+      <td><ul><li>Công bố trước 3 – 4 tuần</li><li>Giá ở dòng đầu</li><li>Đăng 19:00 – 21:00</li><li>3 – 5 hashtag</li><li>Web và Fanpage cùng ngày</li><li>Chọn vài tên Seasoul- trụ cột, viết thống nhất</li></ul></td>
+      <td><ul><li>Ưu đãi chỉ dành cho khách đặt trực tiếp</li><li>Trang tiệc, hội nghị, cưới có giá</li><li>Bài tổng kết trong 48 giờ sau sự kiện</li><li>Ngân sách đẩy bài hằng tháng</li><li>Đo bằng mã ưu đãi, GA4, Pixel</li></ul></td>
+      <td><ul><li>Bài chúc mừng không kèm ưu đãi</li><li>Ưu đãi chỉ nằm trong ảnh</li><li>Đăng trùng trên hai Fanpage</li><li>Giảm sâu không điều kiện</li><li>Tặng voucher để đổi lấy đánh giá Google Maps</li></ul></td>
+    </tr></tbody>
+  </table>
+</section>
+
+
+<!-- ===================== 10. ĐỀ XUẤT ===================== -->
+<div class="cover divider" id="p10">
+  <div class="brand">SEA SOUL HOTEL · NHA TRANG</div>
+  <div class="kicker">PHẦN 10 · ĐỀ XUẤT CHO CÁC DỊP SẮP TỚI</div>
+  <h1>Mùa lễ hội&#8194;<span class="nw">2026 – 2027</span></h1>
+  <div class="sub">20/10 · Halloween · Giáng sinh · Tết Đinh Mùi</div>
+  <div class="marks">
+    <div><svg viewBox="0 0 100 160" style="color:#F4EFE6;--accent:#E59AAB;--bg:#20404B;--leaf:#A9C2B0"><use href="#frame"/><use href="#rose"/></svg><span>SEASOULINANCE</span><small>20/10</small></div>
+    <div><svg viewBox="0 0 100 160" style="color:#F4EFE6;--accent:#E8A700;--bg:#20404B"><use href="#frame"/><use href="#mask"/></svg><span>SEASOULANTHOM</span><small>31/10</small></div>
+    <div><svg viewBox="0 0 100 160" style="color:#F4EFE6;--accent:#E8A700;--tree:#3E8577"><use href="#frame"/><use href="#tree"/></svg><span>SEASOULIGHT</span><small>GIÁNG SINH</small></div>
+    <div><svg viewBox="0 0 100 160" style="color:#F4EFE6;--accent:#E8A700;--bg:#20404B;--leaf:#D9C6A8"><use href="#frame"/><use href="#mai"/></svg><span>SEASOULFUL TẾT</span><small>TẾT 2027</small></div>
+  </div>
+  <svg class="waves" viewBox="0 0 800 150" preserveAspectRatio="none" aria-hidden="true">
+    <g fill="none" stroke="#F4EFE6" stroke-width="2.4" stroke-linecap="round">
+      <path d="M0 50 C70 30 130 30 200 50 S330 70 400 50 S530 30 600 50 S730 70 800 50"/>
+      <path d="M0 95 C70 75 130 75 200 95 S330 115 400 95 S530 75 600 95 S730 115 800 95"/>
+    </g>
+  </svg>
+</div>
+
+<!-- ===================== 10. TỔNG QUAN ĐỀ XUẤT ===================== -->
+<section id="p10a">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 10 · TỔNG QUAN</div>
+  <h2>Tổng quan đề xuất</h2>
+  <p class="lead">Bốn dịp trong bốn tháng tới. Mỗi dịp có một tên "Seasoul-", một nghi thức riêng và một sản phẩm chính để bán. Cách làm dựa trên những gì đã chạy tốt trong 2 năm qua, theo các phần 1 – 9 của báo cáo này.</p>
+  <table>
+    <colgroup><col style="width:27mm"><col style="width:40mm"><col><col style="width:44mm"><col style="width:25mm"></colgroup>
+    <thead><tr><th>Dịp</th><th>Chương trình</th><th>Ý tưởng</th><th>Bán gì</th><th>Bắt đầu</th></tr></thead>
+    <tbody>
+      <tr><td><b>20/10</b><br>Thứ Ba</td><td><b>Seasoulinance</b><br><i>Gửi nàng một bản nhạc</i></td><td>Đêm violin: khách đề tặng một bản nhạc cho người phụ nữ của mình</td><td>Trà chiều, set tối cho 2 người; voucher cho doanh nghiệp</td><td>Công bố 13/10</td></tr>
+      <tr><td><b>Halloween</b><br>Thứ Bảy 31/10</td><td><b>Seasoulanthom</b><br><i>Bóng ma bên biển</i></td><td>Halloween mặt nạ, sang trọng chứ không rùng rợn; 20:30 cả phòng cùng tháo mặt nạ</td><td>Buffet hải sản tối thứ Bảy, combo cho người trẻ, buổi chiều cho bé</td><td>Công bố 17/10</td></tr>
+      <tr><td><b>Giáng sinh, năm mới</b><br>05 – 31/12</td><td><b>Seasoulight</b> và gói phòng <b>Seasoulullaby</b><br><i>Thắp sáng mùa lễ hội bên biển</i></td><td>Thắp sáng cây thông sớm, treo ngôi sao ước nguyện; Ông già Noel gõ cửa phòng</td><td>Tiệc doanh nghiệp, gói phòng đặt trực tiếp, đêm Giáng sinh, Countdown</td><td>Tiệc doanh nghiệp 01/11; công bố 20/11</td></tr>
+      <tr><td><b>Tết Đinh Mùi</b><br>Mùng 1 là 06/02/2027</td><td><b>Seasoulful Tết 2027</b><br><i>Sum vầy bên biển</i></td><td>Giữ các nghi lễ Tết đã làm năm 2026, khép mùa bằng thả đèn hoa đăng Rằm tháng Giêng</td><td>Quà Tết và tiệc tất niên cho doanh nghiệp, gói Tết bên biển, set Tết</td><td>Doanh nghiệp 01/12; công bố 10/01</td></tr>
+    </tbody>
+  </table>
+
+
+  <h3>Cách làm chung cho mọi dịp</h3>
+  <ol>
+    <li><b>Mỗi dịp một tên "Seasoul-" và một nghi thức riêng.</b> Giữ tên qua các năm để khách nhớ, như Seasoulantern và Seasoulful Tết.</li>
+    <li><b>Công bố trước 3 – 4 tuần,</b> nhắc lại trước 1 tuần và 1 ngày; web và Fanpage đăng cùng ngày. Trong năm qua, một dịp thường chỉ được báo trước 4 – 6 ngày.</li>
+    <li><b>Giá ở dòng đầu, có video, đăng 19:00 – 21:00, 3 – 5 hashtag.</b> Bài có giá hoặc có video được thích gấp khoảng 3 lần.</li>
+    <li><b>Dịp nào cũng có phần phòng và phần cho doanh nghiệp.</b> Phòng có ưu đãi chỉ dành cho khách đặt trực tiếp. Tiệc, hội nghị là nhóm bài được thích nhiều nhất trên Fanpage.</li>
+    <li><b>Có một điểm cho trẻ em.</b> Bài có nội dung cho bé được thích gấp khoảng 1,8 lần.</li>
+    <li><b>Kể lại và đo kết quả.</b> Đăng bài tổng kết trong 48 giờ. Đo bằng số khách, doanh thu và lượt đặt trực tiếp, không chỉ đếm lượt thích.</li>
+  </ol>
+</section>
+
+<!-- ===================== 2. THÁNG 10 ===================== -->
+<section id="p10b">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 10 · THÁNG 10</div>
+  <h2>20/10 và Halloween</h2>
+
+  <div class="camp" style="--accent:#B5536A">
+    <div class="head">
+      <svg viewBox="0 0 100 160" style="color:#20404B;--accent:#B5536A;--bg:#fff;--leaf:#4F6F5A"><use href="#frame"/><use href="#rose"/></svg>
+      <div><div class="kk">20/10 · NGÀY PHỤ NỮ VIỆT NAM · THỨ BA</div><div class="w">SEASOUL<b>INANCE</b></div><div class="tag">Gửi nàng một bản nhạc</div></div>
+    </div>
+    <div class="body">
+      <div>
+        <div class="h4">Ý tưởng</div>
+        <p>Biến đêm violin 20/10 sẵn có thành một món quà: khách đề tặng một bản nhạc, nghệ sĩ chơi và đọc lời đề tặng.</p>
+        <div class="h4">Hoạt động</div>
+        <ul>
+          <li>Trà chiều, set tối cho 2 người trong tuần lễ 20/10.</li>
+          <li>Voucher trà chiều, spa cho doanh nghiệp; chào kèm tiệc tất niên đặt sớm.</li>
+          <li>Reel "Bạn muốn tặng ai một bản nhạc?"; bài công bố có giá, đăng buổi tối.</li>
+          <li>Story trực tiếp đêm 20/10, không đăng bài chúc suông.</li>
+        </ul>
+        <p class="ms"><b>Mốc chính:</b> công bố 13 – 14/10 · sự kiện 20/10 · tổng kết 21 – 22/10</p>
+        <p class="ms"><b>KPI:</b> số lời đề tặng · khách trà chiều, set tối · voucher doanh nghiệp</p>
+      </div>
+      <figure><img src="../../de-xuat/hinh/khong-sdt/bai-20-10.jpg" alt="Mẫu bài công bố Seasoulinance"><figcaption>Mẫu bài công bố. Cảnh biển là hình minh họa.</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="camp" style="--accent:#B98500">
+    <div class="head">
+      <svg viewBox="0 0 100 160" style="color:#20404B;--accent:#E8A700;--bg:#fff"><use href="#frame"/><use href="#mask"/></svg>
+      <div><div class="kk">HALLOWEEN · THỨ BẢY 31/10</div><div class="w">SEASOUL<b>ANTHOM</b></div><div class="tag">Bóng ma bên biển</div></div>
+    </div>
+    <div class="body">
+      <div>
+        <div class="h4">Ý tưởng</div>
+        <p>Halloween mặt nạ, sang trọng chứ không rùng rợn, trong tối buffet hải sản thứ Bảy. Nghi thức 20:30: cả phòng cùng tháo mặt nạ, nâng ly.</p>
+        <div class="h4">Hoạt động</div>
+        <ul>
+          <li>Buffet hải sản phiên bản Halloween: món theo chủ đề, tặng mặt nạ, ưu đãi đặt trước.</li>
+          <li>Combo ở Café Lounge cho khách trẻ; năm 2025 đã bán combo 219k.</li>
+          <li>Buổi chiều cho bé: vẽ mặt nạ, săn kẹo, lái xe tải.</li>
+          <li>Công bố trước 2 tuần (năm 2025 chỉ trước 2 ngày); reel quay khách thật.</li>
+        </ul>
+        <p class="ms"><b>Mốc chính:</b> teaser 15/10 · công bố 17/10 · sự kiện 31/10 · tổng kết 01 – 02/11</p>
+        <p class="ms"><b>KPI:</b> khách buffet so với thứ Bảy thường · bàn đặt trước · số bé tham gia</p>
+      </div>
+      <figure><img src="../../de-xuat/hinh/khong-sdt/bai-halloween.jpg" alt="Mẫu bài công bố Seasoulanthom"><figcaption>Mẫu bài công bố</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. GIÁNG SINH ===================== -->
+<section id="p10c">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 10 · THÁNG 11 – 12</div>
+  <h2>Giáng sinh và năm mới</h2>
+
+  <div class="camp" style="--accent:#2E7466">
+    <div class="head">
+      <svg viewBox="0 0 100 160" style="color:#20404B;--accent:#E8A700;--tree:#2E7466"><use href="#frame"/><use href="#tree"/></svg>
+      <div><div class="kk">GIÁNG SINH VÀ NĂM MỚI · 05/12 – 31/12</div><div class="w">SEASOU<b>LIGHT</b></div><div class="tag">Thắp sáng mùa lễ hội bên biển</div></div>
+    </div>
+    <div class="body wide">
+      <div>
+        <div class="h4">Ý tưởng</div>
+        <p>Thắp sáng cây thông sớm, từ 05/12, để cây thành điểm check-in suốt 3 tuần; khách treo ngôi sao ước nguyện. Đi kèm gói phòng <b>Seasoulullaby</b>: Ông già Noel gõ cửa trao quà, chỉ bán qua kênh trực tiếp.</p>
+        <div class="h4">Hoạt động</div>
+        <ul>
+          <li>Tiệc Giáng sinh, tất niên cho doanh nghiệp; ưu đãi đặt sớm.</li>
+          <li>Black Friday: mua 1 tặng 1 phòng Suite cho kỳ nghỉ Giáng sinh, như năm 2025.</li>
+          <li>Lễ thắp sáng cùng hợp xướng thiếu nhi; Christmas High Tea, workshop bánh quy cho bé.</li>
+          <li>Sinh nhật 1 năm Café Lounge (23/12); bữa tối đêm Giáng sinh.</li>
+          <li>Countdown 2027: bài Countdown năm ngoái có nhiều lượt xem nhất trong các bài sự kiện trên web.</li>
+        </ul>
+        <p class="ms"><b>Mốc chính:</b> tiệc doanh nghiệp 01/11 · công bố 20/11 · Black Friday 27/11 · thắp sáng 05/12 · Giáng sinh 24/12 · Countdown 31/12 (công bố trước 10/12)</p>
+        <p class="ms"><b>KPI:</b> khách dự lễ thắp sáng · đêm phòng Seasoulullaby đặt trực tiếp · tiệc doanh nghiệp chốt</p>
+      </div>
+      <div class="imgs">
+        <figure><img src="../../de-xuat/hinh/khong-sdt/giang-sinh-a.jpg" alt="Mẫu bài lễ thắp sáng cây thông"><figcaption>Mẫu bài lễ thắp sáng</figcaption></figure>
+        <figure><img src="../../de-xuat/hinh/khong-sdt/giang-sinh-c.jpg" alt="Mẫu bài gói phòng Seasoulullaby"><figcaption>Mẫu bài gói phòng Seasoulullaby</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. TẾT 2027 ===================== -->
+<section id="p10d">
+  <a class="toc-back" href="#toc">↑ Mục lục</a>
+  <div class="k2">PHẦN 10 · THÁNG 1 – 2/2027</div>
+  <h2>Tết Đinh Mùi</h2>
+
+  <div class="camp" style="--accent:#8E1F24">
+    <div class="head">
+      <svg viewBox="0 0 100 160" style="color:#20404B;--accent:#E8A700;--bg:#fff;--leaf:#8B6A4E"><use href="#frame"/><use href="#mai"/></svg>
+      <div><div class="kk">TẾT ĐINH MÙI · MÙNG 1 LÀ THỨ BẢY 06/02/2027</div><div class="w">SEASOUL<b>FUL TẾT</b></div><div class="tag">Sum vầy bên biển</div></div>
+    </div>
+    <div class="body wide">
+      <div>
+        <div class="h4">Cơ sở</div>
+        <p>Tết 2026 có bài sự kiện nhiều lượt xem thứ hai trên web (2.040) và là dịp có nhiều bài nhất trên Fanpage (15 bài).</p>
+        <div class="h4">Ý tưởng</div>
+        <p>Giữ tên Seasoulful Tết và các nghi lễ đã thành nếp: ông đồ, múa lân, gói bánh chưng, hái lộc. Khép mùa bằng thả đèn hoa đăng đêm Rằm tháng Giêng, nối tiếp chuỗi ánh sáng Seasoulantern và Seasoulight.</p>
+        <div class="h4">Hoạt động</div>
+        <ul>
+          <li>Quà Tết, tiệc tất niên cho doanh nghiệp; ưu tiên khách cũ, giá tốt cho đơn lớn.</li>
+          <li>Gói "Tết bên biển": phòng view biển, ăn sáng, lì xì cho bé; ưu đãi khi đặt trực tiếp sớm.</li>
+          <li>Set Tết ba miền (năm 2026: 420k cho 2 khách); góc chụp áo dài.</li>
+          <li>Valentine rơi vào mùng 9: set cho 2 người, chung kế hoạch Tết.</li>
+          <li>Rằm tháng Giêng: thả đèn hoa đăng trước Café Lounge.</li>
+        </ul>
+        <p class="ms"><b>Mốc chính:</b> doanh nghiệp 01/12 · gói Tết giữa tháng 12 · công bố 10/01 · mùng 1 06/02 · Valentine 14/02 · Rằm 20/02</p>
+        <p class="ms"><b>KPI:</b> đêm phòng Tết đặt trực tiếp · hộp quà, tiệc doanh nghiệp · khách dùng set Tết · lượt xem reel</p>
+      </div>
+      <figure><img src="../../de-xuat/hinh/khong-sdt/tet-2027.jpg" alt="Mẫu bài công bố Seasoulful Tết 2027"><figcaption>Mẫu bài công bố. Nội dung cần khách sạn xác nhận.</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="box t">
+    <p><b>Cần xác nhận:</b> giá buffet và các set đang bán; đồ trang trí Giáng sinh 2025 còn dùng được không; giá phòng tháng 12 và dịp Tết; danh sách doanh nghiệp đã đặt tiệc, mua bánh Trung thu.</p>
+  </div>
+</section>
+
+</div>
+</body>
+</html>

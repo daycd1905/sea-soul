@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 160" width="300" height="480">
+<title>Seasoulcarol (Giáng sinh, phương án B): nốt nhạc, đuôi chữ S</title>
+<rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="#20404B" stroke-width="3"/>
+<path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M71 22 L73 29 L80 31 L73 33 L71 40 L69 33 L62 31 L69 29 Z" fill="#E8A700"/>
+<path d="M28 46 L30 50 L34 51 L30 52 L28 56 L26 52 L22 51 L26 50 Z" fill="#E8A700" opacity=".8"/>
+<ellipse cx="40" cy="98" rx="13" ry="9.5" transform="rotate(-22 40 98)" fill="#8C2F39"/>
+<rect x="50" y="38" width="4.2" height="59" rx="1" fill="#8C2F39"/>
+<path d="M53 40 C55 53 72 55 70 70 C69 78 64 83 59 87" fill="none" stroke="#8C2F39" stroke-width="4.2" stroke-linecap="round"/>
+</svg>

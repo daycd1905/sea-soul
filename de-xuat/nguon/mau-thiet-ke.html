@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mẫu thiết kế Seasoulinance và Seasoulanthom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal: #20404B; --amber: #E8A700; --cream: #F7F1E3; --blush: #F6E9E6; --rose: #B5536A;
+  --night: #0F2A33; --ivory: #F4EFE6; --pumpkin: #E07A2E;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #cfcfcf; font-family: 'Open Sans', sans-serif; padding: 40px; display: flex; flex-direction: column; gap: 40px; align-items: flex-start; color: var(--teal); }
+.ab { position: relative; overflow: hidden; flex: none; }
+svg.icon { display: block; }
+.word { font-family: 'Cormorant Garamond', serif; font-weight: 600; letter-spacing: .05em; line-height: 1; white-space: nowrap; font-variant-numeric: lining-nums; }
+.word .b { color: var(--accent); }
+.meta { text-transform: uppercase; letter-spacing: .32em; font-size: 13px; font-weight: 600; }
+.italic { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 500; }
+.photo-note { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font-size: 15px; font-style: italic; }
+
+.c-lantern { background: var(--cream); color: var(--teal); --accent: var(--amber); --bg: var(--cream); }
+.c-inance { background: var(--blush); color: var(--teal); --accent: var(--rose); --bg: var(--blush); }
+.c-anthom { background: var(--night); color: var(--ivory); --accent: var(--amber); --bg: var(--night); }
+
+/* Logo sheet */
+#logos { width: 1500px; height: 700px; display: flex; }
+#logos .col { width: 500px; height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 40px 30px; text-align: center; }
+#logos .icon { width: 120px; height: 192px; margin-bottom: 8px; }
+#logos .word { font-size: 44px; }
+#logos .tag { font-size: 25px; }
+#logos .chips { display: flex; gap: 18px; margin-top: 22px; }
+#logos .chip { display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 11px; letter-spacing: .06em; }
+#logos .chip i { width: 34px; height: 34px; border-radius: 50%; display: block; border: 1px solid rgba(128,128,128,.35); }
+#logos .note { font-size: 12px; opacity: .65; }
+.c-anthom .chip i { border-color: rgba(244,239,230,.55); }
+
+/* 20/10 feed post */
+#post2010 { width: 1080px; height: 1350px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+#post2010 .top { margin-top: 58px; font-size: 20px; letter-spacing: .42em; font-weight: 600; text-transform: uppercase; }
+#post2010 .arch { margin-top: 40px; width: 680px; height: 600px; border-radius: 340px 340px 18px 18px; overflow: hidden; position: relative; box-shadow: 0 0 0 10px #FFF8F5, 0 0 0 12px rgba(181,83,106,.35); }
+#post2010 .arch svg { width: 100%; height: 100%; display: block; }
+#post2010 .photo-note { color: rgba(32,64,75,.6); }
+#post2010 .markrow { margin-top: 58px; display: flex; align-items: center; gap: 16px; }
+#post2010 .markrow .icon { width: 42px; height: 67px; }
+#post2010 .markrow .word { font-size: 50px; }
+#post2010 .markrow .date { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 50px; color: var(--rose); margin-left: 6px; font-variant-numeric: lining-nums; }
+#post2010 h1 { font-size: 76px; line-height: 1.05; margin-top: 10px; }
+#post2010 .offers { margin-top: 34px; display: grid; grid-template-columns: auto auto auto; column-gap: 30px; row-gap: 12px; font-size: 27px; text-align: left; }
+#post2010 .offers b { color: var(--rose); font-weight: 700; }
+.foot { margin-top: auto; margin-bottom: 46px; font-size: 19px; letter-spacing: .12em; opacity: .7; }
+#post2010 .cta { margin-top: 44px; background: var(--teal); color: var(--ivory); font-weight: 600; font-size: 28px; letter-spacing: .05em; padding: 18px 46px; border-radius: 999px; }
+
+/* 20/10 reel cover */
+#reel2010 { width: 1080px; height: 1920px; }
+#reel2010 .arch { position: absolute; left: 90px; top: 120px; width: 900px; height: 1380px; border-radius: 450px 450px 24px 24px; overflow: hidden; box-shadow: 0 0 0 12px #FFF8F5, 0 0 0 14px rgba(181,83,106,.35); }
+#reel2010 .arch svg { width: 100%; height: 100%; display: block; }
+#reel2010 .photo-note { color: rgba(244,239,230,.75); bottom: 18px; font-size: 18px; }
+#reel2010 .txt { position: absolute; left: 0; right: 0; top: 360px; text-align: center; }
+#reel2010 .txt .small { font-size: 38px; letter-spacing: .22em; font-weight: 600; text-transform: uppercase; }
+#reel2010 .txt .big { font-size: 112px; line-height: 1.02; margin-top: 22px; }
+#reel2010 .bottom { position: absolute; left: 0; right: 0; top: 1560px; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+#reel2010 .bottom .row { display: flex; align-items: center; gap: 16px; }
+#reel2010 .bottom .icon { width: 46px; height: 74px; }
+#reel2010 .bottom .word { font-size: 60px; }
+#reel2010 .bottom .sub { font-size: 32px; letter-spacing: .08em; font-weight: 600; }
+
+/* Halloween feed post */
+.night-bg { background:
+  radial-gradient(circle at 50% 24%, rgba(232,167,0,.20), transparent 30%),
+  radial-gradient(circle at 12% 92%, rgba(232,167,0,.22), transparent 26%),
+  radial-gradient(circle at 90% 88%, rgba(224,122,46,.20), transparent 24%),
+  var(--night); }
+#postHw { width: 1080px; height: 1350px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+#postHw .top { margin-top: 58px; font-size: 20px; letter-spacing: .42em; font-weight: 600; text-transform: uppercase; opacity: .85; }
+#postHw .icon { width: 230px; height: 368px; margin-top: 50px; }
+#postHw .word { font-size: 66px; margin-top: 40px; }
+#postHw h1 { font-size: 80px; line-height: 1.05; margin-top: 12px; }
+#postHw .sub { margin-top: 14px; font-size: 29px; font-weight: 600; color: var(--amber); letter-spacing: .03em; }
+#postHw .offers { margin-top: 34px; display: flex; flex-direction: column; gap: 12px; font-size: 27px; }
+#postHw .offers b { color: var(--amber); }
+#postHw .cta { margin-top: 44px; background: var(--amber); color: var(--night); font-weight: 700; font-size: 28px; letter-spacing: .05em; padding: 18px 46px; border-radius: 999px; }
+.candles { position: absolute; left: 0; right: 0; bottom: 0; height: 260px; pointer-events: none; }
+
+/* Halloween reel cover */
+#reelHw { width: 1080px; height: 1920px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+#reelHw .kicker { margin-top: 250px; font-size: 40px; letter-spacing: .3em; font-weight: 700; color: var(--amber); }
+#reelHw .icon { width: 300px; height: 480px; margin-top: 50px; }
+#reelHw h1 { font-size: 120px; line-height: 1.0; margin-top: 50px; }
+#reelHw .word { font-size: 58px; margin-top: 46px; }
+#reelHw .sub { font-size: 30px; margin-top: 16px; letter-spacing: .1em; opacity: .85; }
+#reelHw .waves { position: absolute; left: 0; right: 0; bottom: 0; height: 420px; }
+
+/* B2B voucher */
+#voucher { width: 1200px; height: 560px; display: flex; background: var(--blush); }
+#voucher .left { width: 400px; height: 100%; background: var(--teal); color: var(--ivory); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; --accent: #E59AAB; --bg: var(--teal); }
+#voucher .left .icon { width: 100px; height: 160px; }
+#voucher .left .word { font-size: 34px; }
+#voucher .left .meta { font-size: 11px; opacity: .8; }
+#voucher .perf { width: 0; border-left: 3px dashed rgba(32,64,75,.35); margin: 26px 0; }
+#voucher .right { flex: 1; padding: 56px 64px; display: flex; flex-direction: column; color: var(--teal); }
+#voucher .right .kind { font-size: 18px; letter-spacing: .4em; font-weight: 700; color: var(--rose); }
+#voucher .right .title { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 60px; line-height: 1.05; margin-top: 14px; }
+#voucher .right .what { font-size: 24px; margin-top: 12px; }
+#voucher .right .rows { margin-top: 30px; display: grid; grid-template-columns: auto 1fr; column-gap: 24px; row-gap: 10px; font-size: 21px; }
+#voucher .right .rows span:nth-child(odd) { font-weight: 700; }
+#voucher .right .fine { margin-top: auto; font-size: 15px; opacity: .7; }
+
+/* Bản không có số điện thoại: thêm class no-tel vào thẻ html khi chụp (dùng cho phần đề xuất của luu-tru/kimhue-de-xuat-2026.pdf) */
+.no-tel .tel { display: none; }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="frame" viewBox="0 0 100 160">
+      <rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="lantern" viewBox="0 0 100 160">
+      <path d="M50 14 C36 21 64 31 50 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+      <rect x="41" y="40" width="18" height="6" rx="2" fill="currentColor"/>
+      <ellipse cx="50" cy="72" rx="24" ry="26" fill="var(--accent)"/>
+      <path d="M50 46 C38 58 38 86 50 98 M50 46 C62 58 62 86 50 98 M50 46 L50 98" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".55"/>
+      <rect x="41" y="97" width="18" height="6" rx="2" fill="currentColor"/>
+      <path d="M50 103 L50 113" stroke="currentColor" stroke-width="2.2"/>
+      <path d="M46 113 L54 113 L52.5 121 L47.5 121 Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="rose" viewBox="0 0 100 160">
+      <path d="M50 121 C28 110 72 90 50 76" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M50 100 C58 89 70 91 74 94 C67 103 57 105 50 100 Z" fill="currentColor"/>
+      <path d="M50 108 C42 100 31 101 27 104 C34 112 44 113 50 108 Z" fill="currentColor" opacity=".8"/>
+      <path d="M32 52 C32 38 42 32 50 36 C58 32 68 38 68 52 C68 66 60 76 50 76 C40 76 32 66 32 52 Z" fill="var(--accent)"/>
+      <path d="M50 41 C58 41 61 48 57 53 C53 58 45 56 45 51 C45 46 52 44 54 48" fill="none" stroke="var(--bg)" stroke-width="1.9" stroke-linecap="round" opacity=".9"/>
+      <path d="M36 57 C40 67 50 71 58 67" fill="none" stroke="var(--bg)" stroke-width="1.7" stroke-linecap="round" opacity=".75"/>
+      <path d="M64 49 C65 57 61 63 55 66" fill="none" stroke="var(--bg)" stroke-width="1.7" stroke-linecap="round" opacity=".65"/>
+    </symbol>
+    <symbol id="mask" viewBox="0 0 100 160">
+      <path d="M50 30 C36 30 25 42 25 60 C25 81 35 97 50 106" fill="none" stroke="currentColor" stroke-width="1.6" stroke-dasharray="1.5 4.5" stroke-linecap="round" opacity=".6"/>
+      <path d="M33 58 C36 54 43 54 46 58 C43 62 36 62 33 58 Z" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".55"/>
+      <path d="M50 30 C64 30 76 42 76 60 C76 81 67 96 53 104 C52 94 53 86 50 78 Z" fill="var(--accent)"/>
+      <path d="M54 58 C57 53 65 53 68 58 C65 62.5 57 62.5 54 58 Z" fill="var(--bg)"/>
+      <path d="M61 79 C65 76 70 79 67 83 C64 87 66 90 70 89" fill="none" stroke="var(--bg)" stroke-width="1.4" stroke-linecap="round" opacity=".7"/>
+    </symbol>
+
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E6A39C"/>
+      <stop offset=".6" stop-color="#F5CBBD"/>
+      <stop offset="1" stop-color="#FBE6D8"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B6B76"/>
+      <stop offset="1" stop-color="#20404B"/>
+    </linearGradient>
+    <radialGradient id="flame" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFD873" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#E8A700" stop-opacity="0"/>
+    </radialGradient>
+
+    <symbol id="candle" viewBox="0 0 60 200">
+      <circle cx="30" cy="34" r="30" fill="url(#flame)"/>
+      <path d="M30 18 C36 28 36 38 30 44 C24 38 24 28 30 18 Z" fill="#FFC94A"/>
+      <path d="M30 28 C33 33 33 38 30 41 C27 38 27 33 30 28 Z" fill="#FFF1C2"/>
+      <rect x="29" y="44" width="2" height="6" fill="#3a2a1a"/>
+      <rect x="14" y="50" width="32" height="150" rx="3" fill="#F4EFE6"/>
+      <path d="M14 56 C20 62 22 52 28 60 C32 66 38 54 46 58 L46 50 L14 50 Z" fill="#FFFFFF" opacity=".7"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- 1. Logo system -->
+<div id="logos" class="ab">
+  <div class="col c-lantern">
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#lantern"/></svg>
+    <div class="word"><span class="a">SEASOUL</span><span class="b">ANTERN</span></div>
+    <div class="tag italic">Where tradition meets the moonlight by the sea</div>
+    <div class="meta">Trung thu · Vu Lan · Phật Đản</div>
+    <div class="chips">
+      <div class="chip"><i style="background:#20404B"></i>#20404B</div>
+      <div class="chip"><i style="background:#E8A700"></i>#E8A700</div>
+      <div class="chip"><i style="background:#F7F1E3"></i>#F7F1E3</div>
+    </div>
+    <div class="note">Đã có, vẽ lại theo hệ thống để so sánh</div>
+  </div>
+  <div class="col c-inance">
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#rose" style="color:#4F6F5A"/></svg>
+    <div class="word"><span class="a">SEASOUL</span><span class="b">INANCE</span></div>
+    <div class="tag italic">Gửi nàng một bản nhạc · A melody for her</div>
+    <div class="meta">Phụ nữ Việt Nam · 20.10</div>
+    <div class="chips">
+      <div class="chip"><i style="background:#20404B"></i>#20404B</div>
+      <div class="chip"><i style="background:#B5536A"></i>#B5536A</div>
+      <div class="chip"><i style="background:#F6E9E6"></i>#F6E9E6</div>
+    </div>
+    <div class="note">Biểu tượng: bông hồng, thân cong hình chữ S</div>
+  </div>
+  <div class="col c-anthom">
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#mask"/></svg>
+    <div class="word"><span class="a">SEASOUL</span><span class="b">ANTHOM</span></div>
+    <div class="tag italic">Bóng ma bên biển · Phantom by the sea</div>
+    <div class="meta">Halloween · 31.10</div>
+    <div class="chips">
+      <div class="chip"><i style="background:#0F2A33"></i>#0F2A33</div>
+      <div class="chip"><i style="background:#E8A700"></i>#E8A700</div>
+      <div class="chip"><i style="background:#F4EFE6"></i>#F4EFE6</div>
+    </div>
+    <div class="note">Biểu tượng: mặt nạ nửa mặt</div>
+  </div>
+</div>
+
+<!-- 2. 20/10 feed post 4:5 -->
+<div id="post2010" class="ab c-inance">
+  <div class="top">Sea Soul Hotel · Nha Trang</div>
+  <div class="arch">
+    <svg viewBox="0 0 680 540" preserveAspectRatio="xMidYMid slice">
+      <rect width="680" height="540" fill="url(#sky)"/>
+      <circle cx="250" cy="190" r="38" fill="#FFF6EE" opacity=".96"/>
+      <circle cx="250" cy="190" r="58" fill="#FFF6EE" opacity=".18"/>
+      <!-- Dãy nhà phố lúc hoàng hôn (khách sạn không có view biển) -->
+      <g fill="#C98A8A" opacity=".5"><rect x="0" y="330" width="60" height="136"/><rect x="55" y="300" width="45" height="166"/><rect x="95" y="345" width="70" height="121"/><rect x="160" y="285" width="40" height="181"/><rect x="195" y="330" width="80" height="136"/><rect x="290" y="310" width="55" height="156"/><rect x="340" y="350" width="70" height="116"/><rect x="405" y="295" width="45" height="171"/><rect x="445" y="335" width="85" height="131"/><rect x="525" y="305" width="50" height="161"/><rect x="570" y="340" width="60" height="126"/><rect x="625" y="315" width="55" height="151"/></g>
+      <g fill="url(#sea)"><rect x="0" y="375" width="85" height="91"/><rect x="80" y="350" width="55" height="116"/><rect x="130" y="395" width="95" height="71"/><rect x="220" y="360" width="60" height="106"/><rect x="275" y="385" width="110" height="81"/><rect x="380" y="345" width="50" height="121"/><rect x="425" y="380" width="90" height="86"/><rect x="510" y="400" width="40" height="66"/><rect x="545" y="365" width="75" height="101"/><rect x="615" y="390" width="65" height="76"/></g>
+      <g fill="#FBE3C8" opacity=".9"><rect x="18" y="392" width="9" height="13"/><rect x="42" y="392" width="9" height="13"/><rect x="18" y="416" width="9" height="13"/><rect x="95" y="368" width="9" height="13"/><rect x="95" y="392" width="9" height="13"/><rect x="150" y="412" width="9" height="13"/><rect x="178" y="412" width="9" height="13"/><rect x="236" y="378" width="9" height="13"/><rect x="236" y="402" width="9" height="13"/><rect x="300" y="402" width="9" height="13"/><rect x="330" y="402" width="9" height="13"/><rect x="356" y="426" width="9" height="13"/><rect x="392" y="362" width="9" height="13"/><rect x="392" y="386" width="9" height="13"/><rect x="445" y="398" width="9" height="13"/><rect x="470" y="398" width="9" height="13"/><rect x="560" y="382" width="9" height="13"/><rect x="586" y="382" width="9" height="13"/><rect x="560" y="406" width="9" height="13"/><rect x="632" y="408" width="9" height="13"/></g>
+      <rect y="466" width="680" height="8" fill="#F8EDE8"/>
+      <rect y="472" width="680" height="68" fill="#EBD8CF"/>
+      <path d="M502 424 H530 L526 472 H506 Z" fill="#F8EDE8" stroke="#D9B9AE" stroke-width="2"/>
+      <use href="#rose" x="470" y="316" width="90" height="144" style="color:#4F6F5A"/>
+    </svg>
+    <div class="photo-note">Ảnh minh họa. Bản thật: nghệ sĩ violin, chụp tại khách sạn</div>
+  </div>
+  <div class="markrow">
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#rose" style="color:#4F6F5A"/></svg>
+    <div class="word"><span class="a">SEASOUL</span><span class="b">INANCE</span></div>
+    <div class="date">20.10</div>
+  </div>
+  <h1 class="italic">Gửi nàng một bản nhạc</h1>
+  <div class="offers">
+    <b>High Tea</b><span>249.000đ / 2 khách</span><span>16 – 25/10</span>
+    <b>Dinner</b><span>439.000đ / 2 khách</span><span>18 – 21/10</span>
+    <b>Đêm violin</b><span>Thứ Ba 20/10</span><span>19:30 – 20:30</span>
+  </div>
+  <div class="cta">Đặt bàn<span class="tel"> 0852 43 99 44</span></div>
+  <div class="foot">Sea Soul Café Lounge · 78 Tuệ Tĩnh, Nha Trang</div>
+</div>
+
+<!-- 3. 20/10 reel cover 9:16 -->
+<div id="reel2010" class="ab c-inance">
+  <div class="arch">
+    <svg viewBox="0 0 900 1380" preserveAspectRatio="xMidYMid slice">
+      <rect width="900" height="1380" fill="url(#sky)"/>
+      <circle cx="660" cy="800" r="52" fill="#FFF6EE" opacity=".96"/>
+      <circle cx="660" cy="800" r="80" fill="#FFF6EE" opacity=".18"/>
+      <rect y="1010" width="900" height="370" fill="url(#sea)"/>
+      <g stroke="#F7D2C4" stroke-width="4" stroke-linecap="round" opacity=".55">
+        <line x1="626" y1="1036" x2="694" y2="1036"/><line x1="637" y1="1060" x2="683" y2="1060"/>
+        <line x1="648" y1="1084" x2="672" y2="1084"/>
+      </g>
+      <g fill="none" stroke="#6C98A2" stroke-width="3.5" stroke-linecap="round" opacity=".6">
+        <path d="M60 1180 C110 1166 160 1166 210 1180 S310 1194 360 1180"/>
+        <path d="M560 1220 C610 1206 660 1206 710 1220 S810 1234 860 1220"/>
+        <path d="M200 1290 C250 1276 300 1276 350 1290 S450 1304 500 1290"/>
+      </g>
+    </svg>
+    <div class="photo-note">Ảnh minh họa. Bản thật: nghệ sĩ violin ở hồ bơi tầng 4, phía sau là biển</div>
+  </div>
+  <div class="txt">
+    <div class="small">20/10 này,</div>
+    <div class="big italic">bạn muốn tặng ai<br>một bản nhạc?</div>
+  </div>
+  <div class="bottom">
+    <div class="row">
+      <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#rose" style="color:#4F6F5A"/></svg>
+      <div class="word"><span class="a">SEASOUL</span><span class="b">INANCE</span></div>
+    </div>
+    <div class="sub">Đêm violin · Thứ Ba 20.10 · 19:30</div>
+  </div>
+</div>
+
+<!-- 4. Halloween feed post 4:5 -->
+<div id="postHw" class="ab c-anthom night-bg">
+  <div class="top">Sea Soul Hotel · Nha Trang</div>
+  <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#mask"/></svg>
+  <div class="word"><span class="a">SEASOUL</span><span class="b">ANTHOM</span></div>
+  <h1 class="italic">Đêm hội hóa trang</h1>
+  <div class="sub">Halloween Seafood Night · Thứ Bảy 31.10 · 18:00</div>
+  <div class="offers">
+    <div><b>Buffet hải sản</b> · tặng đồ hóa trang cho mỗi khách</div>
+    <div><b>Đặt trước 25/10</b> · giảm 10%</div>
+    <div><b>15:30</b> · Little Phantoms, workshop cho bé</div>
+  </div>
+  <div class="cta">Đặt bàn<span class="tel"> 0852 43 99 44</span></div>
+  <div class="foot">78 Tuệ Tĩnh, Nha Trang · seasoulhotel.vn</div>
+  <svg class="candles" viewBox="0 0 1080 260" preserveAspectRatio="xMidYMax meet">
+    <use href="#candle" x="40" y="70" width="60" height="200"/>
+    <use href="#candle" x="100" y="120" width="48" height="160"/>
+    <use href="#candle" x="960" y="100" width="56" height="186"/>
+    <use href="#candle" x="1010" y="150" width="44" height="146"/>
+  </svg>
+</div>
+
+<!-- 5. Halloween reel cover 9:16 -->
+<div id="reelHw" class="ab c-anthom night-bg">
+  <div class="kicker">HALLOWEEN · 31.10</div>
+  <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#mask"/></svg>
+  <h1 class="italic">Ai đứng sau<br>chiếc mặt nạ?</h1>
+  <div class="word"><span class="a">SEASOUL</span><span class="b">ANTHOM</span></div>
+  <div class="sub">Sea Soul Hotel · Nha Trang</div>
+  <svg class="waves" viewBox="0 0 1080 420" preserveAspectRatio="none">
+    <g fill="none" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" opacity=".18">
+      <path d="M0 120 C90 95 180 95 270 120 S450 145 540 120 S720 95 810 120 S990 145 1080 120"/>
+      <path d="M0 190 C90 165 180 165 270 190 S450 215 540 190 S720 165 810 190 S990 215 1080 190"/>
+      <path d="M0 260 C90 235 180 235 270 260 S450 285 540 260 S720 235 810 260 S990 285 1080 260"/>
+    </g>
+    <use href="#candle" x="70" y="200" width="66" height="220"/>
+    <use href="#candle" x="150" y="260" width="52" height="174"/>
+    <use href="#candle" x="930" y="230" width="62" height="206"/>
+  </svg>
+</div>
+
+<!-- 6. B2B voucher -->
+<div id="voucher" class="ab">
+  <div class="left">
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#rose" style="color:#A9C2B0"/></svg>
+    <div class="word"><span class="a">SEASOUL</span><span class="b">INANCE</span></div>
+    <div class="meta">Sea Soul Hotel · Nha Trang</div>
+  </div>
+  <div class="perf"></div>
+  <div class="right">
+    <div class="kind">VOUCHER QUÀ TẶNG 20/10</div>
+    <div class="title">Seasoulinance High Tea</div>
+    <div class="what">Trà chiều cho 2 khách tại Sea Soul Café Lounge</div>
+    <div class="rows">
+      <span>Dành tặng</span><span>........................................................</span>
+      <span>Hạn dùng</span><span>đến hết 30/11/2026</span>
+      <span>Mã</span><span>SSI-0001</span>
+    </div>
+    <div class="fine">Đặt chỗ trước qua 0852 43 99 44. Không quy đổi thành tiền mặt. 78 Tuệ Tĩnh, Nha Trang.</div>
+  </div>
+</div>
+
+</body>
+</html>

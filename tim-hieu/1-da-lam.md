@@ -2,7 +2,7 @@
 
 > **Nguồn:** 83 bài trên seasoulhotel.vn và danh sách 25 album ảnh, cào ngày 12/10/2026. Số trong ngoặc là lượt xem tại ngày cào. Danh sách đầy đủ ở [`bai-viet.csv`](bai-viet.csv).
 >
-> **Giới hạn:** web chỉ là một kênh. Những gì đăng trên Fanpage hay TikTok mà không lên web thì không có ở đây.
+> **Giới hạn:** web chỉ là một kênh. Fanpage đăng nhiều hơn web (217 bài trong năm 2026 trên 2 trang). Những việc chỉ có trên Fanpage được ghi ở mục "Chỉ có trên Fanpage" bên dưới, chi tiết ở [`4-facebook.md`](4-facebook.md). TikTok chưa xem.
 
 ## Tóm tắt
 
@@ -11,7 +11,7 @@
   - 2025: 36 bài.
   - 2026: 30 bài tính tới hết tháng 9.
   - Ngoài ra có 4 trang dịch vụ không ghi ngày.
-- **Bài mới nhất:** cẩm nang giá vé Vinpearl, ngày 28/09/2026. Link của bài này đang lỗi 404. Từ đó đến 12/10/2026, web chưa có bài mới: chưa có bài 20/10, Halloween hay tất niên 2026.
+- **Bài mới nhất:** cẩm nang giá vé Vinpearl, ngày 28/09/2026. Link của bài này đang lỗi 404. Từ đó đến 12/10/2026, web chưa có bài mới: chưa có bài 20/10, Halloween hay tất niên 2026. Fanpage thì đã báo đêm violin 20/10 và Halloween Seafood Night 31/10 trong bài ngày 02/10.
 - **Nhóm có nhiều bài nhất:**
 
   | Nhóm | Số bài |
@@ -42,7 +42,7 @@
 | 7 | Khai trương 01/07; chính sách, hướng dẫn đặt phòng; gói Gia đình và Trăng mật | Spa: gói Signature tặng thêm dịch vụ, tặng spa khi đặt phòng trực tiếp; combo hè ở pool bar; kỷ niệm 1 năm, mua 1 tặng 1 mọi dịch vụ; tặng spa khi ở từ 2 đêm; 3 bài trải nghiệm | Hiến máu; giải Travelers' Choice 2026 và điểm 9.3 trên Trip.com; Spa mua 1 tặng 1 |
 | 8 | Gói Summer Chill 2N1Đ | Quy trình bữa sáng; cho thuê văn phòng; bia 70k ở pool bar; gói VnExpress Marathon; tuyển cộng tác viên spa; workshop nón lá mừng 2/9; bài spa; 1 cẩm nang; thực đơn và cocktail mừng 2/9 | Lịch nhạc tháng 8; bánh Trung thu; Vu Lan: ông đồ cho chữ, thả đèn |
 | 9 | Khuyến mãi đặc biệt; tặng rượu vang (cả hai bài chỉ có ảnh) | Trung thu: set trà bánh; workshop lồng đèn, múa lân, làm bánh quy | Nhạc sống tuần lễ 2/9; nâng cấp hồ bơi và thay thảm; Seasoulantern Trung thu; 4 cẩm nang |
-| 10 | Flash sale 10/10; quà 20/10; Halloween | Món mới ở nhà hàng; bài không gian tiệc và hội nghị; 2 cẩm nang | Chưa có bài (tính tới 12/10) |
+| 10 | Flash sale 10/10; quà 20/10; Halloween | Món mới ở nhà hàng; bài không gian tiệc và hội nghị; 2 cẩm nang | Web chưa có bài (tính tới 12/10). Fanpage 02/10: lịch nhạc tháng 10, violin 20/10, Halloween Seafood Night 31/10 |
 | 11 | Ngày dùng thử phòng gym mở lại (11/11) | Giá từ 495k/khách/đêm; tiệc tất niên từ 269k/khách; hỗ trợ nhân viên bị lũ | |
 | 12 | | Thắp sáng cây thông kèm mở thử Café Lounge (23/12); Countdown kèm khai trương Café Lounge (31/12) | |
 
@@ -110,11 +110,11 @@
     - Tặng màn hình LED, sân khấu, âm thanh, ánh sáng.
     - Tặng dàn karaoke và 2 lần bắn pháo kim tuyến.
   - **Hỗ trợ nhân viên bị lũ:** hai đợt, một đợt từ khách sạn và một đợt từ Công ty CP X20.
-- **16/12, Noel (23/12):**
+- **16/12, Noel (23/12).** Fanpage đăng sớm hơn, từ 13/12:
   - Buổi sáng: workshop trang trí bánh quy cho trẻ.
   - Buổi tối: lễ thắp sáng cây thông, có piano, dàn hợp xướng thiếu nhi, bốc thăm trúng thưởng.
   - Café Lounge mở thử trong dịp này. Bài viết hoàn toàn bằng tiếng Anh.
-- **25/12, Countdown 2026 kèm khai trương chính thức Café Lounge (31/12):**
+- **25/12, Countdown 2026 kèm khai trương chính thức Café Lounge (31/12).** Fanpage đăng sớm hơn, từ 17/12:
   - Buffet hải sản nướng: 799k người lớn, 399k trẻ em. Mỗi vé tặng nửa con tôm hùm; vé người lớn có thêm champagne.
   - Vé chỉ tham gia Countdown: 119k cho 2 người.
   - Bài này có 3.725 lượt xem, cao nhất trong các bài sự kiện.
@@ -139,7 +139,7 @@
   - Gồm phòng Deluxe City View, buffet sáng, set trưa ở Café Lounge, 1 đồ uống mỗi khách.
   - Giảm 10% ăn uống, 15% spa, 15% giặt ủi.
   - Miễn phí hồ bơi, gym, khu vui chơi trẻ em, xông hơi.
-- **20/05:** buffet hải sản tối cuối tuần kèm nhạc sống. Trên web không ghi giá.
+- **20/05:** buffet hải sản tối cuối tuần kèm nhạc sống. Web không ghi giá; Fanpage ghi 435k người lớn, 215k trẻ em. Trên Fanpage, chủ đề này được làm thành 3 reels (03/06, 20/06, 19/07), mỗi reel được 33–102 nghìn lượt xem.
 - **27/05:** thả đèn hoa đăng dịp Phật Đản (31/05) ở đài phun nước trước Café Lounge, kèm giảm 10% đồ uống healthy.
 - **02/06:** thông báo nâng cấp hồ bơi 07–27/06, có vẽ trang trí hồ bơi. Trong thời gian này khách sạn cho mượn khăn, túi, nón và dù đi biển.
 - **26/06:** kỷ niệm 2 năm, giảm 20% món gọi lẻ ở Café Lounge, chỉ áp dụng 01–02/07.
@@ -165,15 +165,47 @@
   - Trà chiều 249k cho 2 khách.
   - Thả đèn hoa đăng 20:00–20:30.
 - **22–28/09:** 4 cẩm nang: Hòn Tre, Nha Trang cho cặp đôi, Hòn Tằm, giá vé Vinpearl. Bài Vinpearl bị lỗi 404 vì link là nguyên câu tiêu đề có dấu.
+- **02/10, chỉ có trên Fanpage:** lịch nhạc tháng 10.
+  - 20/10: đêm violin Seasoulinance mừng ngày Phụ nữ Việt Nam.
+  - 31/10: đêm saxophone Seasoulanthom trong tiệc Halloween Seafood Night.
+  - Không diễn tối thứ Sáu 23/10.
+
+## Chỉ có trên Fanpage
+
+Những việc dưới đây có bài trên Fanpage nhưng không có bài trên web. Chi tiết và giá ở [`4-facebook.md`](4-facebook.md).
+
+- **Cuối năm 2025:**
+  - 20/10: bài chúc mừng Ngày Phụ nữ Việt Nam.
+  - 29/10 và 31/10: "Halloween Night Feast – Dạ tiệc ma quái", combo 219k.
+  - 02/11: tham gia Hội chợ Triển lãm 2025.
+  - 17/11: tiệc tất niên 2025 từ 269k, được 1.066 lượt thích (web 27/11 mới đăng).
+  - 28/11: Black Friday, mua 1 tặng 1 phòng Suite, trọn gói 2.150.000đ.
+- **Năm 2026:**
+  - Combo sáng ở Café Lounge 89k (01/2026), từ cuối tháng 3 tăng lên 105k.
+  - 23/01: tiệc tất niên 2026 từ 280k mỗi khách.
+  - 27/01: khu lái xe tải công trường cho trẻ em, 100k mỗi giờ.
+  - 26/02: Luxury Banquet, tiệc trọn gói từ 280k mỗi khách, được 1.825 lượt thích, nhiều nhất năm.
+  - 02/03: "SeaSoulighting Her Day" cho 8/3.
+  - 16/03: tiệc sinh nhật từ 170k mỗi khách.
+  - 19/03: khách ngoài dùng hồ bơi và gym, miễn phí khi hóa đơn Café Lounge từ 250k, hoặc từ 110k mỗi khách.
+  - 28/03: Giờ Trái Đất ở Café Lounge.
+  - 31/03: set hải sản và rượu vang 1.090k; combo trưa 89k.
+  - 04/05: phòng Suite kèm đưa đón sân bay 2 chiều miễn phí.
+  - 05/2026: buffet sáng cuối tuần 119k (đầu tiên là 159k dịp 30/4).
+  - 31/05 – 01/06: Seasoulantics Children's Day.
+  - 22/06: BBQ Black Angus T-Bone kèm vang, 1.550k net.
+  - 06/07: xe cocktail ở sảnh ngoài trời vào thứ Sáu và thứ Bảy.
+  - 13/07: gói hội nghị từ 170k mỗi khách.
+  - 02/10: lịch nhạc tháng 10 với đêm violin 20/10 và Halloween Seafood Night 31/10.
 
 ## Sự kiện có album ảnh nhưng không có bài viết
 
 Theo danh sách album trên web, Sea Soul còn làm những việc sau nhưng không viết bài:
 
 - **Hoạt động doanh nghiệp** (album 10/2025) và **Tiệc tri ân khách hàng** (02/2026).
-- **Chương trình 8/3/2026**, gồm 2 album. Một album tên "Sea Soul Ingiting Her Day", có lẽ là gõ nhầm từ "Igniting".
+- **Chương trình 8/3/2026**, gồm 2 album. Một album tên "Sea Soul Ingiting Her Day". Theo bài Fanpage ngày 02/03, tên đúng là "SeaSoulighting Her Day", một tên nữa theo kiểu "Seasoul-".
 - **Wedding** (06/2026). Web không có trang nào giới thiệu dịch vụ cưới.
-- **NSND Tự Long** (07/2026). Có một nghệ sĩ nổi tiếng tới khách sạn mà không có bài viết nào.
+- **NSND Tự Long** (07/2026). Web không có bài viết; Fanpage có bài ngày 23/07 đón gia đình nghệ sĩ.
 - **Buffet hải sản, semi buffet, album Spa, album Café Lounge** (05–06/2026).
 - **"Đánh giá của khách hàng"** (08/2025) và **"Khách hàng của chúng tôi"** (03/2026).
 
@@ -188,10 +220,10 @@ Theo danh sách album trên web, Sea Soul còn làm những việc sau nhưng kh
 - **Thả đèn hoa đăng: 3 lần trong năm 2026** (Phật Đản, Vu Lan, Trung thu). Đây đang thành nghi lễ riêng của Sea Soul, gắn với tên Seasoulantern.
 - **Ông đồ cho chữ:** Tết 2026, Vu Lan 2026.
 - **Workshop cho trẻ em:** nón lá (2/9/2025), lồng đèn và bánh quy (Trung thu 2025), trang trí bánh quy (Noel 2025).
-- **Nhạc sống mỗi tối ở Café Lounge** từ tháng 2/2026, lịch được đăng gần như mỗi tháng.
+- **Nhạc sống ở Café Lounge** từ tháng 2/2026, lịch được đăng gần như mỗi tháng. Tới tháng 8, nhạc diễn mỗi tối. Từ tháng 9 chỉ còn tối thứ Sáu (violin), thứ Bảy (saxophone) và Chủ nhật (ca sĩ).
 - **Kiểu ưu đãi hay dùng:**
   - **Mua 1 tặng 1:** phòng (02/2025), pool bar (03/2025), mọi dịch vụ (07/2025), spa (07/2026).
   - **Giảm theo %:** Halloween 2024, 43% cuối năm 2025, 20% món gọi lẻ (07/2026), voucher 10%.
   - **Tặng kèm:** rượu vang khi hóa đơn từ 1 triệu; spa khi đặt phòng trực tiếp hoặc ở từ 2 đêm.
   - **Set cho 2 người:** 249k – 539k.
-- **Cách đặt tên:** từ năm 2026 bắt đầu dùng tên ghép "Seasoul-": Seasoulantern, Seasoulanniversary, Seasoulantics.
+- **Cách đặt tên:** từ năm 2026 bắt đầu dùng tên ghép "Seasoul-": Seasoulantern, Seasoulanniversary, Seasoulantics. Tháng 10/2026, Fanpage có thêm Seasoulinance và Seasoulanthom.

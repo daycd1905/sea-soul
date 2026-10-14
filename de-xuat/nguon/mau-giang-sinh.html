@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mẫu thiết kế Giáng sinh Sea Soul</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal: #20404B; --gold: #E8A700; --ivory: #F4EFE6; --cream: #F7F1E3;
+  --pine: #13312D; --pine2: #2E7466; --wine: #8C2F39; --indigo: #1E2A4A; --santa: #C0392B;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #cfcfcf; font-family: 'Open Sans', sans-serif; padding: 40px; display: flex; flex-direction: column; gap: 40px; align-items: flex-start; }
+.ab { position: relative; overflow: hidden; flex: none; }
+svg.icon { display: block; }
+.word { font-family: 'Cormorant Garamond', serif; font-weight: 600; letter-spacing: .05em; line-height: 1; white-space: nowrap; font-variant-numeric: lining-nums; }
+.word .b { color: var(--accent); }
+.meta { text-transform: uppercase; letter-spacing: .32em; font-size: 13px; font-weight: 600; }
+.italic { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 500; }
+.layer { position: absolute; inset: 0; pointer-events: none; }
+
+.c-light { background: var(--pine); color: var(--ivory); --accent: var(--gold); --tree: var(--pine2); --bg: var(--pine); }
+.c-carol { background: var(--cream); color: var(--teal); --accent: var(--wine); --bg: var(--cream); }
+.c-lullaby { background: var(--indigo); color: var(--ivory); --accent: var(--gold); --bg: var(--indigo); }
+
+/* Logo sheet */
+#xlogos { width: 1500px; height: 700px; display: flex; }
+#xlogos .col { position: relative; width: 500px; height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 40px 30px; text-align: center; }
+#xlogos .icon { width: 120px; height: 192px; margin-bottom: 8px; position: relative; }
+#xlogos .word { font-size: 44px; position: relative; }
+#xlogos .tag { font-size: 24px; position: relative; }
+#xlogos .meta { position: relative; }
+#xlogos .chips { display: flex; gap: 18px; margin-top: 22px; position: relative; }
+#xlogos .chip { display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 11px; letter-spacing: .06em; }
+#xlogos .chip i { width: 34px; height: 34px; border-radius: 50%; display: block; border: 1px solid rgba(128,128,128,.4); }
+#xlogos .note { font-size: 12px; opacity: .7; position: relative; }
+
+/* Feed posts 4:5 */
+.post { width: 1080px; height: 1350px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.post .top { position: relative; margin-top: 58px; font-size: 20px; letter-spacing: .42em; font-weight: 600; text-transform: uppercase; opacity: .85; }
+.post .icon { position: relative; width: 265px; height: 424px; margin-top: 56px; }
+.post .word { position: relative; font-size: 68px; margin-top: 46px; }
+.post h1 { position: relative; font-size: 74px; line-height: 1.05; margin-top: 12px; max-width: 940px; }
+.post .sub { position: relative; margin-top: 16px; font-size: 29px; font-weight: 600; letter-spacing: .02em; color: var(--accent); }
+.post .offers { position: relative; margin-top: 36px; display: flex; flex-direction: column; gap: 14px; font-size: 28px; }
+.post .offers b { color: var(--accent); }
+.post .price { position: relative; margin-top: 18px; font-size: 30px; font-weight: 700; }
+.post .cta { position: relative; margin-top: 46px; font-weight: 700; font-size: 28px; letter-spacing: .05em; padding: 18px 46px; border-radius: 999px; }
+.post .foot { position: relative; margin-top: auto; margin-bottom: 46px; font-size: 19px; letter-spacing: .12em; opacity: .7; }
+#xA .cta { background: var(--gold); color: var(--pine); }
+#xB .cta { background: var(--wine); color: var(--ivory); }
+#xC .cta { background: var(--gold); color: var(--indigo); }
+#xB .inset { position: absolute; inset: 26px; border: 2px solid rgba(232,167,0,.55); border-radius: 18px; }
+
+/* Bản không có số điện thoại: thêm class no-tel vào thẻ html khi chụp (dùng cho phần đề xuất của luu-tru/kimhue-de-xuat-2026.pdf) */
+.no-tel .tel { display: none; }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="frame" viewBox="0 0 100 160">
+      <rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="tree" viewBox="0 0 100 160">
+      <path d="M50 13 L52.6 19.6 L59.5 20 L54.2 24.4 L55.9 31.2 L50 27.4 L44.1 31.2 L45.8 24.4 L40.5 20 L47.4 19.6 Z" fill="var(--accent)"/>
+      <path d="M50 30 L66 56 L59 56 L72 82 L64 82 L78 110 L22 110 L36 82 L28 82 L41 56 L34 56 Z" fill="var(--tree)"/>
+      <rect x="45.5" y="109" width="9" height="9" rx="1.5" fill="var(--tree)"/>
+      <path d="M40 52 C52 60 66 58 61 69 C56 80 36 74 33 87 C30 100 58 101 72 98" fill="none" stroke="var(--accent)" stroke-width="1.2" opacity=".8"/>
+      <path d="M40 52 C52 60 66 58 61 69 C56 80 36 74 33 87 C30 100 58 101 72 98" fill="none" stroke="var(--accent)" stroke-width="4.4" stroke-linecap="round" stroke-dasharray="0 7.5"/>
+    </symbol>
+    <symbol id="note" viewBox="0 0 100 160">
+      <path d="M71 22 L73 29 L80 31 L73 33 L71 40 L69 33 L62 31 L69 29 Z" fill="var(--gold)"/>
+      <path d="M28 46 L30 50 L34 51 L30 52 L28 56 L26 52 L22 51 L26 50 Z" fill="var(--gold)" opacity=".8"/>
+      <ellipse cx="40" cy="98" rx="13" ry="9.5" transform="rotate(-22 40 98)" fill="var(--accent)"/>
+      <rect x="50" y="38" width="4.2" height="59" rx="1" fill="var(--accent)"/>
+      <path d="M53 40 C55 53 72 55 70 70 C69 78 64 83 59 87" fill="none" stroke="var(--accent)" stroke-width="4.2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="moonhat" viewBox="0 0 100 160">
+      <circle cx="76" cy="40" r="2.2" fill="var(--gold)"/>
+      <circle cx="24" cy="36" r="1.7" fill="var(--gold)" opacity=".85"/>
+      <circle cx="82" cy="98" r="1.7" fill="var(--gold)" opacity=".85"/>
+      <circle cx="50" cy="78" r="27" fill="var(--gold)"/>
+      <circle cx="61" cy="69" r="24.5" fill="var(--bg)"/>
+      <path d="M33 86 C36 89.5 41 89.5 44 86" fill="none" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M31 57 C35 45 45 36 57 32 C64 30 70 34 68 42 C65 38 61 38 58 41 C55 44 52 47 49 50 Z" fill="var(--santa)"/>
+      <path d="M29 59 C35 53 43 49 51 48" fill="none" stroke="#F4EFE6" stroke-width="6.5" stroke-linecap="round"/>
+      <circle cx="68.5" cy="43.5" r="4.4" fill="#F4EFE6"/>
+      <text x="74" y="66" font-family="Cormorant Garamond" font-style="italic" font-size="11" fill="var(--gold)">z</text>
+      <text x="80" y="58" font-family="Cormorant Garamond" font-style="italic" font-size="8" fill="var(--gold)" opacity=".8">z</text>
+    </symbol>
+    <filter id="blur6"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+</svg>
+
+<!-- Logo sheet -->
+<div id="xlogos" class="ab">
+  <div class="col c-light">
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#tree"/></svg>
+    <div class="word"><span class="a">SEASOU</span><span class="b">LIGHT</span></div>
+    <div class="tag italic">Thắp sáng mùa lễ hội bên biển · Light up the season</div>
+    <div class="meta">Phương án A · Giáng sinh 2026</div>
+    <div class="chips">
+      <div class="chip"><i style="background:#13312D"></i>#13312D</div>
+      <div class="chip"><i style="background:#E8A700"></i>#E8A700</div>
+      <div class="chip"><i style="background:#F4EFE6"></i>#F4EFE6</div>
+    </div>
+    <div class="note">Biểu tượng: cây thông, dây đèn uốn hình chữ S</div>
+  </div>
+  <div class="col c-carol">
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#note"/></svg>
+    <div class="word"><span class="a">SEASOUL</span><span class="b">CAROL</span></div>
+    <div class="tag italic">Đêm thánh ca bên biển · Carols by the sea</div>
+    <div class="meta">Phương án B · Giáng sinh 2026</div>
+    <div class="chips">
+      <div class="chip"><i style="background:#F7F1E3"></i>#F7F1E3</div>
+      <div class="chip"><i style="background:#8C2F39"></i>#8C2F39</div>
+      <div class="chip"><i style="background:#20404B"></i>#20404B</div>
+    </div>
+    <div class="note">Biểu tượng: nốt nhạc, đuôi cong hình chữ S</div>
+  </div>
+  <div class="col c-lullaby">
+    <svg class="layer" viewBox="0 0 500 700" preserveAspectRatio="none">
+      <g fill="#F4EFE6">
+        <circle cx="60" cy="80" r="1.6" opacity=".5"/><circle cx="420" cy="60" r="2" opacity=".6"/><circle cx="460" cy="250" r="1.4" opacity=".4"/>
+        <circle cx="40" cy="330" r="1.8" opacity=".5"/><circle cx="110" cy="610" r="1.5" opacity=".4"/><circle cx="440" cy="620" r="1.8" opacity=".5"/>
+        <circle cx="250" cy="40" r="1.3" opacity=".4"/><circle cx="350" cy="140" r="1.2" opacity=".35"/>
+      </g>
+    </svg>
+    <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#moonhat"/></svg>
+    <div class="word"><span class="a">SEASOU</span><span class="b">LULLABY</span></div>
+    <div class="tag italic">Giáng sinh ngủ ngon bên biển · Sleep tight</div>
+    <div class="meta">Phương án C · Giáng sinh 2026</div>
+    <div class="chips">
+      <div class="chip"><i style="background:#1E2A4A"></i>#1E2A4A</div>
+      <div class="chip"><i style="background:#E8A700"></i>#E8A700</div>
+      <div class="chip"><i style="background:#C0392B"></i>#C0392B</div>
+    </div>
+    <div class="note">Biểu tượng: trăng khuyết đội mũ Noel</div>
+  </div>
+</div>
+
+<!-- A: Seasoulight -->
+<div id="xA" class="ab post c-light">
+  <svg class="layer" viewBox="0 0 1080 1350" preserveAspectRatio="none">
+    <g fill="#E8A700" filter="url(#blur6)">
+      <circle cx="120" cy="180" r="26" opacity=".22"/><circle cx="960" cy="140" r="34" opacity=".18"/><circle cx="200" cy="520" r="18" opacity=".25"/>
+      <circle cx="900" cy="470" r="22" opacity=".22"/><circle cx="80" cy="860" r="30" opacity=".18"/><circle cx="1010" cy="820" r="26" opacity=".2"/>
+      <circle cx="160" cy="1180" r="36" opacity=".2"/><circle cx="930" cy="1210" r="30" opacity=".22"/><circle cx="330" cy="1290" r="20" opacity=".2"/>
+      <circle cx="760" cy="1300" r="24" opacity=".18"/><circle cx="540" cy="300" r="140" opacity=".10"/>
+    </g>
+  </svg>
+  <div class="top">Sea Soul Hotel · Nha Trang</div>
+  <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#tree"/></svg>
+  <div class="word"><span class="a">SEASOU</span><span class="b">LIGHT</span></div>
+  <h1 class="italic">Thắp sáng mùa yêu thương</h1>
+  <div class="sub">Lễ thắp sáng cây thông · Thứ Bảy 05.12 · 19:00</div>
+  <div class="offers">
+    <div><b>Ngôi sao ước nguyện</b> · viết điều ước, treo lên cây</div>
+    <div><b>Christmas High Tea</b> · 249.000đ / 2 khách</div>
+    <div><b>Workshop bánh quy cho bé</b> · sáng Chủ nhật 13 và 20.12</div>
+  </div>
+  <div class="cta">Đặt bàn<span class="tel"> 0852 43 99 44</span></div>
+  <div class="foot">Sảnh chính · 78 Tuệ Tĩnh, Nha Trang</div>
+</div>
+
+<!-- B: Seasoulcarol -->
+<div id="xB" class="ab post c-carol">
+  <div class="inset"></div>
+  <div class="top">Sea Soul Hotel · Nha Trang</div>
+  <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#note"/></svg>
+  <div class="word"><span class="a">SEASOUL</span><span class="b">CAROL</span></div>
+  <h1 class="italic">Đêm thánh ca bên biển</h1>
+  <div class="sub">Tối thứ Sáu, thứ Bảy, Chủ nhật tháng 12 · 19:30</div>
+  <div class="offers">
+    <div><b>23.12 · 19:30</b> · Đêm nến Silent Night cùng ca đoàn thiếu nhi</div>
+    <div><b>Set tối Giáng sinh</b> · 539.000đ / 2 khách</div>
+    <div><b>Ca cao nóng và bánh gừng</b> · 69.000đ</div>
+  </div>
+  <div class="cta">Đặt bàn<span class="tel"> 0852 43 99 44</span></div>
+  <div class="foot">Sea Soul Café Lounge · 78 Tuệ Tĩnh, Nha Trang</div>
+</div>
+
+<!-- C: Seasoulullaby -->
+<div id="xC" class="ab post c-lullaby">
+  <svg class="layer" viewBox="0 0 1080 1350" preserveAspectRatio="none">
+    <g fill="#F4EFE6">
+      <circle cx="90" cy="120" r="2.4" opacity=".55"/><circle cx="980" cy="90" r="3" opacity=".6"/><circle cx="1020" cy="380" r="2" opacity=".45"/>
+      <circle cx="60" cy="460" r="2.6" opacity=".5"/><circle cx="160" cy="300" r="1.8" opacity=".4"/><circle cx="900" cy="250" r="1.8" opacity=".4"/>
+      <circle cx="70" cy="760" r="2" opacity=".45"/><circle cx="1010" cy="700" r="2.4" opacity=".5"/><circle cx="120" cy="1050" r="2.2" opacity=".45"/>
+      <circle cx="980" cy="1080" r="2" opacity=".45"/><circle cx="240" cy="1280" r="1.8" opacity=".4"/><circle cx="860" cy="1290" r="2.4" opacity=".5"/>
+      <circle cx="320" cy="60" r="1.6" opacity=".35"/><circle cx="760" cy="40" r="1.6" opacity=".35"/>
+    </g>
+  </svg>
+  <div class="top">Sea Soul Hotel · Nha Trang</div>
+  <svg class="icon" viewBox="0 0 100 160"><use href="#frame"/><use href="#moonhat"/></svg>
+  <div class="word"><span class="a">SEASOU</span><span class="b">LULLABY</span></div>
+  <h1 class="italic">Giáng sinh ngủ ngon</h1>
+  <div class="sub">Gói nghỉ 19 – 27.12 · chỉ đặt trực tiếp</div>
+  <div class="offers">
+    <div><b>Ông già Noel</b> mang quà tới tận phòng</div>
+    <div>Phòng Premier · bữa sáng · set tối Giáng sinh</div>
+    <div>Bánh quy và ca cao nóng trước giờ ngủ</div>
+  </div>
+  <div class="price">Từ 2.990.000đ / đêm · 2 người lớn và 1 bé</div>
+  <div class="cta">Đặt phòng<span class="tel"> 0258 220 5555</span></div>
+  <div class="foot">Zalo · seasoulhotel.vn</div>
+</div>
+
+</body>
+</html>

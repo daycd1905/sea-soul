@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 160" width="300" height="480">
+<title>Seasoulullaby (Giáng sinh, phương án C): trăng khuyết đội mũ Noel</title>
+<rect x="5" y="4" width="90" height="152" rx="45" fill="none" stroke="#20404B" stroke-width="3"/>
+<path d="M17 129 C27 123 37 123 47 129 S67 135 83 129" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M24 139 C33 134 42 134 51 139 S67 144 76 139" fill="none" stroke="#20404B" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="76" cy="40" r="2.2" fill="#E8A700"/>
+<circle cx="24" cy="36" r="1.7" fill="#E8A700" opacity=".85"/>
+<circle cx="82" cy="98" r="1.7" fill="#E8A700" opacity=".85"/>
+<path d="M43.57 51.76 A27 27 0 1 0 74.43 89.5 A24.5 24.5 0 0 1 43.57 51.76 Z" fill="#E8A700"/>
+<path d="M33 86 C36 89.5 41 89.5 44 86" fill="none" stroke="#1E2A4A" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M31 57 C35 45 45 36 57 32 C64 30 70 34 68 42 C65 38 61 38 58 41 C55 44 52 47 49 50 Z" fill="#C0392B"/>
+<path d="M29 59 C35 53 43 49 51 48" fill="none" stroke="#F4EFE6" stroke-width="6.5" stroke-linecap="round"/>
+<circle cx="68.5" cy="43.5" r="4.4" fill="#F4EFE6" stroke="#C9C2B6" stroke-width=".6"/>
+</svg>

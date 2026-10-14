@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Ví dụ: một bài đăng làm bằng code</title>
+
+<!-- BƯỚC 1. Tải 2 font mà web Sea Soul đang dùng, lấy từ Google Fonts (miễn phí). -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  body { margin: 0; background: #cfcfcf; }
+
+  /* BƯỚC 2. Khung bài đăng: đúng 1080 x 1350 điểm ảnh, tỷ lệ 4:5 của Facebook và Instagram. */
+  #bai {
+    width: 1080px;
+    height: 1350px;
+    background: #1E2A4A;      /* màu nền: xanh đêm */
+    color: #F4EFE6;           /* màu chữ: trắng ngà */
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;            /* xếp các phần theo một cột dọc */
+    flex-direction: column;
+    align-items: center;      /* căn giữa theo chiều ngang */
+  }
+
+  /* Mỗi dòng dưới đây là một "phần" của bài: cỡ chữ, khoảng cách phía trên, màu. */
+  .ten-khach-san { margin-top: 70px; font-size: 22px; letter-spacing: .4em; font-weight: 700; }
+  .trang         { margin-top: 90px; }
+  h1             { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 500;
+                   font-size: 88px; line-height: 1.05; margin: 70px 0 0; max-width: 900px; }
+  .uu-dai        { margin-top: 30px; font-size: 32px; color: #E8A700; font-weight: 700; }
+  .nut           { margin-top: 70px; background: #E8A700; color: #1E2A4A; font-weight: 700;
+                   font-size: 32px; padding: 22px 56px; border-radius: 999px; }
+  .dia-chi       { margin-top: auto; margin-bottom: 50px; font-size: 20px; letter-spacing: .12em; opacity: .7; }
+</style>
+</head>
+<body>
+
+<div id="bai">
+  <div class="ten-khach-san">SEA SOUL HOTEL · NHA TRANG</div>
+
+  <!-- BƯỚC 3. Hình vẽ bằng SVG. Khung vẽ rộng 100, cao 100 (viewBox), hiển thị thành 320 x 320 điểm ảnh.
+       Trăng khuyết = 2 hình tròn:
+         - Hình tròn vàng, tâm ở (50, 52), bán kính 40.
+         - Hình tròn màu nền đè lên, lệch sang phải và lên trên, nên "khoét" hình vàng thành trăng khuyết. -->
+  <svg class="trang" width="320" height="320" viewBox="0 0 100 100">
+    <circle cx="50" cy="52" r="40" fill="#E8A700"/>
+    <circle cx="66" cy="40" r="36" fill="#1E2A4A"/>
+    <circle cx="88" cy="22" r="2" fill="#E8A700"/>   <!-- một ngôi sao nhỏ -->
+  </svg>
+
+  <h1>Giáng sinh ngủ ngon<br>bên biển</h1>
+  <div class="uu-dai">Gói nghỉ 19 – 27.12 · chỉ đặt trực tiếp</div>
+  <div class="nut">Đặt phòng 0258 220 5555</div>
+  <div class="dia-chi">78 Tuệ Tĩnh, Nha Trang · seasoulhotel.vn</div>
+</div>
+
+<!--
+  THỬ SỬA:
+    - Đổi chữ trong thẻ <h1>.
+    - Đổi mã màu #E8A700 thành #B5536A (hồng đất) ở cả 3 chỗ.
+    - Đổi cx="66" thành cx="80" để trăng mảnh hơn.
+  Lưu file, rồi bấm F5 trong Chrome để xem lại.
+
+  XUẤT ẢNH:
+    Bấm F12 để mở DevTools, vào tab Elements, nhấp chuột phải vào dòng <div id="bai">,
+    rồi chọn "Capture node screenshot". Chrome lưu một ảnh PNG đúng bằng khung bài đăng.
+-->
+</body>
+</html>
